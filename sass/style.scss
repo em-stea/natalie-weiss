@@ -2,14 +2,14 @@
 @import "variables";
 
 @font-face {
-  font-family: "Shantine";
-  src: url("../fonts/Shantine.otf") format("truetype");
+  font-family: "Gatkins-Demo";
+  src: url("../fonts/Gatkins-Demo.otf") format("opentype");
   font-style: normal;
   font-weight: normal;
 }
 
 
 body h1{
-  font-family: 'Shantine', sans-serif;
-  color: blue;
+  font-family: 'Gatkins-Demo', sans-serif;
+  color: red;
 }
