@@ -2,7 +2,7 @@
 @import "variables";
 
 @font-face {
-  font-family: "Serenity";
+  font-family: "Shantine";
   src: url("../fonts/Shantine.otf") format("truetype");
   font-style: normal;
   font-weight: normal;
@@ -11,4 +11,5 @@
 
 body h1{
   font-family: 'Shantine', sans-serif;
+  color: blue;
 }
