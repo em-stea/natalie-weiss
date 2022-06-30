@@ -605,6 +605,7 @@ video{
   font-family: "Gatkins-Demo", serif;
   font-size: 4.5rem;
 }
+
 .box-text-barras{
   padding: 6rem 0;
 }
@@ -710,6 +711,9 @@ video{
   line-height: 2.5rem;
   color: $colour-salmon;
 }
+.title-facelift{
+  margin-bottom: .5rem;
+}
 .bg-last-facelift{
   background-color: white;
   color: white;
@@ -717,16 +721,21 @@ video{
   //margin-top: 8rem;
   text-align: center;
 }
-.bg-last-facelift div a{
-  text-decoration: none;
-  color: white;
+.box-button-facelift{
   background-color: $colour-blue;
   border-radius: 50px;
+  text-align: center;
+  width: 30%;
+  margin: auto;
   padding: .5rem 2.3rem;
   &:hover{
     background-color: #92ADC1;
     color: white;
   }
+}
+.bg-last-facelift div a{
+  text-decoration: none;
+  color: white;
 }
 .img-facelift-01{
   width: 80%;
@@ -755,18 +764,18 @@ video{
   font-size: 4.5rem;
   margin-bottom: 0;
 }
-.text-fundamento{
+.text-fundamento, .text-sop{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 34rem;
 }
-.text-fundamento p{
+.text-fundamento p, .text-sop p{
   text-align: center;
   margin-bottom: 0;
 }
-.text-fundamento h4{
+.text-fundamento h4, .text-sop h4{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
   color: $colour-blue;
@@ -820,18 +829,20 @@ video{
 .box-banner p{
   margin-bottom: 2.5rem;
 }
-
-.button-banner a{
-  text-align: center;
-  text-decoration: none;
-  color: $colour-blue;
+.button-banner{
   background-color: white;
   border-radius: 50px;
   padding: .5rem 2.3rem;
+  width: 30%;
+  margin: auto;
   &:hover{
-    background-color: rgba(255,255,255,0.5);
-    color: white;
+    background-color: rgba(255,255,255,0.8);
   }
+}
+.button-banner a{
+  text-align: center;
+  text-decoration: none;
+  color: $colour-dark;
 }
 /*Procesos Corporales*/
 .bg-procesos{
@@ -866,19 +877,21 @@ video{
 }
 .button-banner-02{
   text-align: center;
-  margin-top: 4rem;
-}
-.button-banner-02 a{
-  text-align: center;
-  text-decoration: none;
   color: white;
   background-color: $colour-dark;
   border-radius: 50px;
   padding: .5rem 2.3rem;
+  width: 40%;
+  margin: 4rem auto;
   &:hover{
     background-color: $colour-blue;
     color: white;
   }
+}
+.button-banner-02 a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 /*Creando Dinero*/
 .bg-dinero{
@@ -1009,20 +1022,21 @@ video{
 }
 .button-banner-03{
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 7rem;
+  color: white;
+  background-color: $colour-dark;
+  border-radius: 50px;
+  padding: .5rem 2.3rem;
+  width: 40%;
+  margin: 3rem auto 7rem;
+  &:hover{
+    background-color: $colour-blue;
+    color: white;
+  }
 }
 .button-banner-03 a{
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: $colour-dark;
-  border-radius: 50px;
-  padding: .5rem 2.3rem;
-  &:hover{
-    background-color: $colour-blue;
-    color: white;
-  }
 }
 /*Healy*/
 .box-container-healy{
@@ -1137,14 +1151,22 @@ video{
 .bg-banner-sop p{
   margin-bottom: 2rem;
 }
-.bg-banner-sop div a{
-  text-decoration: none;
+.button-banner-04{
   color: black;
   background-color: white;
   border-radius: 50px;
   padding: .5rem 2.3rem;
+  width: 35%;
+  margin: auto;
   &:hover{
     background-color: #92ADC1;
+    color: white;
+  }
+}
+.button-banner-04 a{
+  color: black;
+  text-decoration: none;
+  &:hover{
     color: white;
   }
 }
@@ -1173,7 +1195,7 @@ video{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 27rem;
   color: white;
   text-align: center;
   display: flex;
@@ -1185,17 +1207,23 @@ video{
   background-image: url(../img/img-emt-02.jpg);
   @include bg-img;
 }
-.img-emt-03{
-  background-image: url(../img/img-emt-03.jpg);
-  @include bg-img;
-}
-.img-emt-02 h1, .img-emt-02 p, .img-emt-03 h1, .img-emt-03 p{
+
+.img-emt-02 h1, .img-emt-02 p, .emt-03 h1, .emt-03 p{
   width: 65%;
+  color: $colour-dark;
 }
-.img-emt-02 h1, .img-emt-03 h1{
+.img-emt-02 h1, .emt-03 h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+  line-height: 3rem;
+}
+.emt-03{
+  @include bg-img;
+  background-color: white;
+}
+.emt-03 h1{
+  color: white;
 }
 .bg-banner-emt{
   background-color: $colour-light-brown;

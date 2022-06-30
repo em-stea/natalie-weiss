@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 299px) {
   /*navbar*/
   .navbar {
@@ -167,6 +168,10 @@
     width: 100%;
   }
 
+  .box-cursos p {
+    width: 90%;
+  }
+
   /*Proximos Encuentros*/
   .bg-prox h1 {
     font-size: 4rem;
@@ -206,6 +211,330 @@
 
   .text-healy {
     height: 29rem;
+  }
+
+  /*Cursos*/
+  /*Barras de Access*/
+  .bg-barras h1, .box-text-barras-01 h1 {
+    line-height: 3rem;
+  }
+
+  .box-text-barras {
+    padding: 4rem 0;
+  }
+
+  .box-text-barras-01 h1 {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-text-barras p, .box-text-barras-01 p {
+    width: 90%;
+  }
+
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
+    height: 20rem;
+  }
+
+  .box-text-barras-01 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .box-text-barras-01 ul {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .container-box-text-barras {
+    flex-direction: column-reverse;
+  }
+
+  /*Facelift*/
+  .box-facelift {
+    width: 90%;
+    margin-right: 0;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .box-facelift h1 {
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .img-facelift, .contenedor-box-facelift {
+    height: 97vh;
+  }
+
+  .box-img-fcl {
+    margin-bottom: 1.5rem;
+  }
+
+  .img-facelift-01 {
+    box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .box-button-facelift {
+    width: 90%;
+  }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: column-reverse;
+  }
+
+  .box-fundamento {
+    margin-bottom: 4rem;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.3rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+  }
+
+  .button-banner {
+    width: 90%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 3.5rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    padding: 0;
+  }
+
+  .galery .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .button-banner-03 {
+    width: 90%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  /*Sesiones Personalizadas*/
+  /*SOP*/
+  .container-sop {
+    height: 33rem;
+  }
+
+  .container-box-sop {
+    flex-direction: column-reverse;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 0;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 3rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
+
+  /*EMT*/
+  .container-emt {
+    flex-direction: column-reverse;
+  }
+
+  .img-emt {
+    height: 24rem;
+  }
+
+  .box-emt {
+    padding: 4rem 0;
+  }
+
+  .box-emt > p {
+    width: 90%;
+  }
+
+  .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .bg-banner-emt p {
+    margin: auto;
+  }
+
+  .bg-banner-emt h1 {
+    margin: 1rem 0;
+    text-align: center;
+    margin: 1rem auto 3rem;
+    line-height: 3rem;
+    font-size: 3.5rem;
+  }
+
+  /*Abrazo del abuso*/
+  .container-abrazo {
+    flex-direction: column-reverse;
+  }
+
+  .img-abrazo {
+    height: 24rem;
+  }
+
+  .box-abrazo {
+    padding: 4rem 0;
+  }
+
+  .box-abrazo h1, .bg-banner-abrazo h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-banner-abrazo h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .box-abrazo > p {
+    width: 90%;
+  }
+
+  .box-container-abrazo {
+    margin: 3rem auto;
+  }
+
+  /*Osteopatia*/
+  .img-osteopatia {
+    height: 24rem;
+  }
+
+  .box-emt h1, .box-osteopatia p {
+    width: 90%;
+  }
+
+  .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
+    height: 24rem;
+  }
+
+  .box-osteopatia {
+    margin: 5rem 0;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 379px) {
@@ -376,6 +705,10 @@
     width: 100%;
   }
 
+  .box-cursos p {
+    width: 90%;
+  }
+
   /*Proximos Encuentros*/
   .bg-prox h1 {
     font-size: 4rem;
@@ -415,6 +748,329 @@
 
   .text-healy {
     height: 29rem;
+  }
+
+  /*Cursos*/
+  /*Barras de Access*/
+  .bg-barras h1, .box-text-barras-01 h1 {
+    line-height: 3rem;
+  }
+
+  .box-text-barras {
+    padding: 4rem 0;
+  }
+
+  .box-text-barras-01 h1 {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-text-barras p, .box-text-barras-01 p {
+    width: 90%;
+  }
+
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
+    height: 20rem;
+  }
+
+  .box-text-barras-01 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .box-text-barras-01 ul {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .container-box-text-barras {
+    flex-direction: column-reverse;
+  }
+
+  /*Facelift*/
+  .box-facelift {
+    width: 90%;
+    margin-right: 0;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .box-facelift h1 {
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .img-facelift, .contenedor-box-facelift {
+    height: 97vh;
+  }
+
+  .box-img-fcl {
+    margin-bottom: 1.5rem;
+  }
+
+  .img-facelift-01 {
+    box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .box-button-facelift {
+    width: 90%;
+  }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: column-reverse;
+  }
+
+  .box-fundamento {
+    margin-bottom: 0;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.5rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+  }
+
+  .button-banner {
+    width: 90%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 3.5rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    padding: 0;
+  }
+
+  .galery .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .button-banner-03 {
+    width: 90%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  /*SOP*/
+  .container-sop {
+    height: 33rem;
+  }
+
+  .container-box-sop {
+    flex-direction: column-reverse;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 0;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
+
+  /*EMT*/
+  .container-emt {
+    flex-direction: column-reverse;
+  }
+
+  .img-emt {
+    height: 24rem;
+  }
+
+  .box-emt {
+    padding: 4rem 0;
+  }
+
+  .box-emt > p {
+    width: 90%;
+  }
+
+  .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .bg-banner-emt p {
+    margin: auto;
+  }
+
+  .bg-banner-emt h1 {
+    margin: 1rem 0;
+    text-align: center;
+    margin: 1rem auto 3rem;
+    line-height: 3rem;
+    font-size: 3.5rem;
+  }
+
+  /*Abrazo del abuso*/
+  .container-abrazo {
+    flex-direction: column-reverse;
+  }
+
+  .img-abrazo {
+    height: 24rem;
+  }
+
+  .box-abrazo {
+    padding: 4rem 0;
+  }
+
+  .box-abrazo h1, .bg-banner-abrazo h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-banner-abrazo h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .box-abrazo > p {
+    width: 90%;
+  }
+
+  .box-container-abrazo {
+    margin: 3rem auto;
+  }
+
+  /*Osteopatia*/
+  .img-osteopatia {
+    height: 24rem;
+  }
+
+  .box-emt h1, .box-osteopatia p {
+    width: 90%;
+  }
+
+  .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
+    height: 24rem;
+  }
+
+  .box-osteopatia {
+    margin: 5rem 0;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 475px) {
@@ -630,6 +1286,346 @@
   .text-healy {
     height: 29rem;
   }
+
+  /*Cursos*/
+  /*Barras de Access*/
+  .bg-barras h1, .box-text-barras-01 h1 {
+    line-height: 3rem;
+  }
+
+  .box-text-barras {
+    padding: 4rem 0;
+  }
+
+  .box-text-barras-01 h1 {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-text-barras p, .box-text-barras-01 p {
+    width: 90%;
+  }
+
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
+    height: 20rem;
+  }
+
+  .box-text-barras-01 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .box-text-barras-01 ul {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .container-box-text-barras {
+    flex-direction: column-reverse;
+  }
+
+  /*Facelift*/
+  .box-facelift {
+    width: 90%;
+    margin-right: 0;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .box-facelift h1 {
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .img-facelift, .contenedor-box-facelift {
+    height: 97vh;
+  }
+
+  .box-img-fcl {
+    margin-bottom: 1.5rem;
+  }
+
+  .img-facelift-01 {
+    box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .box-button-facelift {
+    width: 90%;
+  }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: column-reverse;
+  }
+
+  .box-fundamento {
+    margin-bottom: 0;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.5rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 19rem;
+    height: 19rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .button-banner {
+    width: 90%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 3.5rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    padding: 0;
+  }
+
+  .galery .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .button-banner-03 {
+    width: 90%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  .galery .container-scale, .galery img {
+    height: 26rem;
+  }
+
+  .box-crianza {
+    top: 17rem;
+  }
+
+  /*SOP*/
+  .container-sop {
+    height: 33rem;
+  }
+
+  .container-box-sop {
+    flex-direction: column-reverse;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 0;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 9rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
+
+  .bg-banner-sop {
+    margin-top: 7rem;
+  }
+
+  /*EMT*/
+  .container-emt {
+    flex-direction: column-reverse;
+  }
+
+  .img-emt {
+    height: 24rem;
+  }
+
+  .box-emt {
+    padding: 4rem 0;
+  }
+
+  .box-emt > p {
+    width: 90%;
+  }
+
+  .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .bg-banner-emt p {
+    margin: auto;
+  }
+
+  .bg-banner-emt h1 {
+    margin: 1rem 0;
+    text-align: center;
+    margin: 1rem auto 3rem;
+    line-height: 3rem;
+    font-size: 3.5rem;
+  }
+
+  /*Abrazo del abuso*/
+  .container-abrazo {
+    flex-direction: column-reverse;
+  }
+
+  .img-abrazo {
+    height: 24rem;
+  }
+
+  .box-abrazo {
+    padding: 4rem 0;
+  }
+
+  .box-abrazo h1, .bg-banner-abrazo h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-banner-abrazo h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .box-abrazo > p {
+    width: 90%;
+  }
+
+  .box-container-abrazo {
+    margin: 3rem auto;
+  }
+
+  /*Osteopatia*/
+  .img-osteopatia {
+    height: 24rem;
+  }
+
+  .box-emt h1, .box-osteopatia p {
+    width: 90%;
+  }
+
+  .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
+    height: 24rem;
+  }
+
+  .box-osteopatia {
+    margin: 5rem 0;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*navbar*/
@@ -835,6 +1831,346 @@
   .text-healy {
     height: 29rem;
   }
+
+  /*Cursos*/
+  /*Barras de Access*/
+  .bg-barras h1, .box-text-barras-01 h1 {
+    line-height: 3rem;
+  }
+
+  .box-text-barras {
+    padding: 4rem 0;
+  }
+
+  .box-text-barras-01 h1 {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-text-barras p, .box-text-barras-01 p {
+    width: 90%;
+  }
+
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
+    height: 20rem;
+  }
+
+  .box-text-barras-01 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .box-text-barras-01 ul {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .container-box-text-barras {
+    flex-direction: column-reverse;
+  }
+
+  /*Facelift*/
+  .box-facelift {
+    width: 90%;
+    margin-right: 0;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .box-facelift h1 {
+    line-height: 2rem;
+    margin: 1rem 0;
+  }
+
+  .img-facelift, .contenedor-box-facelift {
+    height: 97vh;
+  }
+
+  .box-img-fcl {
+    margin-bottom: 1.5rem;
+  }
+
+  .img-facelift-01 {
+    box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .box-button-facelift {
+    width: 90%;
+  }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: column-reverse;
+  }
+
+  .box-fundamento {
+    margin-bottom: 0;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.5rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 19rem;
+    height: 19rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .button-banner {
+    width: 90%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 3.5rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    padding: 0;
+  }
+
+  .galery .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .button-banner-03 {
+    width: 90%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  .galery .container-scale, .galery img {
+    height: 26rem;
+  }
+
+  .box-crianza {
+    top: 17rem;
+  }
+
+  /*SOP*/
+  .container-sop {
+    height: 33rem;
+  }
+
+  .container-box-sop {
+    flex-direction: column-reverse;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 0;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 9rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
+
+  .bg-banner-sop {
+    margin-top: 7rem;
+  }
+
+  /*EMT*/
+  .container-emt {
+    flex-direction: column-reverse;
+  }
+
+  .img-emt {
+    height: 24rem;
+  }
+
+  .box-emt {
+    padding: 4rem 0;
+  }
+
+  .box-emt > p {
+    width: 90%;
+  }
+
+  .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .bg-banner-emt p {
+    margin: auto;
+  }
+
+  .bg-banner-emt h1 {
+    margin: 1rem 0;
+    text-align: center;
+    margin: 1rem auto 3rem;
+    line-height: 3rem;
+    font-size: 3.5rem;
+  }
+
+  /*Abrazo del abuso*/
+  .container-abrazo {
+    flex-direction: column-reverse;
+  }
+
+  .img-abrazo {
+    height: 24rem;
+  }
+
+  .box-abrazo {
+    padding: 4rem 0;
+  }
+
+  .box-abrazo h1, .bg-banner-abrazo h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-banner-abrazo h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .box-abrazo > p {
+    width: 90%;
+  }
+
+  .box-container-abrazo {
+    margin: 3rem auto;
+  }
+
+  /*Osteopatia*/
+  .img-osteopatia {
+    height: 24rem;
+  }
+
+  .box-emt h1, .box-osteopatia p {
+    width: 90%;
+  }
+
+  .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
+    height: 24rem;
+  }
+
+  .box-osteopatia {
+    margin: 5rem 0;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 780px) {
   /*navbar*/
@@ -1035,6 +2371,318 @@
   .text-healy {
     height: 29rem;
   }
+
+  /*Cursos*/
+  /*Barras de Access*/
+  .bg-barras h1, .box-text-barras-01 h1 {
+    line-height: 3rem;
+  }
+
+  .box-text-barras {
+    padding: 4rem 0;
+  }
+
+  .box-text-barras-01 h1 {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .box-text-barras p, .box-text-barras-01 p {
+    width: 90%;
+  }
+
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
+    height: 30rem;
+  }
+
+  .box-text-barras-01 {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .box-text-barras-01 ul {
+    padding-left: 0;
+    width: 90%;
+  }
+
+  .container-box-text-barras {
+    flex-direction: column-reverse;
+  }
+
+  /*Facelift*/
+  .box-button-facelift {
+    width: 60%;
+  }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: column-reverse;
+  }
+
+  .box-fundamento {
+    margin-bottom: 0;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.5rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .button-banner {
+    width: 90%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 4rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    padding: 0;
+  }
+
+  .galery .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .button-banner-03 {
+    width: 90%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  .box-crianza {
+    top: 21rem;
+  }
+
+  /*SOP*/
+  .container-sop {
+    height: 33rem;
+  }
+
+  .container-box-sop {
+    flex-direction: column-reverse;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 0;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 9rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
+
+  .bg-banner-sop {
+    margin-top: 7rem;
+  }
+
+  /*EMT*/
+  .container-emt {
+    flex-direction: column-reverse;
+  }
+
+  .img-emt {
+    height: 24rem;
+  }
+
+  .box-emt {
+    padding: 4rem 0;
+  }
+
+  .box-emt > p {
+    width: 90%;
+  }
+
+  .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .bg-banner-emt p {
+    margin: auto;
+  }
+
+  .bg-banner-emt h1 {
+    margin: 1rem 0;
+    text-align: center;
+    margin: 1rem auto 3rem;
+    line-height: 3rem;
+    font-size: 3.5rem;
+  }
+
+  /*Abrazo del abuso*/
+  .container-abrazo {
+    flex-direction: column-reverse;
+  }
+
+  .img-abrazo {
+    height: 24rem;
+  }
+
+  .box-abrazo {
+    padding: 4rem 0;
+  }
+
+  .box-abrazo h1, .bg-banner-abrazo h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .bg-banner-abrazo h1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  .box-abrazo > p {
+    width: 90%;
+  }
+
+  .box-container-abrazo {
+    margin: 3rem auto;
+  }
+
+  /*Osteopatia*/
+  .img-osteopatia {
+    height: 24rem;
+  }
+
+  .box-emt h1, .box-osteopatia p {
+    width: 90%;
+  }
+
+  .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
+    height: 24rem;
+  }
+
+  .box-osteopatia {
+    margin: 5rem 0;
+  }
 }
 @media screen and (min-width: 781px) and (max-width: 1000px) {
   /*navbar*/
@@ -1223,8 +2871,224 @@
   .text-healy {
     height: 29rem;
   }
+
+  /*El Fundamento*/
+  .bg-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .bg-fundamento h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .text-fundamento {
+    height: auto;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .text-fundamento p {
+    width: 90%;
+  }
+
+  .text-fundamento h4 {
+    line-height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .container-fundamento {
+    flex-direction: row;
+  }
+
+  .box-fundamento {
+    margin-bottom: 2rem;
+  }
+
+  .box-fundamento h1 {
+    width: 90%;
+    margin: 3rem auto;
+    font-size: 3.5rem;
+  }
+
+  .img-fundamento-02 {
+    margin: auto;
+    margin-bottom: 0;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .box-banner h1 {
+    line-height: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .button-banner {
+    width: 50%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 70%;
+  }
+
+  /*Procesos Corporales*/
+  .bg-procesos {
+    margin-bottom: 4rem;
+  }
+
+  .bg-procesos h1 {
+    line-height: 2.5rem;
+  }
+
+  .box-text-procesos p {
+    width: 90%;
+  }
+
+  .button-banner-02 {
+    width: 90%;
+  }
+
+  /*Creando Dinero*/
+  .bg-dinero h1, .adelante h4, .atras h4 {
+    line-height: 3rem;
+  }
+
+  .adelante h4, .atras h4 {
+    font-size: 4rem;
+    width: 90%;
+  }
+
+  .front-card, .back-card {
+    color: white;
+    border-radius: 50px;
+  }
+
+  .img-dinero, .back-dinero {
+    height: 23rem;
+  }
+
+  .text-dinero {
+    height: auto;
+  }
+
+  .text-dinero p {
+    margin-top: 3rem;
+  }
+
+  /*Más facilidad en la crianza*/
+  .bg-crianza {
+    margin-bottom: 4rem;
+  }
+
+  .bg-crianza h1 {
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bg-crianza > p {
+    margin-bottom: 0.5rem;
+  }
+
+  .galery {
+    width: auto;
+  }
+
+  .container-scale, .galery img {
+    height: 24rem;
+  }
+
+  .box-crianza {
+    top: 12rem;
+  }
+
+  .button-banner-03 {
+    width: 50%;
+    margin: 3rem auto 4.5rem;
+  }
+
+  /*SOP*/
+  .container-sop {
+    height: 24rem;
+  }
+
+  .img-sop {
+    height: 24rem;
+  }
+
+  .box-sop {
+    padding: 4rem 0;
+  }
+
+  .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .box-text-sop {
+    margin: 5rem 0 3rem 0;
+  }
+
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+    width: 90%;
+  }
+
+  video {
+    margin-top: 3rem;
+  }
+
+  .height-img {
+    height: 23rem;
+  }
+
+  .text-sop {
+    height: auto;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+  }
+
+  .bg-banner-sop h1 {
+    font-size: 3.5rem;
+  }
+
+  .button-banner-04 {
+    width: 90%;
+  }
 }
 /*desktop*/
+@media screen and (min-width: 1001px) and (max-width: 1600px) {
+  /*Más facilidad en la crianza*/
+  .galery {
+    width: auto;
+  }
+
+  .container-scale, .galery img {
+    height: 24rem;
+  }
+
+  .box-crianza {
+    top: 12rem;
+  }
+
+  .button-banner-03 {
+    width: 50%;
+    margin: 3rem auto 4.5rem;
+  }
+}
 @media screen and (max-width: 740px) {
   .front-card,
 .back-card {
@@ -1232,12 +3096,12 @@
     font-size: 1.5rem;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
-    height: 55px;
+    padding: 0.5rem 3rem;
+    margin-top: 1rem;
   }
 }
 /*desktop*/
