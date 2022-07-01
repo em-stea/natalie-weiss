@@ -3076,12 +3076,16 @@
     width: auto;
   }
 
-  .container-scale, .galery img {
+  /*
+  .container-scale, .galery img{
     height: 24rem;
+  }*/
+  .box-crianza {
+    top: 21rem;
   }
 
-  .box-crianza {
-    top: 12rem;
+  .box-crianza h1 {
+    width: 90%;
   }
 
   .button-banner-03 {
