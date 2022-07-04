@@ -528,8 +528,17 @@ textarea {
 
 .box-sobreMi h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #728EA4;
+  color: #E06350;
   font-size: 3.5rem;
+  line-height: 3rem;
+}
+
+.box-sobreMi .text-n1 {
+  color: #A88F88;
+}
+
+.box-sobreMi .text-n2 {
+  color: #728EA4;
 }
 
 video {
@@ -538,15 +547,26 @@ video {
 }
 
 .box-posible {
-  background-color: #D6B671;
+  background-image: url(../img/banner-sobreMi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem 0;
   color: white;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .box-posible h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: #373543;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+.box-posible .text-bold {
+  color: #6D5120;
 }
 
 .box-contacto-sobreMi {
@@ -636,6 +656,14 @@ video {
   transition: color 0.3s ease-in;
 }
 
+.box-video-sobreMi video {
+  width: auto;
+}
+
+.box-video-sobreMi .ratio::before {
+  padding: 20rem;
+}
+
 /*Cursos*/
 .bg-cursos {
   background-image: url(../img/bg-cursos.jpg);
@@ -664,7 +692,7 @@ video {
 
 .box-cursos h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #D99B77;
+  color: #E06350;
   font-size: 3.3rem;
   line-height: 2.2rem;
   text-align: center;
@@ -705,7 +733,7 @@ video {
 }
 
 .box-text-barras span {
-  color: #728EA4;
+  color: #E06350;
 }
 
 .box-text-barras p {
@@ -819,7 +847,11 @@ video {
   font-family: "Gatkins-Demo", serif;
   font-size: 4.5rem;
   line-height: 2.5rem;
-  color: #D99B77;
+  color: #E06350;
+}
+
+.box-facelift .text-bold {
+  color: #728EA4;
 }
 
 .title-facelift {
@@ -894,10 +926,10 @@ video {
   margin-bottom: 0;
 }
 
-.text-fundamento h4, .text-sop h4 {
+.text-fundamento h4 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  color: #728EA4;
+  color: #E06350;
   margin-bottom: 0;
 }
 
@@ -941,15 +973,18 @@ video {
 }
 
 .box-banner {
-  background-color: #373543;
+  background-image: url(../img/banner-fundamento.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem 0;
-  color: white;
   text-align: center;
 }
 
 .box-banner h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: #728EA4;
 }
 
 .box-banner p {
@@ -957,20 +992,20 @@ video {
 }
 
 .button-banner {
-  background-color: white;
+  background-color: #D99B77;
   border-radius: 50px;
   padding: 0.5rem 2.3rem;
   width: 30%;
   margin: auto;
 }
 .button-banner:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #E06350;
 }
 
 .button-banner a {
   text-align: center;
   text-decoration: none;
-  color: #373543;
+  color: white;
 }
 
 /*Procesos Corporales*/
@@ -1000,7 +1035,7 @@ video {
 }
 
 .box-text-procesos span {
-  color: #728EA4;
+  color: #E06350;
 }
 
 .box-text-procesos p {
@@ -1012,14 +1047,14 @@ video {
 .button-banner-02 {
   text-align: center;
   color: white;
-  background-color: #373543;
+  background-color: #E06350;
   border-radius: 50px;
   padding: 0.5rem 2.3rem;
   width: 40%;
   margin: 4rem auto;
 }
 .button-banner-02:hover {
-  background-color: #728EA4;
+  background-color: #373543;
   color: white;
 }
 
@@ -1181,7 +1216,7 @@ video {
   margin: 3rem auto 7rem;
 }
 .button-banner-03:hover {
-  background-color: #728EA4;
+  background-color: #E06350;
   color: white;
 }
 
@@ -1265,8 +1300,8 @@ video {
   text-align: center;
 }
 
-.box-sop > p {
-  color: #A88F88;
+.box-sop > .text-bold {
+  color: #E06350;
 }
 
 .box-sop p {
@@ -1296,7 +1331,7 @@ video {
   flex-direction: column;
 }
 
-.box-text-sop h1 {
+.box-text-sop h1, .text-sop h1 {
   font-family: "Gatkins-Demo", serif;
   color: #D99B77;
   font-size: 4rem;
@@ -1310,8 +1345,11 @@ video {
 }
 
 .bg-banner-sop {
-  background-color: #728EA4;
-  color: white;
+  background-image: url(../img/bg-sop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #E06350;
   padding: 3rem 0;
   text-align: center;
 }
@@ -1326,7 +1364,7 @@ video {
 }
 
 .button-banner-04 {
-  color: black;
+  color: #373543;
   background-color: white;
   border-radius: 50px;
   padding: 0.5rem 2.3rem;
@@ -1361,14 +1399,14 @@ video {
 
 .box-emt h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #443836;
+  color: #E06350;
   font-size: 4rem;
   line-height: 3rem;
   width: 70%;
 }
 
 .box-emt > p {
-  color: #728EA4;
+  color: #443836;
 }
 
 .img-emt-02 {
@@ -1377,7 +1415,6 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   height: 27rem;
-  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -1387,7 +1424,14 @@ video {
 
 .img-emt-02 h1, .img-emt-02 p, .emt-03 h1, .emt-03 p {
   width: 65%;
+}
+
+.img-emt-02 p, .emt-03 h1, .emt-03 p {
   color: #373543;
+}
+
+.img-emt-02 h1 {
+  color: #E06350;
 }
 
 .img-emt-02 h1, .emt-03 h1 {
@@ -1402,13 +1446,13 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   height: 27rem;
-  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: white;
+  color: white;
 }
 
 .emt-03 h1 {
@@ -1416,7 +1460,7 @@ video {
 }
 
 .bg-banner-emt {
-  background-color: #A88F88;
+  background-color: #373543;
   color: white;
   padding: 3rem 0;
   text-align: center;
@@ -1468,7 +1512,10 @@ video {
 }
 
 .bg-banner-abrazo {
-  background-color: #F5F5F5;
+  background-image: url(../img/bg-abrazo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 3rem 0;
   text-align: center;
 }
@@ -1476,7 +1523,7 @@ video {
 .bg-banner-abrazo h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  color: #373543;
+  color: #E06350;
 }
 
 .bg-banner-abrazo div a {

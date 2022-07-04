@@ -480,22 +480,40 @@ textarea{
 }
 .box-sobreMi h1{
   font-family: "Gatkins-Demo", serif;
-  color: $colour-blue;
+  color: $colour-red;
   font-size: 3.5rem;
+  line-height: 3rem;
+}
+.box-sobreMi .text-n1{
+  color: $colour-light-brown;
+}
+.box-sobreMi .text-n2{
+  color: $colour-blue
 }
 video{
   margin-top: 3rem;
   height: 75% !important;
 }
 .box-posible{
-  background-color: $colour-honey;
+  //background-color: $colour-honey;
+  background-image: url(../img/banner-sobreMi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem 0;
   color: white;
   text-align: center;
+  margin-top: 2rem;
 }
 .box-posible h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: $colour-dark;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+.box-posible .text-bold{
+  color: $colour-brown;
 }
 .box-contacto-sobreMi{
   animation: vibracion 3s ease-in infinite;
@@ -547,6 +565,12 @@ video{
    transition: color 0.3s ease-in;
   }
 }
+.box-video-sobreMi video{
+  width: auto;
+}
+.box-video-sobreMi .ratio::before{
+  padding: 20rem;
+}
 
 /*Cursos*/
 .bg-cursos{
@@ -573,7 +597,7 @@ video{
 }
 .box-cursos h1{
   font-family: "Gatkins-Demo", serif;
-  color: $colour-salmon;
+  color: $colour-red;
   font-size: 3.3rem;
   line-height: 2.2rem;
   text-align: center;
@@ -610,7 +634,7 @@ video{
   padding: 6rem 0;
 }
 .box-text-barras span{
-  color: $colour-blue;
+  color: $colour-red;
 }
 .box-text-barras p{
   width: 60%;
@@ -709,7 +733,10 @@ video{
   font-family: "Gatkins-Demo", serif;
   font-size: 4.5rem;
   line-height: 2.5rem;
-  color: $colour-salmon;
+  color: $colour-red;
+}
+.box-facelift .text-bold{
+  color: $colour-blue;
 }
 .title-facelift{
   margin-bottom: .5rem;
@@ -775,10 +802,10 @@ video{
   text-align: center;
   margin-bottom: 0;
 }
-.text-fundamento h4, .text-sop h4{
+.text-fundamento h4{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  color: $colour-blue;
+  color: $colour-red;
   margin-bottom: 0;
 }
 .box-fundamento{
@@ -817,32 +844,37 @@ video{
   height: 28rem;
 }
 .box-banner{
-  background-color: $colour-dark;
+  //background-color: $colour-dark;
+  background-image: url(../img/banner-fundamento.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 4rem 0;
-  color: white;
   text-align: center;
 }
 .box-banner h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: $colour-blue;
 }
 .box-banner p{
   margin-bottom: 2.5rem;
 }
 .button-banner{
-  background-color: white;
+  background-color: $colour-salmon;
   border-radius: 50px;
   padding: .5rem 2.3rem;
   width: 30%;
   margin: auto;
   &:hover{
-    background-color: rgba(255,255,255,0.8);
+    //background-color: rgba(255,255,255,0.8);
+    background-color: $colour-red;
   }
 }
 .button-banner a{
   text-align: center;
   text-decoration: none;
-  color: $colour-dark;
+  color: white;
 }
 /*Procesos Corporales*/
 .bg-procesos{
@@ -868,7 +900,7 @@ video{
   margin-bottom: 6rem;
 }
 .box-text-procesos span{
-  color: $colour-blue;
+  color: $colour-red;
 }
 .box-text-procesos p{
   width: 60%;
@@ -878,13 +910,13 @@ video{
 .button-banner-02{
   text-align: center;
   color: white;
-  background-color: $colour-dark;
+  background-color: $colour-red;
   border-radius: 50px;
   padding: .5rem 2.3rem;
   width: 40%;
   margin: 4rem auto;
   &:hover{
-    background-color: $colour-blue;
+    background-color: $colour-dark;
     color: white;
   }
 }
@@ -1029,7 +1061,7 @@ video{
   width: 40%;
   margin: 3rem auto 7rem;
   &:hover{
-    background-color: $colour-blue;
+    background-color: $colour-red;
     color: white;
   }
 }
@@ -1101,8 +1133,8 @@ video{
   flex-direction: column;
   text-align: center;
 }
-.box-sop>p{
-  color: $colour-light-brown;
+.box-sop>.text-bold{
+  color: $colour-red;
 }
 .box-sop p{
   width: 70%;
@@ -1127,7 +1159,7 @@ video{
   align-items: center;
   flex-direction: column;
 } 
-.box-text-sop h1{
+.box-text-sop h1, .text-sop h1{
   font-family: "Gatkins-Demo", serif;
   color: $colour-salmon;
   font-size: 4rem;  
@@ -1139,8 +1171,12 @@ video{
   margin-top: 1rem;
 }
 .bg-banner-sop{
-  background-color: $colour-blue;
-  color: white;
+  //background-color: $colour-blue;
+  background-image: url(../img/bg-sop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $colour-red;
   padding: 3rem 0;
   text-align: center;
 }
@@ -1152,7 +1188,7 @@ video{
   margin-bottom: 2rem;
 }
 .button-banner-04{
-  color: black;
+  color: $colour-dark;
   background-color: white;
   border-radius: 50px;
   padding: .5rem 2.3rem;
@@ -1183,20 +1219,19 @@ video{
 }
 .box-emt h1{
   font-family: "Gatkins-Demo", serif;
-  color: $colour-dark-brown;
+  color: $colour-red;
   font-size: 4rem;
   line-height: 3rem;
   width: 70%;
 }
 .box-emt>p{
-  color: $colour-blue;
+  color: $colour-dark-brown;
 }
 @mixin bg-img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 27rem;
-  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -1210,7 +1245,12 @@ video{
 
 .img-emt-02 h1, .img-emt-02 p, .emt-03 h1, .emt-03 p{
   width: 65%;
+}
+.img-emt-02 p, .emt-03 h1, .emt-03 p{
   color: $colour-dark;
+}
+.img-emt-02 h1{
+  color: $colour-red;
 }
 .img-emt-02 h1, .emt-03 h1{
   font-family: "Gatkins-Demo", serif;
@@ -1221,12 +1261,13 @@ video{
 .emt-03{
   @include bg-img;
   background-color: white;
+  color: white;
 }
 .emt-03 h1{
   color: white;
 }
 .bg-banner-emt{
-  background-color: $colour-light-brown;
+  background-color: $colour-dark;
   color: white;
   padding: 3rem 0;
   text-align: center;
@@ -1271,14 +1312,19 @@ video{
   margin: 8rem auto;
 }
 .bg-banner-abrazo{
-  background-color: #F5F5F5;
+  background-image: url(../img/bg-abrazo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-color: #F5F5F5;
   padding: 3rem 0;
   text-align: center;
 }
 .bg-banner-abrazo h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  color: $colour-dark;
+  //color: $colour-dark;
+  color: $colour-red;
 }
 .bg-banner-abrazo div a{
   text-decoration: none;

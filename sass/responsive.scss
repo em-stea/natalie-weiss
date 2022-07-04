@@ -421,6 +421,30 @@
   .box-osteopatia{
     margin: 5rem 0;
   }
+  /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 73vh;
+  }
+  .box-video-sobreMi video{
+    height: 75vh !important;
+  }
+  .box-video-sobreMi .ratio::before{
+    padding: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+  }
+  .box-posible .text-bold{
+    margin-bottom: 1.5rem;
+  }
 }
 
 
@@ -842,6 +866,33 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 82vh;
+  }
+  .box-video-sobreMi video{
+    height: 79vh !important;
+  }
+  .box-video-sobreMi .ratio::before{
+    padding: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    margin: auto;
+  }
+  .box-posible .text-bold{
+    margin: 2rem auto;
+    width: 90%;
   }
 }
 
@@ -1279,6 +1330,33 @@
   .box-osteopatia{
     margin: 5rem 0;
   }
+  /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 88vh;
+  }
+  .box-video-sobreMi video{
+    height: 88vh !important;
+  }
+  .box-video-sobreMi .ratio::before{
+    padding: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+  }
+  .box-posible .text-bold{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
 }
 @media screen and (min-width: 476px) and (max-width: 600px) {
   /*navbar*/
@@ -1707,6 +1785,63 @@
   .box-osteopatia{
     margin: 5rem 0;
   }
+  /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi{
+   height: 70vh; 
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 88vh;
+  }
+  .box-video-sobreMi video{
+    height: 88vh !important;
+  }
+    /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 88vh;
+  }
+  .box-video-sobreMi video{
+    height: 88vh !important;
+  }
+  .box-video-sobreMi .ratio::before{
+    padding: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+  }
+  .box-posible .text-bold{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .box-posible{
+    margin-top: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+  }
+  .box-posible .text-bold{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 780px) {
@@ -2109,6 +2244,36 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  /*Sobre mi*/
+  .container-sobreMi{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .box-sobreMi{
+   height: 70vh; 
+  }
+  .box-sobreMi p{
+    width: 90%;
+  }
+  .box-video-sobreMi{
+    margin-top: 2rem;
+    height: 88vh;
+  }
+  .box-video-sobreMi video{
+    height: 88vh !important;
+  }
+  .box-posible{
+    margin-top: 0;
+  }
+  .box-posible h1{
+    margin-bottom: 1.5rem;
+  }
+  .box-posible .text-bold{
+    margin-bottom: 1.5rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
   }
 }
 
