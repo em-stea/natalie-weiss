@@ -25,6 +25,12 @@
   font-style: normal;
   font-weight: 500;
 }
+@font-face {
+  font-family: "Muli-Black";
+  src: url("../fonts/Muli-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
 
 @font-face {
   font-family: 'icomoon';
@@ -55,6 +61,9 @@ body {
 /*text-styles*/
 .text-bold{
   font-family: "FutuMd";
+}
+.font-big{
+  font-size: 1.6rem;
 }
 
 /***Navbar***/
@@ -144,9 +153,19 @@ body {
   flex-direction: column;
   height: 34rem;
 }
+.text-home h1{
+  font-family: "Gatkins-Demo", serif;
+  color: $colour-red;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  line-height: 2.5rem;
+}
 .text-home p{
   text-align: center;
   width: 70%;
+}
+.text-home span{
+  font-size: 1.4rem;
 }
 .box-home{
   background-color: $colour-light-blue;
@@ -160,6 +179,12 @@ body {
 .box-home h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: $colour-dark;
+}
+.box-home span{
+  color: $colour-brown;
+  font-weight: 800;
+  font-family: "Muli-Bold";
 }
 .carousel-indicators [data-bs-target]{
   width: 15px;
@@ -195,29 +220,56 @@ body {
 .bg-stars>a{
   text-align: center;
   text-decoration: none;
-  font-family: "Gatkins-Demo", serif;
   color: $colour-dark;
   &:hover{
-    color: $colour-salmon;
+    color: $colour-red;
   }
 }
 .bg-stars a h1{
-  font-size: 4.5rem;
+  font-size: 1.7rem;
   width: 60%;
   margin: auto;
   line-height: 3rem;
+  font-family:"Muli-Bold";
 }
-.box-prox-encuentros h1{
+.bg-stars a span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4.3rem;
+}
+.box-title-encuentros{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box-title-encuentros h1{
   text-align: center;
-  font-family: "FutuMd";
-  font-size: 2rem;
-  margin-top: 5rem;
+  font-family: "Futura-Light";
+  font-size: 2.3rem;
+  color: $colour-light-brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.box-title-encuentros h3{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem;
+  color: $colour-light-brown;
+}
+.box-prox-encuentros{
+  margin: 8rem auto;
 }
 .box-prox-encuentros h2{
-  font-family: "Gatkins-Demo", serif;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem 0 4rem 0;
+  color: $colour-dark-brown;
+}
+.box-prox-encuentros h2 span{
+  font-family: "Muli-Bold", serif;
 }
 .box-button{
   text-align: center;
@@ -249,7 +301,7 @@ body {
 .galery{
   width: 70%;
   margin: auto;
-  padding: 40px 0;
+  padding: 8rem 0 6rem 0;
   overflow: hidden;
 }
 .galery img{
@@ -340,6 +392,8 @@ body {
 }
 .bg-contacto p{
   margin-bottom: 2rem;
+  color: $colour-dark;
+  font-family: "FutuMd", serif;
 }
 .bg-contacto div a{
   text-decoration: none;
@@ -578,19 +632,24 @@ video{
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  height: 15rem;
+  height: 18rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: $colour-dark;
-  margin-bottom: 0fv;
+  margin-bottom: 0;
 }
 .bg-cursos h1{
   font-family: "Gatkins-Demo", serif;
-  color: $colour-salmon;
-  font-size: 4.5rem;
+  color: $colour-red;
+  font-size: 7rem;
+  line-height: 4rem;
+}
+.bg-cursos p{
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .galery a{
   text-decoration: none;
@@ -608,7 +667,7 @@ video{
   color: #828282;
   width: 80%;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 /*Barras*/
 .bg-barras{
@@ -797,6 +856,7 @@ video{
   justify-content: center;
   flex-direction: column;
   height: 34rem;
+  text-align: center;
 }
 .text-fundamento p, .text-sop p{
   text-align: center;
@@ -1143,14 +1203,14 @@ video{
 .box-sop h1{
   font-family: "Gatkins-Demo", serif;
   color: $colour-blue;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .img-sop{
   background-image: url(../img/img-sop-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 .box-text-sop{
   text-align: center;
@@ -1177,12 +1237,23 @@ video{
   background-repeat: no-repeat;
   background-size: cover;
   color: $colour-red;
-  padding: 3rem 0;
+  padding: 4rem 0;
   text-align: center;
 }
-.bg-banner-sop h1{
+.title-banner-sop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.title-banner-sop h1{
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.title-banner-sop h2{
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 5rem;
+  margin-left: 1rem;
 }
 .bg-banner-sop p{
   margin-bottom: 2rem;
@@ -1194,6 +1265,7 @@ video{
   padding: .5rem 2.3rem;
   width: 35%;
   margin: auto;
+  box-shadow: 10px ​11px 19px 3px rgba(0,0,0,0.1);
   &:hover{
     background-color: #92ADC1;
     color: white;
@@ -1215,7 +1287,7 @@ video{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 .box-emt h1{
   font-family: "Gatkins-Demo", serif;
@@ -1298,7 +1370,7 @@ video{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 .box-abrazo h1{
   font-family: "Gatkins-Demo", serif;
@@ -1337,13 +1409,13 @@ video{
     color: $colour-dark;
   }
 }
-
+/*Osteopatia*/
 .img-osteopatia{
   background-image: url(../img/img-osteopatia-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41srem;
 }
 @mixin bg-osteopatia {
   background-position: center;

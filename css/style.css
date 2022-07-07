@@ -24,6 +24,12 @@
   font-weight: 500;
 }
 @font-face {
+  font-family: "Muli-Black";
+  src: url("../fonts/Muli-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?qyrgnp");
   src: url("../fonts/icomoon/icomoon.eot?qyrgnp#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?qyrgnp") format("truetype"), url("../fonts/icomoon/icomoon.woff?qyrgnp") format("woff"), url("../fonts/icomoon/icomoon.svg?qyrgnp#icomoon") format("svg");
@@ -48,6 +54,10 @@ body {
 /*text-styles*/
 .text-bold {
   font-family: "FutuMd";
+}
+
+.font-big {
+  font-size: 1.6rem;
 }
 
 /***Navbar***/
@@ -145,9 +155,21 @@ body {
   height: 34rem;
 }
 
+.text-home h1 {
+  font-family: "Gatkins-Demo", serif;
+  color: #E06350;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  line-height: 2.5rem;
+}
+
 .text-home p {
   text-align: center;
   width: 70%;
+}
+
+.text-home span {
+  font-size: 1.4rem;
 }
 
 .box-home {
@@ -163,6 +185,13 @@ body {
 .box-home h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  color: #373543;
+}
+
+.box-home span {
+  color: #6D5120;
+  font-weight: 800;
+  font-family: "Muli-Bold";
 }
 
 .carousel-indicators [data-bs-target] {
@@ -202,32 +231,64 @@ body {
 .bg-stars > a {
   text-align: center;
   text-decoration: none;
-  font-family: "Gatkins-Demo", serif;
   color: #373543;
 }
 .bg-stars > a:hover {
-  color: #D99B77;
+  color: #E06350;
 }
 
 .bg-stars a h1 {
-  font-size: 4.5rem;
+  font-size: 1.7rem;
   width: 60%;
   margin: auto;
   line-height: 3rem;
+  font-family: "Muli-Bold";
 }
 
-.box-prox-encuentros h1 {
+.bg-stars a span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4.3rem;
+}
+
+.box-title-encuentros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title-encuentros h1 {
   text-align: center;
-  font-family: "FutuMd";
-  font-size: 2rem;
-  margin-top: 5rem;
+  font-family: "Futura-Light";
+  font-size: 2.3rem;
+  color: #A88F88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.box-title-encuentros h3 {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem;
+  color: #A88F88;
+}
+
+.box-prox-encuentros {
+  margin: 8rem auto;
 }
 
 .box-prox-encuentros h2 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem 0 4rem 0;
+  color: #443836;
+}
+
+.box-prox-encuentros h2 span {
+  font-family: "Muli-Bold", serif;
 }
 
 .box-button {
@@ -262,7 +323,7 @@ body {
 .galery {
   width: 70%;
   margin: auto;
-  padding: 40px 0;
+  padding: 8rem 0 6rem 0;
   overflow: hidden;
 }
 
@@ -370,6 +431,8 @@ body {
 
 .bg-contacto p {
   margin-bottom: 2rem;
+  color: #373543;
+  font-family: "FutuMd", serif;
 }
 
 .bg-contacto div a {
@@ -670,20 +733,26 @@ video {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  height: 15rem;
+  height: 18rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #373543;
-  margin-bottom: 0fv;
+  margin-bottom: 0;
 }
 
 .bg-cursos h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #D99B77;
-  font-size: 4.5rem;
+  color: #E06350;
+  font-size: 7rem;
+  line-height: 4rem;
+}
+
+.bg-cursos p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 .galery a {
@@ -704,7 +773,7 @@ video {
   color: #828282;
   width: 80%;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 /*Barras*/
@@ -919,6 +988,7 @@ video {
   justify-content: center;
   flex-direction: column;
   height: 34rem;
+  text-align: center;
 }
 
 .text-fundamento p, .text-sop p {
@@ -1312,7 +1382,7 @@ video {
 .box-sop h1 {
   font-family: "Gatkins-Demo", serif;
   color: #728EA4;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .img-sop {
@@ -1320,7 +1390,7 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 
 .box-text-sop {
@@ -1350,13 +1420,26 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   color: #E06350;
-  padding: 3rem 0;
+  padding: 4rem 0;
   text-align: center;
 }
 
-.bg-banner-sop h1 {
+.title-banner-sop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-banner-sop h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.title-banner-sop h2 {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 5rem;
+  margin-left: 1rem;
 }
 
 .bg-banner-sop p {
@@ -1370,6 +1453,7 @@ video {
   padding: 0.5rem 2.3rem;
   width: 35%;
   margin: auto;
+  box-shadow: 10px ​11px 19px 3px rgba(0, 0, 0, 0.1);
 }
 .button-banner-04:hover {
   background-color: #92ADC1;
@@ -1394,7 +1478,7 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 
 .box-emt h1 {
@@ -1494,7 +1578,7 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41rem;
 }
 
 .box-abrazo h1 {
@@ -1538,12 +1622,13 @@ video {
   color: #373543;
 }
 
+/*Osteopatia*/
 .img-osteopatia {
   background-image: url(../img/img-osteopatia-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 41srem;
 }
 
 .img-osteopatia-02 {
