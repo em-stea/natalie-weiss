@@ -44,7 +44,7 @@
 }
 
 body {
-  font-size: 19px;
+  font-size: 21px;
   color: #828282;
   font-family: "Futura-Light", serif;
   font-weight: 400;
@@ -65,7 +65,7 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: white;
-  box-shadow: 0px 1px 8px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 8px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-nav {
@@ -88,7 +88,7 @@ body {
 }
 
 .logo {
-  width: 55px;
+  width: 12rem;
 }
 
 .nav-link {
@@ -172,9 +172,18 @@ body {
   font-size: 1.4rem;
 }
 
+.line {
+  height: 2px;
+  background-color: #373543;
+  width: 90%;
+  margin: auto;
+}
+
+.box-image {
+  margin: 7rem 0;
+}
+
 .box-home {
-  background-color: #B8C3CA;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,7 +194,7 @@ body {
 .box-home h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  color: #373543;
+  color: #E06350;
 }
 
 .box-home span {
@@ -194,13 +203,21 @@ body {
   font-family: "Muli-Bold";
 }
 
-.carousel-indicators [data-bs-target] {
+.img-home-02 {
+  background-image: url(../img/img-home-02.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30rem;
+}
+
+/*
+.carousel-indicators [data-bs-target]{
   width: 15px;
   height: 15px;
   border-radius: 50%;
   margin-right: 9px;
-}
-
+}*/
 .bg-stars {
   background-image: url(../img/img-home-stars.jpg);
   background-position: top center;
@@ -356,6 +373,29 @@ body {
 }
 
 /***Testimonios***/
+.icon-04 {
+  width: 8%;
+  -webkit-animation: icon-04-animated 4s infinite linear;
+          animation: icon-04-animated 4s infinite linear;
+}
+
+@-webkit-keyframes icon-04-animated {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes icon-04-animated {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
 .wrapper {
   width: 100%;
   padding: 40px 0 1px 0;
@@ -394,7 +434,7 @@ body {
 }
 
 .testimonial-text {
-  padding: 71px 60px 30px 60px;
+  padding: 51px 60px 30px 60px;
   color: #373543;
   border: 1px solid #373543;
   position: relative;
@@ -602,6 +642,11 @@ textarea {
 
 .box-sobreMi .text-n2 {
   color: #728EA4;
+  font-size: 1.5rem;
+}
+
+.box-sobreMi .text-n2 span {
+  font-size: 2rem;
 }
 
 video {
@@ -614,7 +659,7 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 4rem 0;
+  padding: 5rem 0 4rem 0;
   color: white;
   text-align: center;
   margin-top: 2rem;
@@ -622,14 +667,14 @@ video {
 
 .box-posible h1 {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4rem;
+  font-size: 5rem;
   color: #373543;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   line-height: 3rem;
 }
 
-.box-posible .text-bold {
-  color: #6D5120;
+.box-posible p {
+  color: #373543;
 }
 
 .box-contacto-sobreMi {
@@ -1078,6 +1123,10 @@ video {
   color: white;
 }
 
+.icon-02 {
+  width: 10%;
+}
+
 /*Procesos Corporales*/
 .bg-procesos {
   background-image: url(../img/bg-procesos-corporales.jpg);
@@ -1332,6 +1381,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.text-color-03 {
+  color: #728EA4;
+}
+
 /*Proximos Encuentros*/
 .bg-prox {
   background-color: #B8C3CA;
@@ -1386,11 +1439,12 @@ video {
 }
 
 .img-sop {
-  background-image: url(../img/img-sop-01.jpg);
+  background-image: url(../img/img-sop-01.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 41rem;
+  background-size: contain;
+  margin: 3rem 0;
+  height: 76vh;
 }
 
 .box-text-sop {
@@ -1403,10 +1457,14 @@ video {
 
 .box-text-sop h1, .text-sop h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #D99B77;
-  font-size: 4rem;
-  width: 70%;
-  line-height: 2rem;
+  color: #D6B671;
+  font-size: 4.5rem;
+  width: 80%;
+  line-height: 2.3rem;
+}
+
+.text-sop h1 {
+  color: #E06350;
 }
 
 .box-text-sop p {
@@ -1475,19 +1533,20 @@ video {
 
 /*EMT*/
 .img-emt {
-  background-image: url(../img/img-emt-01.jpg);
+  background-image: url(../img/img-emt-01.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 41rem;
+  background-size: contain;
+  margin: 3rem 0;
+  height: 76vh;
 }
 
 .box-emt h1 {
   font-family: "Gatkins-Demo", serif;
   color: #E06350;
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 3rem;
-  width: 70%;
+  width: 80%;
 }
 
 .box-emt > p {
@@ -1580,11 +1639,12 @@ video {
 
 /*Abrazo del Abuso*/
 .img-abrazo {
-  background-image: url(../img/img-abrazo-01.jpg);
+  background-image: url(../img/img-abrazo-01.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 41rem;
+  background-size: contain;
+  margin: 3rem 0;
+  height: 76vh;
 }
 
 .box-abrazo h1 {
@@ -1663,11 +1723,12 @@ video {
 
 /*Osteopatia*/
 .img-osteopatia {
-  background-image: url(../img/img-osteopatia-01.jpg);
+  background-image: url(../img/img-osteopatia-01.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 41rem;
+  background-size: contain;
+  margin: 3rem 0;
+  height: 76vh;
 }
 
 .img-osteopatia-02 {
@@ -1678,6 +1739,47 @@ video {
   height: 36rem;
 }
 
+.icon-01 {
+  width: 10%;
+  -webkit-animation: icon-01-animated 2s infinite linear;
+          animation: icon-01-animated 2s infinite linear;
+}
+
+@-webkit-keyframes icon-01-animated {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes icon-01-animated {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .box-osteopatia {
   display: flex;
   justify-content: center;
@@ -1688,6 +1790,18 @@ video {
 
 .box-osteopatia p {
   width: 70%;
+  line-height: 2rem;
+}
+
+.box-osteopatia p span:nth-child(2) {
+  color: #E06350;
+}
+
+.box-osteopatia h3 {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: #D6B671;
 }
 
 .img-osteopatia-03 {
@@ -1720,4 +1834,13 @@ video {
 .button-osteopatia a:hover {
   background-color: #B8C3CA;
   color: #373543;
+}
+
+.icon-03 {
+  width: 15%;
+}
+
+.text-color-02 {
+  color: #E06350;
+  font-size: 1.5rem;
 }
