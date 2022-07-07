@@ -1419,7 +1419,6 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #E06350;
   padding: 4rem 0;
   text-align: center;
 }
@@ -1434,12 +1433,14 @@ video {
 .title-banner-sop h1 {
   font-size: 2rem;
   margin-bottom: 0;
+  color: #373543;
 }
 
 .title-banner-sop h2 {
   font-family: "Gatkins-Demo", serif;
   font-size: 5rem;
   margin-left: 1rem;
+  color: #D99B77;
 }
 
 .bg-banner-sop p {
@@ -1456,7 +1457,7 @@ video {
   box-shadow: 10px 11px 10px 3px rgba(0, 0, 0, 0.1);
 }
 .button-banner-04:hover {
-  background-color: #92ADC1;
+  background-color: #D99B77;
   color: white;
 }
 
@@ -1550,18 +1551,19 @@ video {
 .bg-banner-emt {
   background-color: #373543;
   color: white;
-  padding: 4rem 0;
+  padding: 5rem 0;
   text-align: center;
 }
 
 .bg-banner-emt h1 {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  width: 55%;
+  width: 30%;
   text-align: center;
   margin: auto;
-  line-height: 2.3rem;
+  line-height: 2.5rem;
   margin-bottom: 3rem;
+  color: #E5CE95;
 }
 
 .bg-banner-emt div a {
@@ -1587,12 +1589,24 @@ video {
 
 .box-abrazo h1 {
   font-family: "Gatkins-Demo", serif;
-  color: #373543;
-  font-size: 4rem;
+  color: #D99B77;
+  font-size: 5rem;
 }
 
 .box-abrazo > p {
   color: #6D5120;
+}
+
+.font-big-fundamento {
+  font-size: 2rem;
+  color: #E06350;
+  line-height: 2rem;
+}
+
+.font-big-fundamento-02 {
+  font-size: 2rem;
+  color: #A88F88;
+  line-height: 2rem;
 }
 
 .box-container-abrazo {
@@ -1604,13 +1618,23 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem 0;
+  padding: 5rem 0;
   text-align: center;
 }
 
 .bg-banner-abrazo h1 {
+  font-size: 2rem;
+  color: #373543;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-banner-abrazo h1 span {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
+  margin-left: 1rem;
   color: #E06350;
 }
 
@@ -1622,8 +1646,19 @@ video {
   padding: 0.5rem 2.3rem;
 }
 .bg-banner-abrazo div a:hover {
-  background-color: #B8C3CA;
+  background-color: #E06350;
+  color: white;
+}
+
+.text-color-01 {
+  color: #D99B77;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+.text-color-01 span {
   color: #373543;
+  margin-bottom: 0;
 }
 
 /*Osteopatia*/
@@ -1632,7 +1667,7 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 41srem;
+  height: 41rem;
 }
 
 .img-osteopatia-02 {

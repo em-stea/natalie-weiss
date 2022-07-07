@@ -1236,7 +1236,6 @@ video{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: $colour-red;
   padding: 4rem 0;
   text-align: center;
 }
@@ -1249,11 +1248,13 @@ video{
 .title-banner-sop h1{
   font-size: 2rem;
   margin-bottom: 0;
+  color: $colour-dark;
 }
 .title-banner-sop h2{
   font-family: "Gatkins-Demo", serif;
   font-size: 5rem;
   margin-left: 1rem;
+  color: $colour-salmon;
 }
 .bg-banner-sop p{
   margin-bottom: 2rem;
@@ -1267,7 +1268,7 @@ video{
   margin: auto;
   box-shadow: 10px 11px 10px 3px rgba(0,0,0,0.1);
   &:hover{
-    background-color: #92ADC1;
+    background-color: $colour-salmon;
     color: white;
   }
 }
@@ -1344,17 +1345,18 @@ video{
 .bg-banner-emt{
   background-color: $colour-dark;
   color: white;
-  padding: 4rem 0;
+  padding: 5rem 0;
   text-align: center;
 }
 .bg-banner-emt h1{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  width: 55%;
+  width: 30%;
   text-align: center;
   margin: auto;
-  line-height: 2.3rem;
+  line-height: 2.5rem;
   margin-bottom: 3rem;
+  color: $colour-light-honey;
 }
 .bg-banner-emt div a{
   text-decoration: none;
@@ -1377,11 +1379,21 @@ video{
 }
 .box-abrazo h1{
   font-family: "Gatkins-Demo", serif;
-  color: $colour-dark;
-  font-size: 4rem;
+  color: $colour-salmon;
+  font-size: 5rem;
 }
 .box-abrazo>p{
   color: $colour-brown;
+}
+.font-big-fundamento{
+  font-size: 2rem;
+  color: $colour-red;
+  line-height: 2rem;
+}
+.font-big-fundamento-02{
+  font-size: 2rem;
+  color: $colour-light-brown;
+  line-height: 2rem;
 }
 .box-container-abrazo{
   margin: 8rem auto;
@@ -1392,13 +1404,21 @@ video{
   background-repeat: no-repeat;
   background-size: cover;
   //background-color: #F5F5F5;
-  padding: 3rem 0;
+  padding: 5rem 0;
   text-align: center;
 }
 .bg-banner-abrazo h1{
+  font-size: 2rem;
+  color: $colour-dark;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bg-banner-abrazo h1 span{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  //color: $colour-dark;
+  margin-left: 1rem;
   color: $colour-red;
 }
 .bg-banner-abrazo div a{
@@ -1408,9 +1428,18 @@ video{
   border-radius: 50px;
   padding: .5rem 2.3rem;
   &:hover{
-    background-color: $colour-light-blue;
-    color: $colour-dark;
+    background-color: $colour-red;
+    color: white;
   }
+}
+.text-color-01{
+  color: $colour-salmon;
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+.text-color-01 span{
+  color: $colour-dark;
+  margin-bottom: 0;
 }
 /*Osteopatia*/
 .img-osteopatia{
@@ -1418,7 +1447,7 @@ video{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 41srem;
+  height: 41rem;
 }
 @mixin bg-osteopatia {
   background-position: center;
