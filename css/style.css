@@ -1453,7 +1453,7 @@ video {
   padding: 0.5rem 2.3rem;
   width: 35%;
   margin: auto;
-  box-shadow: 10px ​11px 19px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 11px 10px 3px rgba(0, 0, 0, 0.1);
 }
 .button-banner-04:hover {
   background-color: #92ADC1;
@@ -1543,10 +1543,14 @@ video {
   color: white;
 }
 
+.emt-03 .font-big {
+  color: #D6B671;
+}
+
 .bg-banner-emt {
   background-color: #373543;
   color: white;
-  padding: 3rem 0;
+  padding: 4rem 0;
   text-align: center;
 }
 
