@@ -5,19 +5,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 5rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 3rem;
@@ -25,461 +22,508 @@
     width: 60%;
     line-height: 2rem;
   }
-
   .height-img {
     height: 23rem;
   }
-
   .text-home {
-    height: 20rem;
+    height: auto;
+    padding: 4rem 0;
   }
-
+  .text-home h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .text-home p {
+    width: 90%;
+  }
+  .icon-07 {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
   .box-container-home {
     margin-bottom: 1rem;
   }
-
   .box-home h1 {
     line-height: 2.5rem;
     margin: 4rem 0;
   }
-
   .box-home p {
-    width: 80%;
+    width: 90%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
-    font-size: 4rem;
+    font-size: 2rem;
   }
-
+  .box-title-encuentros {
+    flex-direction: column;
+  }
+  .box-title-encuentros h1 {
+    margin-right: 0;
+  }
+  .box-title-encuentros h3 {
+    line-height: 3rem;
+  }
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
-  .wrapper {
-    padding: 7rem 0 1px 0;
+  .box-prox-encuentros {
+    margin: 8rem auto 4rem;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
-    margin-bottom: 3rem;
+    width: 90%;
+    margin: 0 auto 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
+  .img-home-02 {
+    height: 25rem;
+  }
+  .box-image {
+    margin: 2rem 0 0 0;
+  }
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     width: 100%;
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Cursos*/
   .galery {
     width: 100%;
   }
-
   .box-cursos p {
     width: 90%;
   }
-
   /*Proximos Encuentros*/
   .bg-prox h1 {
     font-size: 4rem;
   }
-
   .bg-prox p {
     width: 90%;
   }
-
   /*Politicas de privacidad*/
   .privacy-doc h1 {
     margin-top: 3rem;
     font-size: 4rem;
     line-height: 3rem;
   }
-
   .privacy-doc .text {
     padding-top: 2rem;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: 3rem 0;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: 19rem;
   }
-
   .img-healy {
     height: 17rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
+  /*Cursos*/
+  .bg-cursos {
+    margin-bottom: 3rem;
+  }
   /*Cursos*/
   /*Barras de Access*/
+  .bg-barras, .bg-facelift, .bg-fundamento, .bg-procesos, .bg-dinero, .bg-crianza, .bg-facilidad {
+    padding: 0;
+  }
+  .bg-barras h1 {
+    font-size: 5rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1 {
     line-height: 3rem;
   }
-
   .box-text-barras {
     padding: 4rem 0;
   }
-
   .box-text-barras-01 h1 {
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
   .box-text-barras p, .box-text-barras-01 p {
     width: 90%;
   }
-
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
-    height: 20rem;
+    height: 15rem;
   }
-
   .box-text-barras-01 {
     height: auto;
     padding: 3rem 0;
   }
-
   .box-text-barras-01 ul {
     padding-left: 0;
     width: 90%;
   }
-
+  .box-barras-row {
+    margin: 2rem 0;
+  }
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-
+  /*Countdown*/
+  #countdown {
+    flex-direction: column;
+    align-items: center;
+  }
+  .countdown-row {
+    padding: 2rem 0;
+  }
+  .simply-section {
+    margin: 13px;
+  }
+  .caja-money {
+    flex-direction: column;
+    padding: 4.5rem 0;
+  }
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .box-title-button-barras {
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+  .box-button-fcl {
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras {
+    flex-direction: column;
+  }
+  .box-button-01 p {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  .box-caja-icon {
+    flex-direction: column;
+  }
+  .caja-icon {
+    margin-right: 0;
+  }
+  .caja-icon p {
+    margin-bottom: 2rem !important;
+  }
   /*Facelift*/
+  .bg-facelift h1 {
+    font-size: 6rem;
+    margin: 0 auto 1rem;
+  }
   .box-facelift {
     width: 90%;
     margin-right: 0;
     margin: auto;
     padding: 3rem 1rem;
   }
-
   .box-facelift h1 {
     line-height: 2rem;
     margin: 1rem 0;
   }
-
   .img-facelift, .contenedor-box-facelift {
     height: 97vh;
   }
-
   .box-img-fcl {
     margin-bottom: 1.5rem;
   }
-
   .img-facelift-01 {
     box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
   }
-
-  .box-button-facelift {
+  .box-button-facelift, .box-title-button h1 {
     width: 90%;
   }
-
-  /*El Fundamento*/
-  .bg-fundamento {
-    margin-bottom: 2rem;
+  .box-title-button {
+    padding: 5rem 0;
   }
-
+  .box-button-facelift-01 {
+    flex-direction: column;
+  }
+  /*El Fundamento*/
+  .bg-fundamento p {
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto 0;
+  }
   .bg-fundamento h1 {
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 0;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: column-reverse;
   }
-
   .box-fundamento {
     margin-bottom: 4rem;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.3rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 1rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
   }
-
   .button-banner {
     width: 90%;
   }
-
   /*Procesos Corporales*/
-  .bg-procesos {
-    margin-bottom: 4rem;
-  }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
+    font-size: 2.5rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
   }
-
+  .bg-procesos span {
+    font-size: 5rem;
+  }
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
   }
-
+  .bg-dinero span {
+    font-size: 5rem;
+  }
   .adelante h4, .atras h4 {
     font-size: 3.5rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    flex-direction: column;
+    text-align: center;
   }
-
+  .bg-crianza span {
+    font-size: 5rem;
+  }
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     padding: 0;
   }
-
   .galery .col-12 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 1rem;
   }
-
   .button-banner-03 {
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-
+  /*Vende con Facilidad*/
+  .bg-facilidad h1 {
+    flex-direction: column;
+    font-size: 2.5rem;
+  }
+  .bg-facilidad span {
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05 {
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2) {
+    line-height: 2rem;
+  }
+  .img-vende-01, .img-vende-02 {
+    height: 26rem;
+  }
+  .row-vende-02 {
+    flex-direction: column-reverse;
+  }
+  .button-banner-05 {
+    padding: 0.5rem 1.3rem;
+  }
   /*Sesiones Personalizadas*/
   /*SOP*/
   .container-sop {
     height: 33rem;
   }
-
   .container-box-sop {
     flex-direction: column-reverse;
   }
-
   .img-sop {
-    height: 24rem;
+    height: 22rem;
   }
-
-  .box-sop {
-    padding: 4rem 0;
+  .icon-02 {
+    width: 30%;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
+    width: 90%;
+    font-size: 4rem;
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
-  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p, .text-sop h1 {
     width: 90%;
   }
-
   video {
     margin-top: 0;
   }
-
   .text-sop {
     height: auto;
-    padding: 3rem 0 5rem 0;
+    padding: 10rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
-
+  .title-banner-sop {
+    flex-direction: column;
+  }
+  .title-banner-sop h2 {
+    line-height: 4rem;
+    margin-bottom: 3rem;
+  }
   /*EMT*/
   .container-emt {
     flex-direction: column-reverse;
   }
-
   .img-emt {
     height: 24rem;
   }
-
-  .box-emt {
-    padding: 4rem 0;
-  }
-
   .box-emt > p {
     width: 90%;
   }
-
   .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
     width: 90%;
     text-align: center;
   }
-
   .bg-banner-emt p {
     margin: auto;
   }
-
   .bg-banner-emt h1 {
     margin: 1rem 0;
     text-align: center;
@@ -487,83 +531,77 @@
     line-height: 3rem;
     font-size: 3.5rem;
   }
-
   /*Abrazo del abuso*/
   .container-abrazo {
     flex-direction: column-reverse;
   }
-
   .img-abrazo {
     height: 24rem;
   }
-
   .box-abrazo {
     padding: 4rem 0;
   }
-
   .box-abrazo h1, .bg-banner-abrazo h1 {
     line-height: 3rem;
     width: 90%;
     margin-bottom: 1rem;
   }
-
   .bg-banner-abrazo h1 {
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
-
   .box-abrazo > p {
     width: 90%;
   }
-
   .box-container-abrazo {
     margin: 3rem auto;
   }
-
+  .img-abrazo-05 {
+    width: 100%;
+  }
+  .icon-05 {
+    width: 30%;
+  }
   /*Osteopatia*/
   .img-osteopatia {
     height: 24rem;
   }
-
   .box-emt h1, .box-osteopatia p {
     width: 90%;
   }
-
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
     height: 24rem;
   }
-
-  .box-osteopatia {
-    margin: 5rem 0;
+  .icon-03, .icon-01 {
+    width: 40%;
   }
-
+  .box-osteopatia h3 {
+    line-height: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
-    height: 73vh;
+    height: 33vh;
   }
-
   .box-video-sobreMi video {
-    height: 75vh !important;
+    height: 43vh !important;
   }
-
   .box-video-sobreMi .ratio::before {
     padding: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
   }
-
   .box-posible .text-bold {
     margin-bottom: 1.5rem;
   }
@@ -574,19 +612,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 5rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 3rem;
@@ -594,230 +629,178 @@
     width: 60%;
     line-height: 2rem;
   }
-
   .height-img {
     height: 23rem;
   }
-
   .text-home {
     height: 20rem;
   }
-
   .box-container-home {
     margin-bottom: 1rem;
   }
-
   .box-home h1 {
     line-height: 2.5rem;
     margin: 4rem 0;
   }
-
   .box-home p {
     width: 80%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
   }
-
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
   .wrapper {
     padding: 7rem 0 1px 0;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
     margin-bottom: 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     width: 100%;
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Cursos*/
   .galery {
     width: 100%;
   }
-
   .box-cursos p {
     width: 90%;
   }
-
   /*Proximos Encuentros*/
   .bg-prox h1 {
     font-size: 4rem;
   }
-
   .bg-prox p {
     width: 90%;
   }
-
   /*Politicas de privacidad*/
   .privacy-doc h1 {
     margin-top: 3rem;
     font-size: 4rem;
     line-height: 3rem;
   }
-
   .privacy-doc .text {
     padding-top: 2rem;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: 3rem 0;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: 19rem;
   }
-
   .img-healy {
     height: 17rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
   /*Cursos*/
   /*Barras de Access*/
   .bg-barras h1, .box-text-barras-01 h1 {
     line-height: 3rem;
   }
-
   .box-text-barras {
     padding: 4rem 0;
   }
-
   .box-text-barras-01 h1 {
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
   .box-text-barras p, .box-text-barras-01 p {
     width: 90%;
   }
-
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
     height: 20rem;
   }
-
   .box-text-barras-01 {
     height: auto;
     padding: 3rem 0;
   }
-
   .box-text-barras-01 ul {
     padding-left: 0;
     width: 90%;
   }
-
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-
   /*Facelift*/
   .box-facelift {
     width: 90%;
@@ -825,228 +808,178 @@
     margin: auto;
     padding: 3rem 1rem;
   }
-
   .box-facelift h1 {
     line-height: 2rem;
     margin: 1rem 0;
   }
-
   .img-facelift, .contenedor-box-facelift {
     height: 97vh;
   }
-
   .box-img-fcl {
     margin-bottom: 1.5rem;
   }
-
   .img-facelift-01 {
     box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
   }
-
   .box-button-facelift {
     width: 90%;
   }
-
   /*El Fundamento*/
   .bg-fundamento {
     margin-bottom: 2rem;
   }
-
   .bg-fundamento h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 0;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: column-reverse;
   }
-
   .box-fundamento {
     margin-bottom: 0;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.5rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 1rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
   }
-
   .button-banner {
     width: 90%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
   }
-
   .adelante h4, .atras h4 {
     font-size: 3.5rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
     font-size: 3.5rem;
     margin-bottom: 2rem;
   }
-
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     padding: 0;
   }
-
   .galery .col-12 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 1rem;
   }
-
   .button-banner-03 {
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-
   /*SOP*/
   .container-sop {
     height: 33rem;
   }
-
   .container-box-sop {
     flex-direction: column-reverse;
   }
-
   .img-sop {
     height: 24rem;
   }
-
   .box-sop {
     padding: 4rem 0;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
     width: 90%;
   }
-
   video {
     margin-top: 0;
   }
-
   .text-sop {
     height: auto;
     padding: 5rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
-
   /*EMT*/
   .container-emt {
     flex-direction: column-reverse;
   }
-
   .img-emt {
     height: 24rem;
   }
-
   .box-emt {
     padding: 4rem 0;
   }
-
   .box-emt > p {
     width: 90%;
   }
-
   .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
     width: 90%;
     text-align: center;
   }
-
   .bg-banner-emt p {
     margin: auto;
   }
-
   .bg-banner-emt h1 {
     margin: 1rem 0;
     text-align: center;
@@ -1054,85 +987,67 @@
     line-height: 3rem;
     font-size: 3.5rem;
   }
-
   /*Abrazo del abuso*/
   .container-abrazo {
     flex-direction: column-reverse;
   }
-
   .img-abrazo {
     height: 24rem;
   }
-
   .box-abrazo {
     padding: 4rem 0;
   }
-
   .box-abrazo h1, .bg-banner-abrazo h1 {
     line-height: 3rem;
     width: 90%;
     margin-bottom: 1rem;
   }
-
   .bg-banner-abrazo h1 {
     margin: auto;
     text-align: center;
   }
-
   .box-abrazo > p {
     width: 90%;
   }
-
   .box-container-abrazo {
     margin: 3rem auto;
   }
-
   /*Osteopatia*/
   .img-osteopatia {
     height: 24rem;
   }
-
   .box-emt h1, .box-osteopatia p {
     width: 90%;
   }
-
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
     height: 24rem;
   }
-
   .box-osteopatia {
     margin: 5rem 0;
   }
-
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
     height: 82vh;
   }
-
   .box-video-sobreMi video {
     height: 79vh !important;
   }
-
   .box-video-sobreMi .ratio::before {
     padding: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
     width: 90%;
     margin: auto;
   }
-
   .box-posible .text-bold {
     margin: 2rem auto;
     width: 90%;
@@ -1144,19 +1059,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 5rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 4rem;
@@ -1164,231 +1076,179 @@
     width: 55%;
     line-height: 2rem;
   }
-
   .height-img {
     height: 28rem;
   }
-
   .text-home {
     height: 20rem;
   }
-
   .text-home p {
     margin-bottom: 0;
   }
-
   .box-container-home {
     margin-bottom: 1rem;
   }
-
   .box-home h1 {
     line-height: 2.5rem;
     margin: 4rem 1rem;
     font-size: 4.5rem;
   }
-
   .box-home p {
     width: 80%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
   }
-
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
   .wrapper {
     padding: 7rem 0 1px 0;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
     margin-bottom: 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     width: 100%;
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Cursos*/
   .galery {
     width: 100%;
   }
-
   /*Proximos Encuentros*/
   .bg-prox h1 {
     font-size: 4rem;
   }
-
   .bg-prox p {
     width: 90%;
   }
-
   /*Politicas de privacidad*/
   .privacy-doc h1 {
     margin-top: 3rem;
     font-size: 4rem;
     line-height: 3rem;
   }
-
   .privacy-doc .text {
     padding-top: 2rem;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: 3rem 0;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: 19rem;
   }
-
   .img-healy {
     height: 23rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
   /*Cursos*/
   /*Barras de Access*/
   .bg-barras h1, .box-text-barras-01 h1 {
     line-height: 3rem;
   }
-
   .box-text-barras {
     padding: 4rem 0;
   }
-
   .box-text-barras-01 h1 {
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
   .box-text-barras p, .box-text-barras-01 p {
     width: 90%;
   }
-
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
     height: 20rem;
   }
-
   .box-text-barras-01 {
     height: auto;
     padding: 3rem 0;
   }
-
   .box-text-barras-01 ul {
     padding-left: 0;
     width: 90%;
   }
-
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-
   /*Facelift*/
   .box-facelift {
     width: 90%;
@@ -1396,245 +1256,192 @@
     margin: auto;
     padding: 3rem 1rem;
   }
-
   .box-facelift h1 {
     line-height: 2rem;
     margin: 1rem 0;
   }
-
   .img-facelift, .contenedor-box-facelift {
     height: 97vh;
   }
-
   .box-img-fcl {
     margin-bottom: 1.5rem;
   }
-
   .img-facelift-01 {
     box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
   }
-
   .box-button-facelift {
     width: 90%;
   }
-
   /*El Fundamento*/
   .bg-fundamento {
     margin-bottom: 2rem;
   }
-
   .bg-fundamento h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 0;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: column-reverse;
   }
-
   .box-fundamento {
     margin-bottom: 0;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.5rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 1rem;
     width: 19rem;
     height: 19rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .button-banner {
     width: 90%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
   }
-
   .adelante h4, .atras h4 {
     font-size: 3.5rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
     font-size: 3.5rem;
     margin-bottom: 2rem;
   }
-
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     padding: 0;
   }
-
   .galery .col-12 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 1rem;
   }
-
   .button-banner-03 {
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-
   .galery .container-scale, .galery img {
     height: 26rem;
   }
-
   .box-crianza {
     top: 17rem;
   }
-
   /*SOP*/
   .container-sop {
     height: 33rem;
   }
-
   .container-box-sop {
     flex-direction: column-reverse;
   }
-
   .img-sop {
     height: 24rem;
   }
-
   .box-sop {
     padding: 4rem 0;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
     width: 90%;
   }
-
   video {
     margin-top: 0;
   }
-
   .text-sop {
     height: auto;
     padding: 9rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
-
   .bg-banner-sop {
     margin-top: 7rem;
   }
-
   /*EMT*/
   .container-emt {
     flex-direction: column-reverse;
   }
-
   .img-emt {
     height: 24rem;
   }
-
   .box-emt {
     padding: 4rem 0;
   }
-
   .box-emt > p {
     width: 90%;
   }
-
   .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
     width: 90%;
     text-align: center;
   }
-
   .bg-banner-emt p {
     margin: auto;
   }
-
   .bg-banner-emt h1 {
     margin: 1rem 0;
     text-align: center;
@@ -1642,83 +1449,65 @@
     line-height: 3rem;
     font-size: 3.5rem;
   }
-
   /*Abrazo del abuso*/
   .container-abrazo {
     flex-direction: column-reverse;
   }
-
   .img-abrazo {
     height: 24rem;
   }
-
   .box-abrazo {
     padding: 4rem 0;
   }
-
   .box-abrazo h1, .bg-banner-abrazo h1 {
     line-height: 3rem;
     width: 90%;
     margin-bottom: 1rem;
   }
-
   .bg-banner-abrazo h1 {
     margin: auto;
     text-align: center;
   }
-
   .box-abrazo > p {
     width: 90%;
   }
-
   .box-container-abrazo {
     margin: 3rem auto;
   }
-
   /*Osteopatia*/
   .img-osteopatia {
     height: 24rem;
   }
-
   .box-emt h1, .box-osteopatia p {
     width: 90%;
   }
-
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
     height: 24rem;
   }
-
   .box-osteopatia {
     margin: 5rem 0;
   }
-
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
     height: 88vh;
   }
-
   .box-video-sobreMi video {
     height: 88vh !important;
   }
-
   .box-video-sobreMi .ratio::before {
     padding: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
   }
-
   .box-posible .text-bold {
     margin-bottom: 1.5rem;
     width: 90%;
@@ -1732,19 +1521,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 5rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 5rem;
@@ -1752,222 +1538,172 @@
     width: 50%;
     line-height: 3rem;
   }
-
   .height-img {
     height: 33rem;
   }
-
   .text-home {
     height: 20rem;
   }
-
   .text-home p {
     margin-bottom: 0;
   }
-
   .box-container-home {
     margin-bottom: 1rem;
   }
-
   .box-home h1 {
     line-height: 4rem;
     margin: 5rem 5rem 3rem;
     font-size: 4.5rem;
   }
-
   .box-home p {
     width: 80%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
   }
-
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
   .wrapper {
     padding: 7rem 0 1px 0;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
     margin-bottom: 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     width: 100%;
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Cursos*/
   .galery {
     width: 100%;
   }
-
   /*Politicas de privacidad*/
   .privacy-doc h1 {
     margin-top: 3rem;
     font-size: 4rem;
     line-height: 3rem;
   }
-
   .privacy-doc .text {
     padding-top: 2rem;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: 0;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: 19rem;
   }
-
   .img-healy {
     height: 27rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
   /*Cursos*/
   /*Barras de Access*/
   .bg-barras h1, .box-text-barras-01 h1 {
     line-height: 3rem;
   }
-
   .box-text-barras {
     padding: 4rem 0;
   }
-
   .box-text-barras-01 h1 {
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
   .box-text-barras p, .box-text-barras-01 p {
     width: 90%;
   }
-
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
     height: 20rem;
   }
-
   .box-text-barras-01 {
     height: auto;
     padding: 3rem 0;
   }
-
   .box-text-barras-01 ul {
     padding-left: 0;
     width: 90%;
   }
-
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-
   /*Facelift*/
   .box-facelift {
     width: 90%;
@@ -1975,245 +1711,192 @@
     margin: auto;
     padding: 3rem 1rem;
   }
-
   .box-facelift h1 {
     line-height: 2rem;
     margin: 1rem 0;
   }
-
   .img-facelift, .contenedor-box-facelift {
     height: 97vh;
   }
-
   .box-img-fcl {
     margin-bottom: 1.5rem;
   }
-
   .img-facelift-01 {
     box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
   }
-
   .box-button-facelift {
     width: 90%;
   }
-
   /*El Fundamento*/
   .bg-fundamento {
     margin-bottom: 2rem;
   }
-
   .bg-fundamento h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 0;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: column-reverse;
   }
-
   .box-fundamento {
     margin-bottom: 0;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.5rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 1rem;
     width: 19rem;
     height: 19rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .button-banner {
     width: 90%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
   }
-
   .adelante h4, .atras h4 {
     font-size: 3.5rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
     font-size: 3.5rem;
     margin-bottom: 2rem;
   }
-
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     padding: 0;
   }
-
   .galery .col-12 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 1rem;
   }
-
   .button-banner-03 {
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-
   .galery .container-scale, .galery img {
     height: 26rem;
   }
-
   .box-crianza {
     top: 17rem;
   }
-
   /*SOP*/
   .container-sop {
     height: 33rem;
   }
-
   .container-box-sop {
     flex-direction: column-reverse;
   }
-
   .img-sop {
     height: 24rem;
   }
-
   .box-sop {
     padding: 4rem 0;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
     width: 90%;
   }
-
   video {
     margin-top: 0;
   }
-
   .text-sop {
     height: auto;
     padding: 9rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
-
   .bg-banner-sop {
     margin-top: 7rem;
   }
-
   /*EMT*/
   .container-emt {
     flex-direction: column-reverse;
   }
-
   .img-emt {
     height: 24rem;
   }
-
   .box-emt {
     padding: 4rem 0;
   }
-
   .box-emt > p {
     width: 90%;
   }
-
   .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
     width: 90%;
     text-align: center;
   }
-
   .bg-banner-emt p {
     margin: auto;
   }
-
   .bg-banner-emt h1 {
     margin: 1rem 0;
     text-align: center;
@@ -2221,121 +1904,95 @@
     line-height: 3rem;
     font-size: 3.5rem;
   }
-
   /*Abrazo del abuso*/
   .container-abrazo {
     flex-direction: column-reverse;
   }
-
   .img-abrazo {
     height: 24rem;
   }
-
   .box-abrazo {
     padding: 4rem 0;
   }
-
   .box-abrazo h1, .bg-banner-abrazo h1 {
     line-height: 3rem;
     width: 90%;
     margin-bottom: 1rem;
   }
-
   .bg-banner-abrazo h1 {
     margin: auto;
     text-align: center;
   }
-
   .box-abrazo > p {
     width: 90%;
   }
-
   .box-container-abrazo {
     margin: 3rem auto;
   }
-
   /*Osteopatia*/
   .img-osteopatia {
     height: 24rem;
   }
-
   .box-emt h1, .box-osteopatia p {
     width: 90%;
   }
-
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
     height: 24rem;
   }
-
   .box-osteopatia {
     margin: 5rem 0;
   }
-
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi {
     height: 70vh;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
     height: 88vh;
   }
-
   .box-video-sobreMi video {
     height: 88vh !important;
   }
-
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
     height: 88vh;
   }
-
   .box-video-sobreMi video {
     height: 88vh !important;
   }
-
   .box-video-sobreMi .ratio::before {
     padding: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
   }
-
   .box-posible .text-bold {
     margin-bottom: 1.5rem;
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .box-posible {
     margin-top: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
   }
-
   .box-posible .text-bold {
     margin-bottom: 1.5rem;
     width: 90%;
@@ -2349,19 +2006,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 5rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 5rem;
@@ -2369,435 +2023,339 @@
     width: 50%;
     line-height: 3rem;
   }
-
   .height-img {
     height: 43rem;
   }
-
   .text-home {
     height: 20rem;
   }
-
   .text-home p {
     margin-bottom: 0;
   }
-
   .box-container-home {
     margin-bottom: 1rem;
   }
-
   .box-home h1 {
     line-height: 4rem;
     margin: 5rem 5rem 3rem;
     font-size: 4.5rem;
   }
-
   .box-home p {
     width: 80%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
   }
-
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
   .wrapper {
     padding: 7rem 0 1px 0;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
     margin-bottom: 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     width: 50%;
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Politicas de privacidad*/
   .privacy-doc h1 {
     margin-top: 3rem;
     font-size: 4rem;
     line-height: 3rem;
   }
-
   .privacy-doc .text {
     padding-top: 2rem;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: auto;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: 26rem;
   }
-
   .img-healy {
     height: 33rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
   /*Cursos*/
   /*Barras de Access*/
   .bg-barras h1, .box-text-barras-01 h1 {
     line-height: 3rem;
   }
-
   .box-text-barras {
     padding: 4rem 0;
   }
-
   .box-text-barras-01 h1 {
     width: 90%;
     margin-bottom: 1.5rem;
   }
-
   .box-text-barras p, .box-text-barras-01 p {
     width: 90%;
   }
-
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04 {
     height: 30rem;
   }
-
   .box-text-barras-01 {
     height: auto;
     padding: 3rem 0;
   }
-
   .box-text-barras-01 ul {
     padding-left: 0;
     width: 90%;
   }
-
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-
   /*Facelift*/
   .box-button-facelift {
     width: 60%;
   }
-
   /*El Fundamento*/
   .bg-fundamento {
     margin-bottom: 2rem;
   }
-
   .bg-fundamento h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 0;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: column-reverse;
   }
-
   .box-fundamento {
     margin-bottom: 0;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.5rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 1rem;
     width: 25rem;
     height: 25rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .button-banner {
     width: 90%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
   }
-
   .adelante h4, .atras h4 {
     font-size: 4rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
     font-size: 3.5rem;
     margin-bottom: 2rem;
   }
-
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     padding: 0;
   }
-
   .galery .col-12 {
     padding-right: 0;
     padding-left: 0;
     margin-bottom: 1rem;
   }
-
   .button-banner-03 {
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-
   .box-crianza {
     top: 21rem;
   }
-
   /*SOP*/
   .container-sop {
     height: 33rem;
   }
-
   .container-box-sop {
     flex-direction: column-reverse;
   }
-
   .img-sop {
     height: 24rem;
   }
-
   .box-sop {
     padding: 4rem 0;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
     width: 90%;
   }
-
   video {
     margin-top: 0;
   }
-
   .text-sop {
     height: auto;
     padding: 9rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
-
   .bg-banner-sop {
     margin-top: 7rem;
   }
-
   /*EMT*/
   .container-emt {
     flex-direction: column-reverse;
   }
-
   .img-emt {
     height: 24rem;
   }
-
   .box-emt {
     padding: 4rem 0;
   }
-
   .box-emt > p {
     width: 90%;
   }
-
   .img-emt-02 h1, .img-emt-02 p, .emt-03 p, .bg-banner-emt p, .bg-banner-emt h1 {
     width: 90%;
     text-align: center;
   }
-
   .bg-banner-emt p {
     margin: auto;
   }
-
   .bg-banner-emt h1 {
     margin: 1rem 0;
     text-align: center;
@@ -2805,87 +2363,68 @@
     line-height: 3rem;
     font-size: 3.5rem;
   }
-
   /*Abrazo del abuso*/
   .container-abrazo {
     flex-direction: column-reverse;
   }
-
   .img-abrazo {
     height: 24rem;
   }
-
   .box-abrazo {
     padding: 4rem 0;
   }
-
   .box-abrazo h1, .bg-banner-abrazo h1 {
     line-height: 3rem;
     width: 90%;
     margin-bottom: 1rem;
   }
-
   .bg-banner-abrazo h1 {
     margin: auto;
     text-align: center;
   }
-
   .box-abrazo > p {
     width: 90%;
   }
-
   .box-container-abrazo {
     margin: 3rem auto;
   }
-
   /*Osteopatia*/
   .img-osteopatia {
     height: 24rem;
   }
-
   .box-emt h1, .box-osteopatia p {
     width: 90%;
   }
-
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04 {
     height: 24rem;
   }
-
   .box-osteopatia {
     margin: 5rem 0;
   }
-
   /*Sobre mi*/
   .container-sobreMi {
     flex-direction: column-reverse;
     height: auto;
   }
-
   .box-sobreMi {
     height: 70vh;
   }
-
   .box-sobreMi p {
     width: 90%;
   }
-
   .box-video-sobreMi {
     margin-top: 2rem;
     height: 88vh;
   }
-
   .box-video-sobreMi video {
     height: 88vh !important;
   }
-
   .box-posible {
     margin-top: 0;
   }
-
   .box-posible h1 {
     margin-bottom: 1.5rem;
   }
-
   .box-posible .text-bold {
     margin-bottom: 1.5rem;
     width: 90%;
@@ -2899,19 +2438,16 @@
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
-
   .navbar-nav {
     width: auto;
     padding: 0;
     align-items: flex-end;
   }
-
   /*home*/
   .img-home {
     height: 19rem;
     margin-bottom: 8rem;
   }
-
   .img-home h1 {
     height: 19rem;
     font-size: 5rem;
@@ -2919,361 +2455,280 @@
     width: 50%;
     line-height: 3rem;
   }
-
   .height-img {
     height: 34rem;
   }
-
   .text-home {
     height: 34rem;
   }
-
   .text-home p {
     margin-bottom: 0;
   }
-
   .box-container-home {
     margin-bottom: 8rem;
   }
-
   .box-home h1 {
     line-height: 4rem;
     margin: 5rem 1rem 3rem;
     font-size: 4.5rem;
   }
-
   .box-home p {
     width: 80%;
     margin-bottom: 3rem;
   }
-
   .bg-stars {
     height: 27rem;
   }
-
   .bg-stars a h1 {
     width: 90%;
   }
-
   .galeria {
     width: 90%;
   }
-
   .galeria .container-scale {
     margin-bottom: 0.5rem;
   }
-
   .box-prox-encuentros h2 {
     line-height: 2.5rem;
   }
-
   .box-button {
     width: 90%;
   }
-
   .wrapper {
     padding: 7rem 0 1px 0;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
     width: 85%;
   }
-
   .sssnext {
     right: 0 !important;
   }
-
   .sssprev {
     left: 0 !important;
   }
-
   .bg-contacto h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .bg-contacto p {
     margin-bottom: 3rem;
   }
-
   .bg-contacto div a {
     padding: 0.5rem 4rem;
   }
-
   .bg-contacto {
     padding: 6rem 0;
   }
-
   footer {
     padding: 2.5rem 1.5rem;
   }
-
   footer .col-12 {
     margin-bottom: 1rem;
   }
-
   .rrss {
     margin: 1.5rem 0 !important;
   }
-
   /*Contacto*/
   .contenedor-box-form {
     height: 80vh;
   }
-
   .img-contacto {
     background-position: top right;
     height: 80vh;
   }
-
   .box-form-contacto {
     margin-left: 0;
   }
-
   .wrapper-input-contacto {
     flex-direction: column;
   }
-
   .textarea {
     width: 100% !important;
     margin: 0rem;
   }
-
   .box-form-contacto form {
     width: 100%;
   }
-
   .wrapper-input-contacto {
     width: 108%;
   }
-
   .wrapper-input-contacto .form-control {
     margin-right: 0;
   }
-
   .wrapper-input-contacto .form-control {
     width: 90%;
   }
-
   /*Healy*/
   .box-container-healy {
     margin: auto;
   }
-
   .text-healy h2, .text-healy p {
     width: 90%;
   }
-
   .height-healy {
     height: auto;
   }
-
   .img-healy {
     height: 24rem;
   }
-
   .text-healy {
     height: 29rem;
   }
-
   /*El Fundamento*/
   .bg-fundamento {
     margin-bottom: 2rem;
   }
-
   .bg-fundamento h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .text-fundamento {
     height: auto;
     padding: 3rem 2rem;
     text-align: center;
   }
-
   .text-fundamento p {
     width: 90%;
   }
-
   .text-fundamento h4 {
     line-height: 2.5rem;
     margin: 1rem 0 2rem 0;
   }
-
   .container-fundamento {
     flex-direction: row;
   }
-
   .box-fundamento {
     margin-bottom: 2rem;
   }
-
   .box-fundamento h1 {
     width: 90%;
     margin: 3rem auto;
     font-size: 3.5rem;
   }
-
   .img-fundamento-02 {
     margin: auto;
     margin-bottom: 0;
     width: 9rem;
     height: 9rem;
   }
-
   .box-banner h1 {
     line-height: 3rem;
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .button-banner {
     width: 50%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 70%;
   }
-
   /*Procesos Corporales*/
   .bg-procesos {
     margin-bottom: 4rem;
   }
-
   .bg-procesos h1 {
     line-height: 2.5rem;
   }
-
   .box-text-procesos p {
     width: 90%;
   }
-
   .button-banner-02 {
     width: 90%;
   }
-
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4 {
     line-height: 3rem;
   }
-
   .adelante h4, .atras h4 {
     font-size: 4rem;
     width: 90%;
   }
-
   .front-card, .back-card {
     color: white;
     border-radius: 50px;
   }
-
   .img-dinero, .back-dinero {
     height: 23rem;
   }
-
   .text-dinero {
     height: auto;
   }
-
   .text-dinero p {
     margin-top: 3rem;
   }
-
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
   }
-
   .bg-crianza h1 {
     line-height: 2.5rem;
     margin-bottom: 2rem;
   }
-
   .bg-crianza > p {
     margin-bottom: 0.5rem;
   }
-
   .galery {
     width: auto;
   }
-
   .container-scale, .galery img {
     height: 24rem;
   }
-
   .box-crianza {
     top: 12rem;
   }
-
   .button-banner-03 {
     width: 50%;
     margin: 3rem auto 4.5rem;
   }
-
   /*SOP*/
   .container-sop {
     height: 24rem;
   }
-
   .img-sop {
     height: 24rem;
   }
-
   .box-sop {
     padding: 4rem 0;
   }
-
   .box-sop h1, .text-sop h4, .bg-banner-sop h1 {
     line-height: 3rem;
     margin-bottom: 2rem;
   }
-
   .box-text-sop {
     margin: 5rem 0 3rem 0;
   }
-
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p {
     width: 90%;
   }
-
   video {
     margin-top: 3rem;
   }
-
   .height-img {
     height: 23rem;
   }
-
   .text-sop {
     height: auto;
     padding: 5rem 0 5rem 0;
     text-align: center;
   }
-
   .bg-banner-sop h1 {
     font-size: 3.5rem;
   }
-
   .button-banner-04 {
     width: 90%;
   }
@@ -3284,7 +2739,6 @@
   .box-cursos p {
     width: 75%;
   }
-
   /*
   .container-scale, .galery img{
     height: 24rem;
@@ -3292,19 +2746,18 @@
   .box-crianza {
     top: 14rem;
   }
-
   .box-crianza h1 {
     width: 90%;
   }
-
   .button-banner-03 {
     width: 50%;
-    margin: 3rem auto 4.5rem;
+    margin: 0 auto 4.5rem;
   }
 }
 @media screen and (max-width: 740px) {
+  /*
   .front-card,
-.back-card {
+  .back-card {
     display: block;
     font-size: 1.5rem;
     text-decoration: none;
@@ -3313,47 +2766,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 3rem;
+    padding: .5rem 3rem;
     margin-top: 1rem;
-  }
+  }*/
 }
 /*desktop*/
 @media screen and (min-width: 741px) {
   /*index.html*/
+  /*
   .front-card,
-.back-card {
-    display: none;
-  }
-
+  .back-card {
+      display: none;
+  }*/
   /*card-01*/
+  /*
   .adelante,
-.atras {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
   .atras {
-    transform: rotateY(180deg);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .atras {
+      transform: rotateY(180deg);
   }
 
   .tarjeta-wrap:hover .tarjeta-dinero {
-    transform: rotateY(180deg);
-  }
+      transform: rotateY(180deg);
+  }*/
 }
 @media screen and (min-width: 769px) {
-  .tarjeta:hover {
-    height: 580px;
-    width: auto;
-    border-radius: 5px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-  }
+  /*
+  .tarjeta {
+    &:hover {
+      height: 580px;
+      //height: 520px;
+      //width: 300px;
+      width: auto;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+  }*/
 }

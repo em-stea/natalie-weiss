@@ -91,6 +91,10 @@ body {
   width: 12rem;
 }
 
+.logo-responsive, .button-logo-responsive {
+  width: 50%;
+}
+
 .nav-link {
   color: #373543 !important;
   font-size: 0.9rem;
@@ -197,10 +201,18 @@ body {
   color: #E06350;
 }
 
-.box-home span {
-  color: #6D5120;
+.box-home p {
+  width: 80%;
+}
+
+.box-home span:nth-child(1) {
+  color: #728EA4;
   font-weight: 800;
   font-family: "Muli-Bold";
+}
+
+.icon-07 {
+  width: 15%;
 }
 
 .img-home-02 {
@@ -827,26 +839,35 @@ video {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   color: white;
+  padding-left: 2rem;
   margin-bottom: 0;
 }
 
 .bg-barras h1 {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
 }
 
 .box-text-barras {
   padding: 6rem 0;
+  text-align: center;
 }
 
-.box-text-barras span {
+.box-text-barras .first-span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: #6D5120;
+  line-height: 3rem;
+}
+
+.box-text-barras span:nth-child(4) {
   color: #E06350;
 }
 
@@ -854,37 +875,55 @@ video {
   width: 60%;
   margin: auto;
   text-align: center;
+  color: #373543;
+}
+
+.box-text-barras .text-bold:nth-child(1) {
+  font-size: 1.8rem;
+}
+
+.box-text-barras hr {
+  width: 80%;
+  margin: 1.6rem auto;
+}
+
+.box-barras {
+  margin: 4rem 0;
+}
+
+.box-barras-row {
+  margin: 8rem 0;
 }
 
 .img-barras-01 {
-  background-image: url(../img/img-barras-01.jpg);
+  background-image: url(../img/img-barras-01.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   height: 33rem;
 }
 
 .img-barras-02 {
-  background-image: url(../img/img-barras-02.jpg);
+  background-image: url(../img/img-barras-02.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   height: 33rem;
 }
 
 .img-barras-03 {
-  background-image: url(../img/img-barras-03.jpg);
+  background-image: url(../img/img-barras-03.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   height: 33rem;
 }
 
 .img-barras-04 {
-  background-image: url(../img/img-barras-04.jpg);
+  background-image: url(../img/img-barras-04.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   height: 33rem;
 }
 
@@ -900,7 +939,7 @@ video {
 .box-text-barras-01 h1 {
   font-family: "Gatkins-Demo", serif;
   color: #D99B77;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 .box-text-barras-01 p {
@@ -911,26 +950,306 @@ video {
   list-style: none;
 }
 
-/*Facelift*/
-.bg-facelift {
-  background-image: url(../img/bg-facelift.jpg);
-  background-repeat: no-repeat;
+.img-barras-05 {
+  background-image: url(../img/img-barras-05.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 20rem;
+}
+
+.banner-certificacion-barras {
+  background-color: #EDE1DA;
+  color: #373543;
+  padding: 5rem 0;
+}
+
+.banner-certificacion h1, .banner-certificacion-barras h1 {
+  font-family: "Gatkins-Demo", serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #E06350;
+  font-size: 4.2rem;
+  line-height: 2.3rem;
+}
+
+.banner-certificacion h3, .banner-certificacion-barras h3 {
+  text-align: center;
+}
+
+.banner-certificacion p, .banner-certificacion-barras p {
+  margin-left: 2rem;
+  font-size: 0.8rem;
+}
+
+.banner-certificacion hr, .banner-certificacion-barras hr {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3.5rem;
+}
+
+.listado {
+  width: 80%;
+  margin: auto;
+}
+
+.listado li {
+  margin-bottom: 1rem;
+}
+
+.box-caja-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
+}
+
+.caja-icon {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  margin-right: 3rem;
+}
+
+.caja-icon h2 {
+  font-family: "Gatkins-Demo", serif;
+  color: #D6B671;
+  font-size: 4rem;
+}
+
+.caja-icon p {
+  margin-bottom: 0 !important;
+}
+
+.font-big {
+  font-size: 1.4rem;
+}
+
+.caja-money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: #373543;
+  border-radius: 12px;
+  box-shadow: 0px 12px 18px -8px rgba(0, 0, 0, 0.8);
+  padding: 1.3rem 0;
+  margin: 4rem 2rem 0 2rem;
+}
+
+.caja-money h2 {
   margin-bottom: 0;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: #A88F88;
+  font-weight: 300;
+}
+
+.caja-money p {
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: #D6B671;
+  font-weight: 500;
+  font-family: "Muli-Bold";
+}
+
+.caja-billete {
+  margin-right: 2rem;
+  box-shadow: 5px 3px 10px 1px rgba(0, 0, 0, 0.4) !important;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-billete .icon-banknote {
+  color: #D6B671;
+  -webkit-animation: animated-money 2s infinite linear;
+          animation: animated-money 2s infinite linear;
+  position: relative;
+}
+
+@-webkit-keyframes animated-money {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animated-money {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.icon-calendar-check-o, .icon-location {
+  color: #E06350;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-scale-02 {
+  width: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.container-scale-02:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.box-title-button-barras {
+  padding: 7rem;
+  background-color: #B8C3CA;
+}
+
+.box-title-button-barras h1 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  color: #373543;
+}
+
+.box-title-button-barras h1 .text-bold {
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 2.5rem;
+  color: #6D5120;
+}
+
+.box-button-01 a {
+  text-decoration: none;
+}
+
+.box-button-01 p {
+  padding: 1.5rem 3.3rem;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  color: #373543;
+  font-size: 1rem;
+  font-family: "FutuMd";
+}
+.box-button-01 p:hover {
+  background-color: #373543;
+  color: white;
+}
+
+.box-button-fcl ul {
+  margin-bottom: 0;
+  color: #373543;
+}
+
+/*Facelift*/
+/*Countdown Counter*/
+.countdown-row {
+  background: #DEDCCC;
+  padding: 5rem 0;
+  color: #373543;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.simply-section {
+  background-color: #fafafa;
+  color: #373543;
+  box-shadow: 5px 6px 8px 5px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  margin: 40px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.simply-amount {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.simply-word {
+  font-size: 20px;
+}
+
+.bg-facelift {
+  background-image: url(../img/bg-facelift.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  padding-left: 2rem;
 }
 
 .bg-facelift h1 {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
   margin-bottom: 0;
+}
+
+.bg-facelift p span {
+  font-size: 1.8rem;
 }
 
 .img-facelift {
@@ -1005,26 +1324,105 @@ video {
   transition: transform 0.3s ease-in;
 }
 
+.img-facelift-04 {
+  background-image: url(../img/img-facelift-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-certificacion h1 {
+  color: #373543;
+}
+
+.banner-certificacion {
+  background-color: #B8C3CA;
+  color: white;
+  padding: 5rem 0;
+}
+
+.box-title-button {
+  padding: 5rem;
+  background-color: #EDE1DA;
+}
+
+.box-title-button h1 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  color: #373543;
+}
+
+.box-title-button h4 {
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+  color: #D6B671;
+}
+
+.box-button-facelift-01 {
+  margin-top: 2rem;
+}
+
+.box-button-01 a {
+  text-decoration: none;
+}
+
+.box-button-01 p {
+  padding: 1.5rem 3.3rem;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+  background-color: #D6B671;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.box-button-01 p:hover {
+  background-color: #373543;
+}
+
+.box-button-fcl ul {
+  margin-bottom: 0;
+}
+
 /*Fundamento*/
 .bg-fundamento {
   background-image: url(../img/bg-fundamento.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   color: white;
-  margin-bottom: 8rem;
+  padding-left: 2rem;
 }
 
 .bg-fundamento h1 {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
   margin-bottom: 0;
+}
+
+.bg-fundamento p {
+  width: 30%;
+  text-align: left;
+}
+
+.bg-fundamento .text-bold {
+  font-size: 1.8rem;
+}
+
+.container-fundamento {
+  margin: 8rem 0;
 }
 
 .text-fundamento, .text-sop {
@@ -1053,13 +1451,17 @@ video {
 }
 
 .box-fundamento h1 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4rem;
   width: 80%;
   margin: auto;
-  line-height: 3rem;
+  line-height: 2rem;
   text-align: center;
-  color: #728EA4;
+  font-size: 1.5rem;
+}
+
+.box-fundamento h1 span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: #D6B671;
 }
 
 .box-fundamento-01 {
@@ -1133,34 +1535,219 @@ video {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   color: white;
-  margin-bottom: 8rem;
+  padding-left: 2rem;
+}
+
+.img-procesos-corporales {
+  width: 90%;
 }
 
 .bg-procesos h1 {
-  font-family: "Gatkins-Demo", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 4.5rem;
+  padding-left: 2rem;
+}
+
+.bg-procesos span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
   margin-bottom: 0;
+  margin-right: 1rem;
 }
 
 .box-text-procesos {
-  margin-bottom: 6rem;
+  margin: 6rem auto;
 }
 
 .box-text-procesos span {
   color: #E06350;
 }
 
+.box-text-procesos span:nth-child(5) {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  line-height: 2rem;
+  color: #D6B671;
+}
+
 .box-text-procesos p {
-  width: 60%;
+  width: 90%;
   margin: auto;
   text-align: center;
+}
+
+.button-banner-06 {
+  text-align: center;
+  color: white;
+  background-color: #373543;
+  border-radius: 50px;
+  padding: 0.5rem 2.3rem;
+  width: 70%;
+  margin: 4rem auto 0;
+}
+.button-banner-06:hover {
+  background-color: #E06350;
+  color: white;
+}
+
+.button-banner-06 a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Creando Dinero*/
+.bg-dinero {
+  background-image: url(../img/bg-creando-dinero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+  padding-left: 2rem;
+}
+
+.bg-dinero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5rem;
+  padding-left: 2rem;
+}
+
+.bg-dinero span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+/*
+.tarjeta-dinero {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 20rem;
+}
+.adelante,
+.atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.adelante h4, .atras h4 {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4.5rem;
+  color: $colour-dark;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 4rem;
+}
+.adelante p, .atras p{
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+.atras {
+  display: none;
+}
+.img-dinero {
+  background: linear-gradient(to bottom, $colour-blue, $colour-light-blue);
+}
+.back-dinero {
+  background: linear-gradient(to top, $colour-blue, $colour-light-blue);
+}
+.wrap{
+  margin-bottom: 8rem;
+}*/
+.img-dinero-01 {
+  width: 90%;
+}
+
+.box-question-01 {
+  margin: 4rem 0;
+}
+
+.box-question-01 hr {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.box-question-dinero {
+  padding: 8rem 0;
+  text-align: center;
+  color: #373543;
+}
+
+.box-question-dinero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.box-question-dinero h2 {
+  width: 80%;
+  margin: auto;
+}
+
+.box-question-dinero h2 span:nth-child(3) {
+  font-family: "Gatkins-Demo", serif;
+  color: #E06350;
+  font-size: 5rem;
+}
+
+.box-question-dinero span:nth-child(2) {
+  font-family: "Gatkins-Demo", serif;
+  color: #D6B671;
+  font-size: 5rem;
+  line-height: 4rem;
+}
+
+.text-dinero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 34rem;
+}
+
+.text-dinero h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.text-dinero h1 span:first-child {
+  font-family: "Gatkins-Demo", serif;
+  color: #E06350;
+  font-size: 3.2rem;
+}
+
+.text-dinero p {
+  text-align: center;
+  margin-bottom: 0;
+  width: 80%;
 }
 
 .button-banner-02 {
@@ -1170,7 +1757,7 @@ video {
   border-radius: 50px;
   padding: 0.5rem 2.3rem;
   width: 40%;
-  margin: 4rem auto;
+  margin: 4rem auto 0;
 }
 .button-banner-02:hover {
   background-color: #373543;
@@ -1183,118 +1770,38 @@ video {
   text-decoration: none;
 }
 
-/*Creando Dinero*/
-.bg-dinero {
-  background-image: url(../img/bg-creando-dinero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-}
-
-.bg-dinero h1 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
-  margin-bottom: 0;
-}
-
-.tarjeta-dinero {
-  position: relative;
-  transform-style: preserve-3d;
-  height: 20rem;
-}
-
-.adelante,
-.atras {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.adelante h4, .atras h4 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
-  color: #373543;
-  text-align: center;
-  margin-bottom: 0;
-  line-height: 4rem;
-}
-
-.adelante p, .atras p {
-  width: 80%;
-  text-align: center;
-  color: white;
-  margin-bottom: 0;
-}
-
-.atras {
-  display: none;
-}
-
-.img-dinero {
-  background: linear-gradient(to bottom, #728EA4, #B8C3CA);
-}
-
-.back-dinero {
-  background: linear-gradient(to top, #728EA4, #B8C3CA);
-}
-
-.wrap {
-  margin-bottom: 8rem;
-}
-
-.text-dinero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 34rem;
-}
-
-.text-dinero p {
-  text-align: center;
-  margin-bottom: 0;
-  width: 80%;
-}
-
 /*Más Facilidad en la crianza*/
 .bg-crianza {
   background-image: url(../img/bg-facilidad-crianza.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   color: white;
-  margin-bottom: 8rem;
+  padding-left: 2rem;
 }
 
 .bg-crianza h1 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 0;
+  font-size: 4.5rem;
 }
 
-.galery-crianza {
-  margin-bottom: 4rem;
+.bg-crianza span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-left: 1rem;
+}
+
+.bg-crianza p:nth-child(2) {
+  font-size: 2rem;
 }
 
 .box-crianza {
@@ -1332,7 +1839,7 @@ video {
   border-radius: 50px;
   padding: 0.5rem 2.3rem;
   width: 40%;
-  margin: 3rem auto 7rem;
+  margin: 0 auto 7rem;
 }
 .button-banner-03:hover {
   background-color: #E06350;
@@ -1340,6 +1847,177 @@ video {
 }
 
 .button-banner-03 a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/*Vende con Facilidad*/
+.bg-facilidad {
+  background-image: url(../img/bg-facilidad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+.bg-facilidad h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5rem;
+  padding-left: 2rem;
+}
+
+.bg-facilidad span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+.box-facilidad {
+  padding: 5rem 0 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-title-facilidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-title-facilidad h1 {
+  width: 70%;
+  margin: auto;
+  color: #373543;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.caja-title-facilidad h1:nth-child(2) {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: #E06350;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+.icon-06 {
+  width: 10%;
+}
+
+.box-facilidad-02 {
+  background: #E5CE95;
+  color: #373543;
+  text-align: center;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
+}
+
+.box-facilidad-02 h1 {
+  font-size: 1.7rem;
+}
+
+.box-facilidad-02 h1:nth-child(2) {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: #6D5120;
+  line-height: 3rem;
+}
+
+.row-vende {
+  margin: 2rem 0;
+}
+
+.row-vende h1 {
+  width: 90%;
+  font-size: 1.6rem;
+}
+
+.font-vende {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem !important;
+  color: #E06350;
+  line-height: 2.8rem;
+}
+
+.font-vende-02 {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem !important;
+  color: #D6B671;
+  line-height: 2.8rem;
+}
+
+.img-vende-01 {
+  background-image: url(../img/img-vende-01.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 30rem;
+}
+
+.img-vende-02 {
+  background-image: url(../img/img-vende-02.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 30rem;
+}
+
+.box-button-vende {
+  background-color: #EBDEDA;
+  padding: 3rem 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.box-button-vende h1 {
+  width: 50%;
+  margin: auto;
+  font-size: 1.6rem;
+  color: #373543;
+}
+
+.box-button-vende h2 {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem;
+  width: 50%;
+  margin: auto;
+  line-height: 2rem;
+  margin-top: 4rem;
+  color: #E06350;
+}
+
+.box-button-vende span {
+  color: #443836;
+}
+
+.button-banner-05 {
+  text-align: center;
+  color: white;
+  background-color: #373543;
+  border-radius: 50px;
+  padding: 0.5rem 2.3rem;
+  width: 40%;
+  margin: 5rem auto 1rem;
+}
+.button-banner-05:hover {
+  background-color: #E06350;
+  color: white;
+}
+
+.button-banner-05 a {
   text-align: center;
   text-decoration: none;
   color: white;
@@ -1551,6 +2229,8 @@ video {
 
 .box-emt > p {
   color: #443836;
+  width: 70%;
+  margin-bottom: 2rem;
 }
 
 .img-emt-02 {
@@ -1663,10 +2343,18 @@ video {
   line-height: 2rem;
 }
 
+.font-big-fundamento span {
+  color: #828282;
+}
+
 .font-big-fundamento-02 {
   font-size: 2rem;
   color: #A88F88;
   line-height: 2rem;
+  text-decoration: underline;
+}
+.font-big-fundamento-02:hover {
+  color: #E06350;
 }
 
 .box-container-abrazo {
@@ -1716,12 +2404,25 @@ video {
   line-height: 2.3rem;
 }
 
-.text-color-01 span {
+.text-bold-02 {
   color: #373543;
   margin-bottom: 0;
+  font-size: 1.7rem;
+}
+
+.icon-05 {
+  width: 15%;
+}
+
+.img-abrazo-05 {
+  width: 26rem;
 }
 
 /*Osteopatia*/
+.row-osteopatia {
+  margin: 3rem 0;
+}
+
 .img-osteopatia {
   background-image: url(../img/img-osteopatia-01.png);
   background-position: center;
@@ -1732,10 +2433,10 @@ video {
 }
 
 .img-osteopatia-02 {
-  background-image: url(../img/img-osteopatia-02.jpg);
+  background-image: url(../img/img-osteopatia-02.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 36rem;
 }
 
@@ -1808,15 +2509,15 @@ video {
   background-image: url(../img/img-osteopatia-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 36rem;
 }
 
 .img-osteopatia-04 {
-  background-image: url(../img/img-osteopatia-04.jpg);
+  background-image: url(../img/img-osteopatia-04.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 36rem;
 }
 
