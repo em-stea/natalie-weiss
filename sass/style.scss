@@ -97,6 +97,9 @@ body {
 .logo {
   width: 12rem;
 }
+.logo-responsive, .button-logo-responsive{
+  width: 50%;
+}
 .nav-link {
   color: $colour-dark !important;
   font-size: 0.9rem;
@@ -189,10 +192,16 @@ body {
   font-size: 4rem;
   color: $colour-red;
 }
-.box-home span{
-  color: $colour-brown;
+.box-home p{
+  width: 80%;
+}
+.box-home span:nth-child(1){
+  color: $colour-blue;
   font-weight: 800;
   font-family: "Muli-Bold";
+}
+.icon-07{
+  width: 15%;
 }
 .img-home-02{
   background-image: url(../img/img-home-02.jpg);
@@ -702,63 +711,82 @@ video{
   margin-bottom: 3rem;
 }
 /*Barras*/
-.bg-barras{
-  background-image: url(../img/bg-barras.jpg);
+@mixin img-banner-cursos {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   color: white;
+  padding-left: 2rem;
+}
+.bg-barras{
+  background-image: url(../img/bg-barras.jpg);
+  @include img-banner-cursos;
   margin-bottom: 0;
 }
 .bg-barras h1{
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
 }
-
 .box-text-barras{
   padding: 6rem 0;
+  //background-color: #EDE1DA;
+  text-align: center;
 }
-.box-text-barras span{
+.box-text-barras .first-span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: $colour-brown;
+  line-height: 3rem;
+}
+.box-text-barras span:nth-child(4){
   color: $colour-red;
 }
 .box-text-barras p{
   width: 60%;
   margin: auto;
   text-align: center;
+  color: $colour-dark;
+}
+.box-text-barras .text-bold:nth-child(1){
+  font-size: 1.8rem;
+}
+.box-text-barras hr{
+  width: 80%;
+  margin: 1.6rem auto;
+}
+.box-barras{
+  margin: 4rem 0;
+}
+.box-barras-row{
+  margin: 8rem 0;
+}
+@mixin img-barras{
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 33rem;
 }
 .img-barras-01{
-  background-image: url(../img/img-barras-01.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 33rem;
+  background-image: url(../img/img-barras-01.png);
+  @include img-barras;
 }
 .img-barras-02{
-  background-image: url(../img/img-barras-02.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 33rem;
+  background-image: url(../img/img-barras-02.png);
+  @include img-barras;
 }
 .img-barras-03{
-  background-image: url(../img/img-barras-03.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 33rem;
+  background-image: url(../img/img-barras-03.png);
+  @include img-barras;
 }
 .img-barras-04{
-  background-image: url(../img/img-barras-04.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  height: 33rem;
+  background-image: url(../img/img-barras-04.png);
+  @include img-barras;
 }
 .box-text-barras-01{
   text-align: center;
@@ -771,7 +799,7 @@ video{
 .box-text-barras-01 h1{
   font-family: "Gatkins-Demo", serif;
   color: $colour-salmon;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .box-text-barras-01 p{
   width: 80%;
@@ -779,25 +807,247 @@ video{
 .box-text-barras-01 ul{
   list-style: none;
 }
-/*Facelift*/
-.bg-facelift{
-  background-image: url(../img/bg-facelift.jpg);
-  background-repeat: no-repeat;
+.img-barras-05{
+  background-image: url(../img/img-barras-05.jpg);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 20rem;
+}
+.banner-certificacion-barras{
+  background-color: #EDE1DA;
+  color: $colour-dark;
+  padding: 5rem 0;
+}
+.banner-certificacion h1, .banner-certificacion-barras h1{
+  font-family: "Gatkins-Demo", serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: $colour-red;
+  font-size: 4.2rem;
+  line-height: 2.3rem;
+}
+.banner-certificacion h3, .banner-certificacion-barras h3{
+  text-align: center;
+}
+.banner-certificacion p, .banner-certificacion-barras p{
+  margin-left: 2rem;
+  font-size: .8rem;
+}
+.banner-certificacion hr, .banner-certificacion-barras hr{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3.5rem;
+}
+.listado{
+  width: 80%;
+  margin: auto;
+}
+.listado li{
+  margin-bottom: 1rem;
+}
+.box-caja-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
+}
+.caja-icon{
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  margin-right: 3rem;
+}
+.caja-icon h2{
+  font-family: "Gatkins-Demo", serif;
+  color: $colour-honey;
+  font-size: 4rem;
+}
+.caja-icon p{
+  margin-bottom: 0 !important;
+}
+.font-big{
+  font-size: 1.4rem;
+}
+.caja-money{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: $colour-dark;
+  border-radius: 12px;
+  box-shadow: 0px 12px 18px -8px rgba(0,0,0,0.8);
+  padding: 1.3rem 0;
+  margin: 4rem 2rem 0 2rem;
+}
+.caja-money h2{
   margin-bottom: 0;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: $colour-light-brown;
+  font-weight: 300;
+}
+.caja-money p{
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: $colour-honey;
+  font-weight: 500;
+  font-family: "Muli-Bold";
+}
+.caja-billete{
+  margin-right: 2rem;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.4) !important;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.2);
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja-billete .icon-banknote{
+  color: $colour-honey;
+  animation: animated-money 2s infinite linear;
+  position: relative;
+}
+
+@keyframes animated-money {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.icon-calendar-check-o, .icon-location{
+  color: $colour-red;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.2);
+}
+.container-scale-02{
+  width: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+  &:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in;
+  }
+}
+.box-title-button-barras{
+  padding: 7rem;
+  background-color: $colour-light-blue;
+}
+.box-title-button-barras h1{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  color: $colour-dark;
+}
+.box-title-button-barras h1 .text-bold{
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 2.5rem;
+  color: $colour-brown;
+}
+.box-button-01 a{
+  text-decoration: none;
+}
+.box-button-01 p{
+  padding: 1.5rem 3.3rem;
+  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;  
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  color: $colour-dark;
+  font-size: 1rem;
+  font-family: "FutuMd";
+  &:hover{
+    background-color: $colour-dark;
+    color: white;
+  }
+}
+.box-button-fcl ul{
+  margin-bottom: 0;
+  color: $colour-dark;
+}
+
+/*Facelift*/
+/*Countdown Counter*/
+.countdown-row {
+  background: #DEDCCC;
+  padding: 5rem 0;
+  color: $colour-dark;
+}
+#countdown {
+  display: flex;
+  justify-content: center;
+}
+.simply-section {
+  background-color: #fafafa;
+  color: $colour-dark;
+  box-shadow: 5px 6px 8px 5px rgba(0,0,0,0.1);
+  width: 150px;
+  height: 150px;
+  margin: 40px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simply-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.simply-amount {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+}
+.simply-word {
+  font-size: 20px;
+}
+
+.bg-facelift{
+  background-image: url(../img/bg-facelift.jpg);
+  @include img-banner-cursos;
 }
 .bg-facelift h1{
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
   margin-bottom: 0;
+}
+.bg-facelift p span{
+  font-size: 1.8rem;
 }
 .img-facelift{
   background-image: url(../img/img-facelift.jpg);
@@ -862,25 +1112,82 @@ video{
     transition: transform 0.3s ease-in;
   }
 }
+.img-facelift-04{
+  background-image: url(../img/img-facelift-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-certificacion h1{
+  color: $colour-dark;
+}
+.banner-certificacion{
+  background-color: $colour-light-blue;
+  color: white;
+  padding: 5rem 0;
+}
+.box-title-button{
+  padding: 5rem;
+  background-color: #EDE1DA;
+}
+.box-title-button h1{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  color: $colour-dark;
+}
+.box-title-button h4{
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+  color: $colour-honey;
+}
+.box-button-facelift-01{
+  margin-top: 2rem;
+}
+.box-button-01 a{
+  text-decoration: none;
+}
+.box-button-01 p{
+  padding: 1.5rem 3.3rem;
+  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
+  background-color: $colour-honey;
+  border-radius: 50px;
+  text-align: center;  
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: .9rem;
+  font-weight: 500;
+  &:hover{
+    background-color: $colour-dark;
+  }
+}
+
+.box-button-fcl ul{
+  margin-bottom: 0;
+}
 /*Fundamento*/
 .bg-fundamento{
   background-image: url(../img/bg-fundamento.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  margin-bottom: 8rem;
+  @include img-banner-cursos;
 }
 .bg-fundamento h1{
   font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
+  font-size: 8rem;
   margin-bottom: 0;
+}
+.bg-fundamento p{
+  width: 30%;
+  text-align: left;
+}
+.bg-fundamento .text-bold{
+  font-size: 1.8rem;
+}
+.container-fundamento{
+  margin: 8rem 0;
 }
 .text-fundamento, .text-sop{
   display: flex;
@@ -904,13 +1211,16 @@ video{
   margin-bottom: 8rem;
 }
 .box-fundamento h1{
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4rem;
   width: 80%;
   margin: auto;
-  line-height: 3rem;
+  line-height: 2rem;
   text-align: center;
-  color: $colour-blue;
+  font-size: 1.5rem;
+}
+.box-fundamento h1 span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: $colour-honey;
 }
 .box-fundamento-01{
   padding: 0;
@@ -974,48 +1284,55 @@ video{
 /*Procesos Corporales*/
 .bg-procesos{
   background-image: url(../img/bg-procesos-corporales.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  text-align: center;
+  @include img-banner-cursos;
+}
+.img-procesos-corporales{
+  width: 90%;
+}
+.bg-procesos h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  color: white;
-  margin-bottom: 8rem;
-}
-.bg-procesos h1{
-  font-family: "Gatkins-Demo", serif;
   font-size: 4.5rem;
+  padding-left: 2rem;
+}
+.bg-procesos span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
   margin-bottom: 0;
+  margin-right: 1rem;
 }
 .box-text-procesos{
-  margin-bottom: 6rem;
+  margin: 6rem auto;
 }
 .box-text-procesos span{
   color: $colour-red;
 }
+.box-text-procesos span:nth-child(5){
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  line-height: 2rem;
+  color: $colour-honey;
+}
 .box-text-procesos p{
-  width: 60%;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
-.button-banner-02{
+.button-banner-06{
   text-align: center;
   color: white;
-  background-color: $colour-red;
+  background-color: $colour-dark;
   border-radius: 50px;
   padding: .5rem 2.3rem;
-  width: 40%;
-  margin: 4rem auto;
+  width: 70%;
+  margin: 4rem auto 0;
   &:hover{
-    background-color: $colour-dark;
+    background-color: $colour-red;
     color: white;
   }
 }
-.button-banner-02 a{
+.button-banner-06 a{
   color: white;
   text-align: center;
   text-decoration: none;
@@ -1023,23 +1340,22 @@ video{
 /*Creando Dinero*/
 .bg-dinero{
   background-image: url(../img/bg-creando-dinero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  text-align: center;
+  @include img-banner-cursos;
+}
+.bg-dinero h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  color: white;
-}
-.bg-dinero h1{
-  font-family: "Gatkins-Demo", serif;
   font-size: 4.5rem;
-  margin-bottom: 0;
+  padding-left: 2rem;
 }
-
+.bg-dinero span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+/*
 .tarjeta-dinero {
   position: relative;
   transform-style: preserve-3d;
@@ -1084,7 +1400,42 @@ video{
 }
 .wrap{
   margin-bottom: 8rem;
+}*/
+.img-dinero-01{
+  width: 90%;
 }
+.box-question-01{
+  margin: 4rem 0;
+}
+.box-question-01 hr{
+  width: 80%;
+  margin: 3rem auto;
+}
+.box-question-dinero{
+  padding: 8rem 0;
+  text-align: center;
+  color: $colour-dark;
+}
+.box-question-dinero h1{
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+.box-question-dinero h2{
+  width: 80%;
+  margin: auto;
+}
+.box-question-dinero h2 span:nth-child(3){
+  font-family: "Gatkins-Demo", serif;
+  color: $colour-red;
+  font-size: 5rem;
+}
+.box-question-dinero span:nth-child(2){
+  font-family: "Gatkins-Demo", serif;
+  color: $colour-honey;
+  font-size: 5rem;
+  line-height: 4rem;
+}
+
 .text-dinero{
   display: flex;
   align-items: center;
@@ -1092,34 +1443,60 @@ video{
   flex-direction: column;
   height: 34rem;
 }
+.text-dinero h1{
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.text-dinero h1 span:first-child{
+  font-family: "Gatkins-Demo", serif;
+  color: $colour-red;
+  font-size: 3.2rem;
+}
 .text-dinero p{
   text-align: center;
   margin-bottom: 0;
   width: 80%;
 }
+.button-banner-02{
+  text-align: center;
+  color: white;
+  background-color: $colour-red;
+  border-radius: 50px;
+  padding: .5rem 2.3rem;
+  width: 40%;
+  margin: 4rem auto 0;
+  &:hover{
+    background-color: $colour-dark;
+    color: white;
+  }
+}
+.button-banner-02 a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
 /*Más Facilidad en la crianza*/
 .bg-crianza{
   background-image: url(../img/bg-facilidad-crianza.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 20rem;
-  text-align: center;
+  @include img-banner-cursos;
+}
+.bg-crianza h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  color: white;
-  margin-bottom: 8rem;
-}
-.bg-crianza h1{
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
   margin-bottom: 0;
+  font-size: 4.5rem;
 }
-.galery-crianza{
-  margin-bottom: 4rem;
+.bg-crianza span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-left: 1rem;
 }
+.bg-crianza p:nth-child(2){
+  font-size: 2rem;
+}
+
 .box-crianza{
   position: absolute;
   z-index: 2;
@@ -1154,7 +1531,7 @@ video{
   border-radius: 50px;
   padding: .5rem 2.3rem;
   width: 40%;
-  margin: 3rem auto 7rem;
+  margin: 0 auto 7rem;
   &:hover{
     background-color: $colour-red;
     color: white;
@@ -1165,6 +1542,157 @@ video{
   text-decoration: none;
   color: white;
 }
+/*Vende con Facilidad*/
+.bg-facilidad{
+  background-image: url(../img/bg-facilidad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: white;
+}
+.bg-facilidad h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5rem;
+  padding-left: 2rem;
+}
+.bg-facilidad span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 9rem;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+.box-facilidad{
+  padding: 5rem 0 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.caja-title-facilidad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-title-facilidad h1{
+  width: 70%;
+  margin: auto;
+  color: $colour-dark;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.caja-title-facilidad h1:nth-child(2){
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: $colour-red;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.icon-06{
+  width: 10%;
+}
+.box-facilidad-02{
+  background: $colour-light-honey;
+  color: $colour-dark;
+  text-align: center;
+  padding: 5rem 0;
+  margin-bottom: 5rem;
+}
+.box-facilidad-02 h1{
+  font-size: 1.7rem;
+}
+.box-facilidad-02 h1:nth-child(2){
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  color: $colour-brown;
+  line-height: 3rem;
+}
+.row-vende{
+  margin: 2rem 0;
+}
+.row-vende h1{
+  width: 90%;
+  font-size: 1.6rem;
+}
+.font-vende{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem !important;
+  color: $colour-red;
+  line-height: 2.8rem;
+}
+.font-vende-02{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem !important;
+  color: $colour-honey;
+  line-height: 2.8rem;
+}
+
+.img-vende-01{
+  background-image: url(../img/img-vende-01.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 30rem;
+}
+.img-vende-02{
+  background-image: url(../img/img-vende-02.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  height: 30rem;
+}
+.box-button-vende{
+  background-color: #EBDEDA;
+  padding: 3rem 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+.box-button-vende h1{
+  width: 50%;
+  margin: auto;
+  font-size: 1.6rem;
+  color: $colour-dark
+}
+.box-button-vende h2{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 5rem;
+  width: 50%;
+  margin: auto;
+  line-height: 2rem;
+  margin-top: 4rem;
+  color: $colour-red;
+}
+.box-button-vende span{
+  color: $colour-dark-brown;
+}
+.button-banner-05{
+  text-align: center;
+  color: white;
+  background-color: $colour-dark;
+  border-radius: 50px;
+  padding: .5rem 2.3rem;
+  width: 40%;
+  margin: 5rem auto 1rem;
+  &:hover{
+    background-color: $colour-red;
+    color: white;
+  }
+}
+.button-banner-05 a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
 /*Healy*/
 .box-container-healy{
   margin: 6rem;
@@ -1342,6 +1870,8 @@ video{
 }
 .box-emt>p{
   color: $colour-dark-brown;
+  width: 70%;
+  margin-bottom: 2rem;
 }
 @mixin bg-img {
   background-position: center;
@@ -1434,10 +1964,17 @@ video{
   color: $colour-red;
   line-height: 2rem;
 }
+.font-big-fundamento span{
+  color: #828282;
+}
 .font-big-fundamento-02{
   font-size: 2rem;
   color: $colour-light-brown;
   line-height: 2rem;
+  text-decoration: underline;
+  &:hover{
+    color: $colour-red;
+  }
 }
 .box-container-abrazo{
   margin: 8rem auto;
@@ -1481,11 +2018,21 @@ video{
   font-size: 2rem;
   line-height: 2.3rem;
 }
-.text-color-01 span{
+.text-bold-02{
   color: $colour-dark;
   margin-bottom: 0;
+  font-size: 1.7rem;
+}
+.icon-05{
+  width: 15%;
+}
+.img-abrazo-05{
+  width: 26rem;
 }
 /*Osteopatia*/
+.row-osteopatia{
+  margin: 3rem 0;
+}
 .img-osteopatia{
   background-image: url(../img/img-osteopatia-01.png);
   background-position: center;
@@ -1497,11 +2044,11 @@ video{
 @mixin bg-osteopatia {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 36rem;
 }
 .img-osteopatia-02{
-  background-image: url(../img/img-osteopatia-02.jpg);
+  background-image: url(../img/img-osteopatia-02.png);
   @include bg-osteopatia;
 }
 .icon-01{
@@ -1552,7 +2099,7 @@ video{
   @include bg-osteopatia;
 }
 .img-osteopatia-04{
-  background-image: url(../img/img-osteopatia-04.jpg);
+  background-image: url(../img/img-osteopatia-04.png);
   @include bg-osteopatia;
 }
 .button-osteopatia{

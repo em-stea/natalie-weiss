@@ -27,7 +27,19 @@
     height: 23rem;
   }
   .text-home{
-    height: 20rem;
+    height: auto;
+    padding: 4rem 0;
+  }
+  .text-home h1{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .text-home p{
+    width: 90%;
+  }
+  .icon-07{
+    width: 40%;
+    margin-bottom: 1rem;
   }
   .box-container-home{
     margin-bottom: 1rem;
@@ -37,7 +49,7 @@
     margin: 4rem 0;
   }
   .box-home p{
-    width: 80%;
+    width: 90%;
     margin-bottom: 3rem;
   }
   .bg-stars{
@@ -45,7 +57,16 @@
   }
   .bg-stars a h1{
     width: 90%;
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+  .box-title-encuentros{
+    flex-direction: column;
+  }
+  .box-title-encuentros h1{
+    margin-right: 0;
+  }
+  .box-title-encuentros h3{
+    line-height: 3rem;
   }
   .galeria{
     width: 90%;
@@ -59,8 +80,8 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .box-prox-encuentros{
+    margin: 8rem auto 4rem;
   }
   .slider-testimonial{
     width: 90%;
@@ -80,10 +101,17 @@
     margin-bottom: 2rem;
   }
   .bg-contacto p{
-    margin-bottom: 3rem;
+    width: 90%;
+    margin: 0 auto 3rem;
   }
   .bg-contacto div a{
     padding: 0.5rem 4rem;
+  }
+  .img-home-02{
+    height: 25rem;
+  }
+  .box-image{
+    margin: 2rem 0 0 0;
   }
   .bg-contacto{
     padding: 6rem 0;
@@ -168,7 +196,19 @@
     height: 29rem;
   }
   /*Cursos*/
+  .bg-cursos{
+    margin-bottom: 3rem;
+  }
+  /*Cursos*/
   /*Barras de Access*/
+  .bg-barras, .bg-facelift, .bg-fundamento, .bg-procesos, .bg-dinero, .bg-crianza, .bg-facilidad{
+    padding: 0;
+  }
+  .bg-barras h1{
+    font-size: 5rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1{
     line-height: 3rem;
   }
@@ -183,7 +223,7 @@
     width: 90%;
   }
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04{
-    height: 20rem;
+    height: 15rem;
   }
   .box-text-barras-01{
     height: auto;
@@ -193,10 +233,62 @@
     padding-left: 0;
     width: 90%;
   }
+  .box-barras-row{
+    margin: 2rem 0 ;
+  }
   .container-box-text-barras{
     flex-direction: column-reverse;
   }
+  /*Countdown*/
+  #countdown{
+    flex-direction: column;
+    align-items: center;
+  }
+  .countdown-row{
+    padding: 2rem 0;
+  }
+  .simply-section{
+    margin: 13px;
+  }
+  .caja-money{
+    flex-direction: column;
+    padding: 4.5rem 0;
+  }
+  .caja-billete{
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .box-title-button-barras{
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1{
+    width: 90%;
+  }
+  .box-button-fcl{
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras{
+    flex-direction: column;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  .box-caja-icon{
+    flex-direction: column;
+  }
+  .caja-icon{
+    margin-right: 0;
+  }
+  .caja-icon p{
+    margin-bottom: 2rem !important;
+  }
   /*Facelift*/
+  .bg-facelift h1{
+    font-size: 6rem;
+    margin: 0 auto 1rem;
+  }
   .box-facelift{
     width: 90%;
     margin-right: 0;
@@ -216,16 +308,25 @@
   .img-facelift-01{
     box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.2);
   }
-  .box-button-facelift{
+  .box-button-facelift, .box-title-button h1{
     width: 90%;
   }
+  .box-title-button{
+    padding: 5rem 0;
+  }
+  .box-button-facelift-01{
+    flex-direction: column;
+  }
   /*El Fundamento*/
-  .bg-fundamento{
-    margin-bottom: 2rem;
+  .bg-fundamento p{
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto 0;
   }
   .bg-fundamento h1{
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
   .text-fundamento{
     height: auto;
@@ -261,11 +362,16 @@
     width: 90%;
   }
   /*Procesos Corporales*/
-  .bg-procesos{
-    margin-bottom: 4rem;
-  }
   .bg-procesos h1{
     line-height: 2.5rem;
+    font-size: 2.5rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+  }
+  .bg-procesos span{
+    font-size: 5rem;
   }
   .box-text-procesos p{
     width: 90%;
@@ -276,6 +382,14 @@
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+  }
+  .bg-dinero span{
+    font-size: 5rem;
   }
   .adelante h4, .atras h4{
     font-size: 3.5rem;
@@ -300,8 +414,13 @@
   }
   .bg-crianza h1{
     line-height: 2.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .bg-crianza span{
+    font-size: 5rem;
   }
   .bg-crianza>p{
     margin-bottom: .5rem;
@@ -318,6 +437,31 @@
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
+  /*Vende con Facilidad*/
+  .bg-facilidad h1{
+    flex-direction: column;
+    font-size: 2.5rem;
+  }
+  .bg-facilidad span{
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05{
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2){
+    line-height: 2rem;
+  }
+  .img-vende-01, .img-vende-02{
+    height: 26rem;
+  }
+  .row-vende-02{
+    flex-direction: column-reverse;
+  }
+  .button-banner-05{
+    padding: 0.5rem 1.3rem;
+  }
+
   /*Sesiones Personalizadas*/
   /*SOP*/
   .container-sop{
@@ -327,19 +471,21 @@
     flex-direction: column-reverse;
   }
   .img-sop{
-    height: 24rem;
+    height: 22rem;
   }
-  .box-sop{
-    padding: 4rem 0;
+  .icon-02{
+    width: 30%;
   }
   .box-sop h1, .text-sop h4, .bg-banner-sop h1{
+    width: 90%;
+    font-size: 4rem;
     line-height: 3rem;
     margin-bottom: 2rem;
   }
   .box-text-sop{
     margin: 5rem 0 3rem 0;
   }
-  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p{
+  .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p, .text-sop h1{
     width: 90%;
   }
   video{
@@ -347,7 +493,7 @@
   }
   .text-sop{
     height: auto;
-    padding: 3rem 0 5rem 0;
+    padding: 10rem 0 5rem 0;
     text-align: center;
   }
   .bg-banner-sop h1{
@@ -356,15 +502,19 @@
   .button-banner-04{
     width: 90%;
   }
+  .title-banner-sop{
+    flex-direction: column;
+  }
+  .title-banner-sop h2{
+    line-height: 4rem;
+    margin-bottom: 3rem;
+  }
   /*EMT*/
   .container-emt{
     flex-direction: column-reverse;
   }
   .img-emt{
     height: 24rem;
-  }
-  .box-emt{
-    padding: 4rem 0;
   }
   .box-emt > p{
     width: 90%;
@@ -401,12 +551,19 @@
   .bg-banner-abrazo h1{
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
   .box-abrazo > p{
     width: 90%;
   }
   .box-container-abrazo{
     margin: 3rem auto;
+  }
+  .img-abrazo-05{
+    width: 100%;
+  }
+  .icon-05{
+    width: 30%;
   }
   /*Osteopatia*/
   .img-osteopatia{
@@ -418,8 +575,13 @@
   .img-osteopatia-02, .img-osteopatia-03, .img-osteopatia-04{
     height: 24rem;
   }
-  .box-osteopatia{
-    margin: 5rem 0;
+  .icon-03, .icon-01{
+    width: 40%;
+  }
+  .box-osteopatia h3{
+    line-height: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
   /*Sobre mi*/
   .container-sobreMi{
@@ -431,10 +593,10 @@
   }
   .box-video-sobreMi{
     margin-top: 2rem;
-    height: 73vh;
+    height: 33vh;
   }
   .box-video-sobreMi video{
-    height: 75vh !important;
+    height: 43vh !important;
   }
   .box-video-sobreMi .ratio::before{
     padding: 0;
@@ -2596,7 +2758,7 @@
   }
   .button-banner-03{
     width: 50%;
-    margin: 3rem auto 4.5rem;
+    margin: 0 auto 4.5rem;
   }
 }
 @media screen and (min-width: 1601px) and (max-width: 2125px) {
@@ -2608,6 +2770,7 @@
 }
 
 @media screen and (max-width: 740px) {
+  /*
   .front-card,
   .back-card {
     display: block;
@@ -2620,16 +2783,18 @@
     align-items: center;
     padding: .5rem 3rem;
     margin-top: 1rem;
-  }
+  }*/
 }
 /*desktop*/
 @media screen and (min-width: 741px) {
   /*index.html*/
+  /*
   .front-card,
   .back-card {
       display: none;
-  }
+  }*/
   /*card-01*/
+  /*
   .adelante,
   .atras {
       width: 100%;
@@ -2650,9 +2815,10 @@
 
   .tarjeta-wrap:hover .tarjeta-dinero {
       transform: rotateY(180deg);
-  }
+  }*/
 }
 @media screen and (min-width: 769px) {
+  /*
   .tarjeta {
     &:hover {
       height: 580px;
@@ -2662,7 +2828,7 @@
       border-radius: 5px;
       box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
     }
-  }
+  }*/
 }
 
 
