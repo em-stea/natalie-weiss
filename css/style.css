@@ -199,19 +199,35 @@ body {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
   color: #E06350;
+  line-height: 2rem;
 }
 
 .box-home p {
   width: 80%;
 }
 
-.box-home span:nth-child(1) {
+.box-home p:nth-child(5) {
+  font-size: 1.1rem;
+  width: 70%;
+}
+
+.box-home .font-big {
   color: #728EA4;
+  font-size: 1.7rem;
+}
+
+.box-home .font-big-01 {
+  color: #D6B671;
+  font-size: 2rem;
   font-weight: 800;
   font-family: "Muli-Bold";
 }
 
-.icon-07 {
+.box-home .font-big:first-child {
+  font-size: 2rem;
+}
+
+.icon-05 {
   width: 15%;
 }
 
@@ -871,6 +887,7 @@ video {
 .box-text-barras-div-02 {
   padding: 5rem 0;
   background-color: #EAEAEA;
+  color: #373543;
 }
 
 .box-text-barras-div-02 h3 {
@@ -893,6 +910,11 @@ video {
   color: #373543;
 }
 
+.box-text-barras-div-02 .text-bold:nth-child(1) {
+  font-size: 1.8rem;
+  color: #D99B77;
+}
+
 .box-text-barras .first-span {
   font-family: "Gatkins-Demo", serif;
   font-size: 4.7rem;
@@ -910,11 +932,6 @@ video {
   margin: auto;
   text-align: center;
   line-height: 2.2rem;
-}
-
-.box-text-barras-div-02 .text-bold:nth-child(1) {
-  font-size: 1.8rem;
-  color: #6D5120;
 }
 
 .box-barras {
@@ -1175,17 +1192,23 @@ video {
   transition: transform 0.2s ease-in;
 }
 
+.box-title-button-barras hr, .box-title-button hr {
+  margin: 3rem 0;
+  color: #373543;
+}
+
 .box-title-button-barras {
-  padding: 7rem;
+  padding: 4rem;
   background-color: #B8C3CA;
   text-align: center;
 }
 
 .box-title-button-barras h1 {
-  width: 50%;
+  width: 60%;
   margin: auto;
   text-align: center;
   font-weight: 300;
+  font-size: 2rem;
   color: #373543;
 }
 
@@ -1201,10 +1224,17 @@ video {
   color: #373543;
 }
 
-.box-title-button-barras h2 span:nth-child(3), .box-title-button h2 span:nth-child(3) {
+.box-title-button-barras h2 span:first-child {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  line-height: 2.2rem;
+}
+
+.box-title-button-barras h2 {
+  line-height: 2rem;
+}
+
+.box-title-button-barras h2 .text-bold {
+  font-size: 3rem;
   color: white;
 }
 
@@ -1212,26 +1242,60 @@ video {
   text-decoration: none;
 }
 
-.box-button-01 p {
-  padding: 1.5rem 3.3rem;
-  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  border-radius: 50px;
-  text-align: center;
-  margin-right: 1rem;
-  margin-bottom: 1.5rem;
-  color: #373543;
-  font-size: 1rem;
-  font-family: "FutuMd";
-}
-.box-button-01 p:hover {
-  background-color: #373543;
-  color: white;
+.box-button-fcl {
+  margin-top: 4rem;
 }
 
-.box-button-fcl ul {
+.box-button-fcl ul, .box-button-fcl-02 ul {
   margin-bottom: 0;
   color: #373543;
+}
+
+.box-button-fcl-02 {
+  margin-top: 0;
+}
+
+/*Accordion*/
+.accordion {
+  width: 27%;
+  margin: 3rem auto;
+}
+
+.accordion-button {
+  color: #6D5120;
+  font-size: 2.8rem;
+}
+
+.accordion-button:focus, .accordion-button:not(.collapsed) {
+  box-shadow: none;
+  color: #373543;
+  border-color: none;
+  background-color: white;
+}
+
+.accordion-body {
+  text-align: center;
+}
+
+.accordion-body h3 {
+  font-family: "Muli-Bold";
+  color: #D6B671;
+}
+
+.accordion-body p {
+  margin-bottom: 0;
+}
+
+.icon-calendar-fechas {
+  box-shadow: none;
+  margin-right: 1rem;
+}
+
+.icon-location-02 {
+  box-shadow: none;
+  padding: 0 0.4rem 0 0;
+  color: #728EA4;
+  font-size: 2rem;
 }
 
 /*Facelift*/
@@ -1428,24 +1492,42 @@ video {
   margin-top: 2rem;
 }
 
-.box-button-01 a {
+.box-button-01 a, .box-button-02 a {
   text-decoration: none;
 }
 
 .box-button-01 p {
-  padding: 1.5rem 3.3rem;
-  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-  background-color: #D6B671;
+  padding: 1.5rem 5rem;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  background-color: #CF2309;
   border-radius: 50px;
   text-align: center;
   margin-right: 1rem;
   margin-bottom: 1.5rem;
   color: white;
-  font-size: 0.9rem;
+  font-family: "Muli-Bold";
+  font-size: 1.2rem;
   font-weight: 500;
 }
 .box-button-01 p:hover {
-  background-color: #373543;
+  background-color: white;
+  color: #373543;
+}
+
+.box-button-02 p {
+  padding: 1.5rem 5rem;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  background-color: #D6B671;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Muli-Bold";
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.box-button-02 p:hover {
+  background-color: white;
+  color: #373543;
 }
 
 .box-button-fcl ul {
@@ -2470,10 +2552,6 @@ video {
   color: #373543;
   margin-bottom: 0;
   font-size: 1.7rem;
-}
-
-.icon-05 {
-  width: 15%;
 }
 
 .img-abrazo-05 {

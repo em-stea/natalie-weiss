@@ -191,16 +191,29 @@ body {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
   color: $colour-red;
+  line-height: 2rem;
 }
 .box-home p{
   width: 80%;
 }
-.box-home span:nth-child(1){
+.box-home p:nth-child(5){
+  font-size: 1.1rem;
+  width: 70%;
+}
+.box-home .font-big{
   color: $colour-blue;
+  font-size: 1.7rem;
+}
+.box-home .font-big-01{
+  color: $colour-honey;
+  font-size: 2rem;
   font-weight: 800;
   font-family: "Muli-Bold";
 }
-.icon-07{
+.box-home .font-big:first-child{
+  font-size: 2rem;
+}
+.icon-05{
   width: 15%;
 }
 .img-home-02{
@@ -746,6 +759,7 @@ video{
 .box-text-barras-div-02{
   padding: 5rem 0;
   background-color: #EAEAEA;
+  color: $colour-dark;
 }
 .box-text-barras-div-02 h3 {
   display: flex;
@@ -764,6 +778,10 @@ video{
   font-size: 2.5rem;
   color: $colour-dark;
 }
+.box-text-barras-div-02 .text-bold:nth-child(1){
+  font-size: 1.8rem;
+  color: $colour-salmon;
+}
 .box-text-barras .first-span{
   font-family: "Gatkins-Demo", serif;
   font-size: 4.7rem;
@@ -781,10 +799,6 @@ video{
   line-height: 2.2rem;
 }
 
-.box-text-barras-div-02 .text-bold:nth-child(1){
-  font-size: 1.8rem;
-  color: $colour-brown;
-}
 .box-barras{
   margin: 4rem 0;
 }
@@ -989,16 +1003,21 @@ video{
     transition: transform 0.2s ease-in;
   }
 }
+.box-title-button-barras hr, .box-title-button hr{
+  margin: 3rem 0;
+  color: $colour-dark;
+}
 .box-title-button-barras{
-  padding: 7rem;
+  padding: 4rem;
   background-color: $colour-light-blue;
   text-align: center;
 }
 .box-title-button-barras h1{
-  width: 50%;
+  width: 60%;
   margin: auto;
   text-align: center;
   font-weight: 300;
+  font-size: 2rem;
   color: $colour-dark;
 }
 .box-title-button-barras h1 .text-bold{
@@ -1011,37 +1030,67 @@ video{
 .box-title-button-barras h2, .box-title-button h2{
   color: $colour-dark;
 }
-.box-title-button-barras h2 span:nth-child(3), .box-title-button h2 span:nth-child(3){
+.box-title-button-barras h2 span:first-child{
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
-  line-height: 2.2rem;
+}
+.box-title-button-barras h2{
+  line-height: 2rem;
+}
+.box-title-button-barras h2 .text-bold{
+  font-size: 3rem;
   color: white;
 }
+
 
 .box-button-01 a{
   text-decoration: none;
 }
-.box-button-01 p{
-  padding: 1.5rem 3.3rem;
-  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
-  background-color: white;
-  border-radius: 50px;
-  text-align: center;  
-  margin-right: 1rem;
-  margin-bottom: 1.5rem;
-  color: $colour-dark;
-  font-size: 1rem;
-  font-family: "FutuMd";
-  &:hover{
-    background-color: $colour-dark;
-    color: white;
-  }
+.box-button-fcl{
+  margin-top: 4rem;
 }
-.box-button-fcl ul{
+.box-button-fcl ul, .box-button-fcl-02 ul{
   margin-bottom: 0;
   color: $colour-dark;
 }
-
+.box-button-fcl-02{
+  margin-top: 0;
+}
+/*Accordion*/
+.accordion{
+  width: 27%;
+  margin: 3rem auto;
+} 
+.accordion-button{
+  color: $colour-brown;
+  font-size: 2.8rem;
+}
+.accordion-button:focus, .accordion-button:not(.collapsed){
+  box-shadow: none;
+  color: $colour-dark;
+  border-color: none;
+  background-color: white;
+}
+.accordion-body{
+  text-align: center;
+}
+.accordion-body h3{
+  font-family: "Muli-Bold";
+  color: $colour-honey;
+}
+.accordion-body p{
+  margin-bottom: 0;
+}
+.icon-calendar-fechas{
+  box-shadow: none;
+  margin-right: 1rem;
+}
+.icon-location-02{
+  box-shadow: none;
+  padding: 0 .4rem 0 0;
+  color: $colour-blue;
+  font-size: 2rem;
+}
 /*Facelift*/
 /*Countdown Counter*/
 .countdown-row {
@@ -1199,22 +1248,39 @@ video{
 .box-button-facelift-01{
   margin-top: 2rem;
 }
-.box-button-01 a{
+.box-button-01 a, .box-button-02 a{
   text-decoration: none;
 }
 .box-button-01 p{
-  padding: 1.5rem 3.3rem;
-  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
-  background-color: $colour-honey;
+  padding: 1.5rem 5rem;
+  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.3);
+  background-color: #CF2309;
   border-radius: 50px;
   text-align: center;  
   margin-right: 1rem;
   margin-bottom: 1.5rem;
   color: white;
-  font-size: .9rem;
+  font-family: "Muli-Bold";
+  font-size: 1.2rem;
   font-weight: 500;
   &:hover{
-    background-color: $colour-dark;
+    background-color: white;
+    color: $colour-dark;
+  }
+}
+.box-button-02 p{
+  padding: 1.5rem 5rem;
+  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.3);
+  background-color: $colour-honey;
+  border-radius: 50px;
+  text-align: center;  
+  color: white;
+  font-family: "Muli-Bold";
+  font-size: 1.2rem;
+  font-weight: 500;
+  &:hover{
+    background-color: white;
+    color: $colour-dark;
   }
 }
 
@@ -2074,9 +2140,6 @@ video{
   color: $colour-dark;
   margin-bottom: 0;
   font-size: 1.7rem;
-}
-.icon-05{
-  width: 15%;
 }
 .img-abrazo-05{
   width: 26rem;
