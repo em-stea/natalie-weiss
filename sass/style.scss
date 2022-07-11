@@ -734,31 +734,56 @@ video{
   font-size: 8rem;
 }
 .box-text-barras{
-  padding: 6rem 0;
-  //background-color: #EDE1DA;
   text-align: center;
+}
+.box-text-barras-div{
+  background-color: $colour-light-blue;
+  padding: 5rem 0;
+}
+.box-text-barras-div .text-bold{
+  color: $colour-brown;
+}
+.box-text-barras-div-02{
+  padding: 5rem 0;
+  background-color: #EAEAEA;
+}
+.box-text-barras-div-02 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-text-barras-div-02 h3 span{
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  margin-left: 1rem;
+  line-height: 3rem;
+  color: $colour-red;
+}
+.box-text-barras-div-02 h3{
+  font-size: 2.5rem;
+  color: $colour-dark;
 }
 .box-text-barras .first-span{
   font-family: "Gatkins-Demo", serif;
-  font-size: 4rem;
-  color: $colour-brown;
+  font-size: 4.7rem;
+  color: $colour-dark;
   line-height: 3rem;
 }
-.box-text-barras span:nth-child(4){
-  color: $colour-red;
+.box-text-barras-div p{
+  color: white;
 }
 .box-text-barras p{
   width: 60%;
+  font-size: 2rem;
   margin: auto;
   text-align: center;
-  color: $colour-dark;
+  line-height: 2.2rem;
 }
-.box-text-barras .text-bold:nth-child(1){
+
+.box-text-barras-div-02 .text-bold:nth-child(1){
   font-size: 1.8rem;
-}
-.box-text-barras hr{
-  width: 80%;
-  margin: 1.6rem auto;
+  color: $colour-brown;
 }
 .box-barras{
   margin: 4rem 0;
@@ -967,9 +992,10 @@ video{
 .box-title-button-barras{
   padding: 7rem;
   background-color: $colour-light-blue;
+  text-align: center;
 }
 .box-title-button-barras h1{
-  width: 60%;
+  width: 50%;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -982,6 +1008,16 @@ video{
   font-size: 2.5rem;
   color: $colour-brown;
 }
+.box-title-button-barras h2, .box-title-button h2{
+  color: $colour-dark;
+}
+.box-title-button-barras h2 span:nth-child(3), .box-title-button h2 span:nth-child(3){
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  line-height: 2.2rem;
+  color: white;
+}
+
 .box-button-01 a{
   text-decoration: none;
 }
@@ -1043,6 +1079,9 @@ video{
   font-size: 20px;
 }
 
+.container-imgs-facelift{
+  margin-bottom: 5rem;
+}
 .bg-facelift{
   background-image: url(../img/bg-facelift.jpg);
   @include img-banner-cursos;
@@ -1135,13 +1174,20 @@ video{
 .box-title-button{
   padding: 5rem;
   background-color: #EDE1DA;
+  text-align: center;
 }
 .box-title-button h1{
-  width: 40%;
+  width: 50%;
   margin: auto;
   text-align: center;
   font-weight: 300;
   color: $colour-dark;
+}
+.box-title-button h2{
+  color: $colour-blue;
+}
+.box-title-button h2 span:nth-child(3){
+  color: $colour-red;
 }
 .box-title-button h4{
   font-weight: 300;

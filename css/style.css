@@ -856,35 +856,65 @@ video {
 }
 
 .box-text-barras {
-  padding: 6rem 0;
   text-align: center;
+}
+
+.box-text-barras-div {
+  background-color: #B8C3CA;
+  padding: 5rem 0;
+}
+
+.box-text-barras-div .text-bold {
+  color: #6D5120;
+}
+
+.box-text-barras-div-02 {
+  padding: 5rem 0;
+  background-color: #EAEAEA;
+}
+
+.box-text-barras-div-02 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-text-barras-div-02 h3 span {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  margin-left: 1rem;
+  line-height: 3rem;
+  color: #E06350;
+}
+
+.box-text-barras-div-02 h3 {
+  font-size: 2.5rem;
+  color: #373543;
 }
 
 .box-text-barras .first-span {
   font-family: "Gatkins-Demo", serif;
-  font-size: 4rem;
-  color: #6D5120;
+  font-size: 4.7rem;
+  color: #373543;
   line-height: 3rem;
 }
 
-.box-text-barras span:nth-child(4) {
-  color: #E06350;
+.box-text-barras-div p {
+  color: white;
 }
 
 .box-text-barras p {
   width: 60%;
+  font-size: 2rem;
   margin: auto;
   text-align: center;
-  color: #373543;
+  line-height: 2.2rem;
 }
 
-.box-text-barras .text-bold:nth-child(1) {
+.box-text-barras-div-02 .text-bold:nth-child(1) {
   font-size: 1.8rem;
-}
-
-.box-text-barras hr {
-  width: 80%;
-  margin: 1.6rem auto;
+  color: #6D5120;
 }
 
 .box-barras {
@@ -1148,10 +1178,11 @@ video {
 .box-title-button-barras {
   padding: 7rem;
   background-color: #B8C3CA;
+  text-align: center;
 }
 
 .box-title-button-barras h1 {
-  width: 60%;
+  width: 50%;
   margin: auto;
   text-align: center;
   font-weight: 300;
@@ -1164,6 +1195,17 @@ video {
   margin: auto;
   font-size: 2.5rem;
   color: #6D5120;
+}
+
+.box-title-button-barras h2, .box-title-button h2 {
+  color: #373543;
+}
+
+.box-title-button-barras h2 span:nth-child(3), .box-title-button h2 span:nth-child(3) {
+  font-family: "Gatkins-Demo", serif;
+  font-size: 4rem;
+  line-height: 2.2rem;
+  color: white;
 }
 
 .box-button-01 a {
@@ -1232,6 +1274,10 @@ video {
 
 .simply-word {
   font-size: 20px;
+}
+
+.container-imgs-facelift {
+  margin-bottom: 5rem;
 }
 
 .bg-facelift {
@@ -1351,14 +1397,23 @@ video {
 .box-title-button {
   padding: 5rem;
   background-color: #EDE1DA;
+  text-align: center;
 }
 
 .box-title-button h1 {
-  width: 40%;
+  width: 50%;
   margin: auto;
   text-align: center;
   font-weight: 300;
   color: #373543;
+}
+
+.box-title-button h2 {
+  color: #728EA4;
+}
+
+.box-title-button h2 span:nth-child(3) {
+  color: #E06350;
 }
 
 .box-title-button h4 {
