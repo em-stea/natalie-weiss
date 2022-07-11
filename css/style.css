@@ -1019,6 +1019,13 @@ video {
   font-size: 4rem;
 }
 
+.caja-icon h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #373543;
+  font-family: "Muli-Bold";
+}
+
 .caja-icon p {
   margin-bottom: 0 !important;
 }
