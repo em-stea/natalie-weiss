@@ -83,6 +83,9 @@
   .box-prox-encuentros{
     margin: 8rem auto 4rem;
   }
+  .icon-04{
+    width: 25%;
+  }
   .slider-testimonial{
     width: 90%;
   }
@@ -271,9 +274,32 @@
   .box-button-barras{
     flex-direction: column;
   }
-  .box-button-01 p{
-    margin-right: 0;
+  .box-button-01 p, .box-button-02 p{
     font-size: 1rem;
+    padding: 1.5rem .5rem;
+    margin-top: 2rem;
+  }
+  .box-button-02 p{
+    width: 90%;
+    margin: auto;
+  }
+  .box-title-button-barras h2{
+    width: 90%;
+    margin: auto;
+  }
+  .accordion{
+    width: 90%;
+  }
+  .accordion-button{
+    font-size: 1.8rem;
+    padding: .5rem;
+  }
+  .icon-calendar-check-o{
+    padding: 0 .5rem 0 0;
+    font-size: 2.3rem;
+  }
+  .banner-certificacion p, .banner-certificacion-barras p{
+    margin-left: 1rem;
   }
   .box-caja-icon{
     flex-direction: column;
@@ -317,6 +343,24 @@
   .box-button-facelift-01{
     flex-direction: column;
   }
+  .banner-certificacion p{
+    margin-left: 0;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .box-title-button h2{
+    width: 90%;
+    margin: auto;
+  }
+  .font-facelift{
+    font-size: 2rem;
+  }
+  /*Countdown counter*/
+  .countdown-row{
+    width: 100vw;
+    margin: auto;
+  }
   /*El Fundamento*/
   .bg-fundamento p{
     width: 90%;
@@ -342,14 +386,16 @@
   }
   .container-fundamento{
     flex-direction: column-reverse;
+    margin: 1rem 0;
   }
   .box-fundamento{
-    margin-bottom: 4rem;
+    margin-bottom: 0;
   } 
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.3rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .img-fundamento-02{
     margin: auto;
@@ -359,7 +405,17 @@
     line-height: 3rem;
   }
   .button-banner{
-    width: 90%;
+    width: 90vw;
+  }
+  .img-fundamento-05{
+    height: 23rem;
+  }
+  .caja-money p{
+    font-size: 2.5rem;
+    margin-left: 0;
+  }
+  small{
+    padding-left: 1rem;
   }
   /*Procesos Corporales*/
   .bg-procesos h1{
@@ -373,11 +429,15 @@
   .bg-procesos span{
     font-size: 5rem;
   }
-  .box-text-procesos p{
+  .box-text-procesos p, .button-banner-06{
     width: 90%;
   }
   .button-banner-02{
     width: 90%;
+  }
+  .img-procesos-corporales{
+    width: 90vw;
+    margin-top: 4rem;
   }
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
@@ -404,9 +464,16 @@
   }
   .text-dinero{
     height: auto;
+    margin: 5rem 0;
   }
-  .text-dinero p{
-    margin-top: 3rem;
+  .text-dinero p, .box-question-dinero h2{
+   width: 90%;
+  }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
+  .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3){
+    line-height: 2rem;
   }
   /*Más facilidad en la crianza*/
   .bg-crianza{
@@ -461,6 +528,9 @@
   .button-banner-05{
     padding: 0.5rem 1.3rem;
   }
+  .box-button-vende h2{
+    font-size: 4rem;
+  }
 
   /*Sesiones Personalizadas*/
   /*SOP*/
@@ -506,7 +576,7 @@
     flex-direction: column;
   }
   .title-banner-sop h2{
-    line-height: 4rem;
+    line-height: 3rem;
     margin-bottom: 3rem;
   }
   /*EMT*/
@@ -634,10 +704,15 @@
     line-height: 2rem;
   }
   .height-img{
-    height: 23rem;
+    height: 27rem;
   }
   .text-home{
-    height: 20rem;
+    height: 23rem;
+  }
+  .text-home h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
   }
   .box-container-home{
     margin-bottom: 1rem;
@@ -645,16 +720,39 @@
   .box-home h1{
     line-height: 2.5rem;
     margin: 4rem 0;
+    width: 90%;
+  }
+  .icon-05{
+    width: 35%;
   }
   .box-home p{
     width: 80%;
     margin-bottom: 3rem;
+  }
+  .box-image{
+    margin: 1rem 0 0 0;
+  }
+  .box-title-encuentros h1{
+    margin-right: 0;
+  }
+  .box-prox-encuentros{
+    margin: 5rem 0 0 0;
   }
   .bg-stars{
     height: 27rem;
   }
   .bg-stars a h1{
     width: 90%;
+  }
+  .bg-stars a span{
+    margin-left: 1rem;
+    line-height: 2rem;
+  }
+  .box-title-encuentros{
+    flex-direction: column;
+  }
+  .box-title-encuentros h3{
+    line-height: 3rem;
   }
   .galeria{
     width: 90%;
@@ -668,8 +766,9 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .icon-04{
+    width: 25%;
+    margin-top: 4rem;
   }
   .slider-testimonial{
     width: 90%;
@@ -744,6 +843,9 @@
   .box-cursos p{
     width: 90%;
   }
+  .bg-cursos{
+    margin-bottom: 3rem;
+  }
   /*Proximos Encuentros*/
   .bg-prox h1{
     font-size: 4rem;
@@ -778,6 +880,11 @@
   }
   /*Cursos*/
   /*Barras de Access*/
+  .bg-barras h1{
+    font-size: 5rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1{
     line-height: 3rem;
   }
@@ -792,7 +899,7 @@
     width: 90%;
   }
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04{
-    height: 20rem;
+    height: 15rem;
   }
   .box-text-barras-01{
     height: auto;
@@ -802,8 +909,81 @@
     padding-left: 0;
     width: 90%;
   }
+  .box-barras-row{
+    margin: 2rem 0 ;
+  }
   .container-box-text-barras{
     flex-direction: column-reverse;
+  }
+  /*Countdown*/
+  #countdown{
+    flex-direction: column;
+    align-items: center;
+  }
+  .countdown-row{
+    padding: 2rem 0;
+    margin: 0;
+    width: 100vw;
+  }
+  .simply-section{
+    margin: 13px;
+  }
+  .caja-money{
+    flex-direction: column;
+    padding: 4.5rem 0;
+  }
+  .caja-billete{
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .box-title-button-barras{
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1{
+    width: 90%;
+  }
+  .box-button-fcl{
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras{
+    flex-direction: column;
+  }
+  .box-button-01 p, .box-button-02 p{
+    font-size: 1rem;
+    padding: 1.5rem .5rem;
+    margin-top: 2rem;
+  }
+  .box-button-02 p{
+    width: 90%;
+    margin: auto;
+  }
+  .box-title-button-barras h2{
+    width: 90%;
+    margin: auto;
+  }
+  .accordion{
+    width: 90%;
+  }
+  .accordion-button{
+    font-size: 1.8rem;
+    padding: .5rem;
+  }
+  .icon-calendar-check-o{
+    padding: 0 .5rem 0 0;
+    font-size: 2.3rem;
+  }
+  .banner-certificacion p, .banner-certificacion-barras p{
+    margin-left: 1rem;
+  }
+  .box-caja-icon{
+    flex-direction: column;
+  }
+  .caja-icon{
+    margin-right: 0;
+  }
+  .caja-icon p{
+    margin-bottom: 2rem !important;
   }
   /*Facelift*/
   .box-facelift{
@@ -828,13 +1008,36 @@
   .box-button-facelift{
     width: 90%;
   }
+  .banner-certificacion p{
+    margin-left: 0;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .box-title-button{
+    padding: 5rem 0;
+  }
+  .box-title-button h2, .box-title-button h1, .box-button-fcl-02{
+    width: 90%;
+    margin: auto;
+  }
+  .font-facelift{
+    font-size: 2rem;
+  }
+  .accordion{
+    width: 80%;
+    margin-left: auto;
+  }
   /*El Fundamento*/
-  .bg-fundamento{
-    margin-bottom: 2rem;
+  .bg-fundamento p{
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto 0;
   }
   .bg-fundamento h1{
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
   .text-fundamento{
     height: auto;
@@ -850,6 +1053,7 @@
   }
   .container-fundamento{
     flex-direction: column-reverse;
+    margin: 1rem 0;
   }
   .box-fundamento{
     margin-bottom: 0;
@@ -857,7 +1061,8 @@
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .img-fundamento-02{
     margin: auto;
@@ -867,7 +1072,17 @@
     line-height: 3rem;
   }
   .button-banner{
-    width: 90%;
+    width: 90vw;
+  }
+  .img-fundamento-05{
+    height: 27rem;
+  }
+  .caja-money p{
+    font-size: 2.5rem;
+    margin-left: 0;
+  }
+  small{
+    padding-left: 1rem;
   }
   /*Procesos Corporales*/
   .bg-procesos{
@@ -875,16 +1090,35 @@
   }
   .bg-procesos h1{
     line-height: 2.5rem;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 0;
+  }
+  .bg-procesos h1 span{
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
   .box-text-procesos p{
     width: 90%;
   }
-  .button-banner-02{
+  .button-banner-02, .button-banner-06{
     width: 90%;
+  } 
+  .img-procesos-corporales{
+    width: 90vw;
+    margin-top: 4rem;
   }
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+  }
+  .bg-dinero span{
+    font-size: 5rem;
   }
   .adelante h4, .atras h4{
     font-size: 3.5rem;
@@ -899,21 +1133,34 @@
   }
   .text-dinero{
     height: auto;
+    margin: 5rem 0;
   }
-  .text-dinero p{
-    margin-top: 3rem;
+  .text-dinero p, .box-question-dinero h2{
+   width: 90%;
+  }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
+  .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3){
+    line-height: 2rem;
   }
   /*Más facilidad en la crianza*/
   .bg-crianza{
     margin-bottom: 4rem;
+    padding: 0;
   }
   .bg-crianza h1{
     line-height: 2.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 2rem;
+    flex-direction: column;
   }
   .bg-crianza>p{
-    margin-bottom: .5rem;
+    margin: 0 auto .5rem;
+  }
+  .bg-crianza span{
+    font-size: 7.5rem;
+    margin-top: 1rem;
   }
   .galery{
     padding: 0;
@@ -927,6 +1174,43 @@
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
+  .box-crianza{
+    top: 16rem;
+  }
+  .box-crianza h1{
+    font-size: 4.5rem;
+    line-height: 3rem;
+  }
+  /*Vende con Facilidad*/
+  .bg-facilidad h1{
+    flex-direction: column;
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin: auto;
+  }
+  .bg-facilidad span{
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05{
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2){
+    line-height: 2rem;
+  }
+  .img-vende-01, .img-vende-02{
+    height: 26rem;
+    margin-bottom: 2rem;
+  }
+  .row-vende-02{
+    flex-direction: column-reverse;
+  }
+  .button-banner-05{
+    padding: 0.5rem 1.3rem;
+  }
+  .box-button-vende h2{
+    font-size: 4rem;
+  }
   /*SOP*/
   .container-sop{
     height: 33rem;
@@ -934,18 +1218,15 @@
   .container-box-sop{
     flex-direction: column-reverse;
   }
-  .img-sop{
-    height: 24rem;
-  }
-  .box-sop{
-    padding: 4rem 0;
+  .icon-02{
+    width: 30%;
   }
   .box-sop h1, .text-sop h4, .bg-banner-sop h1{
     line-height: 3rem;
     margin-bottom: 2rem;
   }
   .box-text-sop{
-    margin: 5rem 0 3rem 0;
+    margin: 12rem 0 3rem 0;
   }
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p{
     width: 90%;
@@ -955,14 +1236,29 @@
   }
   .text-sop{
     height: auto;
-    padding: 5rem 0 5rem 0;
+    padding: 16rem 0 5rem 0;
     text-align: center;
+  }
+
+  .button-banner-04{
+    width: 90%;
+  }
+  .title-banner-sop{
+    flex-direction: column;
+  }
+  .title-banner-sop h2{
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+  .img-sop{
+    height: 29rem;
+  }
+  .bg-banner-sop{
+    margin-top: 14rem;
   }
   .bg-banner-sop h1{
     font-size: 3.5rem;
-  }
-  .button-banner-04{
-    width: 90%;
+    margin-top: 5rem;
   }
   /*EMT*/
   .container-emt{
@@ -1009,12 +1305,16 @@
   .bg-banner-abrazo h1{
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
   .box-abrazo > p{
     width: 90%;
   }
   .box-container-abrazo{
     margin: 3rem auto;
+  }
+  .img-abrazo-05{
+    width: 22rem;
   }
   /*Osteopatia*/
   .img-osteopatia{
@@ -1028,6 +1328,12 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  .box-osteopatia h3{
+    line-height: 3rem;
+  }
+  .icon-03, .icon-01{
+    width: 30%;
   }
   /*Sobre mi*/
   .container-sobreMi{
@@ -1087,11 +1393,21 @@
   .text-home{
     height: 20rem;
   }
+  .text-home h1{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
   .text-home p{
     margin-bottom: 0;
   }
   .box-container-home{
     margin-bottom: 1rem;
+  }
+  .box-image{
+    margin: 1rem 0 0 0;
+  }
+  .icon-05{
+    width: 35%;
   }
   .box-home h1{
     line-height: 2.5rem;
@@ -1108,11 +1424,24 @@
   .bg-stars a h1{
     width: 90%;
   }
+  .bg-stars a span{
+    margin-left: 1rem;
+    line-height: 2rem;
+  }
   .galeria{
     width: 90%;
   }
   .galeria .container-scale{
     margin-bottom: .5rem;
+  }
+  .box-title-encuentros{
+    flex-direction: column;
+  }
+  .box-title-encuentros h1{
+    margin-right: 0;
+  }
+  .box-title-encuentros h3{
+    line-height: 2rem;
   }
   .box-prox-encuentros h2{
     line-height: 2.5rem;
@@ -1120,8 +1449,8 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .icon-04{
+    width: 25%;
   }
   .slider-testimonial{
     width: 90%;
@@ -1193,6 +1522,9 @@
   .galery{
     width: 100%;
   }
+  .bg-cursos{
+    margin-bottom: 3rem;
+  }
   /*Proximos Encuentros*/
   .bg-prox h1{
     font-size: 4rem;
@@ -1227,6 +1559,11 @@
   }
   /*Cursos*/
   /*Barras de Access*/
+  .bg-barras h1{
+    font-size: 6rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1{
     line-height: 3rem;
   }
@@ -1241,7 +1578,7 @@
     width: 90%;
   }
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04{
-    height: 20rem;
+    height: 15rem;
   }
   .box-text-barras-01{
     height: auto;
@@ -1251,8 +1588,81 @@
     padding-left: 0;
     width: 90%;
   }
+  .box-barras-row{
+    margin: 2rem 0 ;
+  }
   .container-box-text-barras{
     flex-direction: column-reverse;
+  }
+  /*Countdown*/
+  #countdown{
+    flex-direction: column;
+    align-items: center;
+  }
+  .countdown-row{
+    padding: 2rem 0;
+    width: 100vw;
+    margin: auto;
+  }
+  .simply-section{
+    margin: 13px;
+  }
+  .caja-money{
+    flex-direction: column;
+    padding: 4.5rem 0;
+  }
+  .caja-billete{
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .box-title-button-barras{
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1{
+    width: 90%;
+  }
+  .box-button-fcl{
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras{
+    flex-direction: column;
+  }
+  .box-button-01 p, .box-button-02 p{
+    font-size: 1rem;
+    padding: 1.5rem .5rem;
+    margin-top: 2rem;
+  }
+  .box-button-02 p{
+    width: 90%;
+    margin: auto;
+  }
+  .box-title-button-barras h2{
+    width: 90%;
+    margin: auto;
+  }
+  .accordion{
+    width: 60%;
+  }
+  .accordion-button{
+    font-size: 1.8rem;
+    padding: .5rem;
+  }
+  .icon-calendar-check-o{
+    padding: 0 .5rem 0 0;
+    font-size: 2.3rem;
+  }
+  .banner-certificacion p, .banner-certificacion-barras p{
+    margin-left: 1rem;
+  }
+  .box-caja-icon{
+    flex-direction: column;
+  }
+  .caja-icon{
+    margin-right: 0;
+  }
+  .caja-icon p{
+    margin-bottom: 2rem !important;
   }
   /*Facelift*/
   .box-facelift{
@@ -1277,13 +1687,35 @@
   .box-button-facelift{
     width: 90%;
   }
+  .banner-certificacion p{
+    margin-left: 0;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .box-title-button{
+    padding: 5rem 0;
+  }
+  .box-title-button h2, .box-title-button h1, .box-button-fcl-02{
+    width: 90%;
+    margin: auto;
+  }
+  .font-facelift{
+    font-size: 2rem;
+  }
+  .accordion{
+    width: 70%;
+  }
   /*El Fundamento*/
-  .bg-fundamento{
-    margin-bottom: 2rem;
+  .bg-fundamento p{
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto 0;
   }
   .bg-fundamento h1{
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
   .text-fundamento{
     height: auto;
@@ -1299,6 +1731,7 @@
   }
   .container-fundamento{
     flex-direction: column-reverse;
+    margin: 1rem 0;
   }
   .box-fundamento{
     margin-bottom: 0;
@@ -1306,22 +1739,27 @@
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .img-fundamento-02{
     margin: auto;
     margin-bottom: 1rem;
-    width: 19rem;
-    height: 19rem;
   }
   .box-banner h1{
     line-height: 3rem;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
   }
   .button-banner{
-    width: 90%;
+    width: 90vw;
+  }
+  .img-fundamento-05{
+    height: 27rem;
+  }
+  .caja-money p{
+    margin-left: 0;
+  }
+  small{
+    padding-left: 1rem;
   }
   /*Procesos Corporales*/
   .bg-procesos{
@@ -1329,16 +1767,35 @@
   }
   .bg-procesos h1{
     line-height: 2.5rem;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 0;
+  }
+  .bg-procesos h1 span{
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
   .box-text-procesos p{
     width: 90%;
   }
-  .button-banner-02{
+  .button-banner-02, .button-banner-06{
     width: 90%;
+  } 
+  .img-procesos-corporales{
+    width: 90vw;
+    margin-top: 4rem;
   }
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+  }
+  .bg-dinero span{
+    font-size: 5rem;
   }
   .adelante h4, .atras h4{
     font-size: 3.5rem;
@@ -1353,21 +1810,34 @@
   }
   .text-dinero{
     height: auto;
+    margin: 5rem 0;
   }
-  .text-dinero p{
-    margin-top: 3rem;
+  .text-dinero p, .box-question-dinero h2{
+   width: 90%;
+  }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
+  .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3){
+    line-height: 2rem;
   }
   /*Más facilidad en la crianza*/
   .bg-crianza{
     margin-bottom: 4rem;
+    padding: 0;
   }
   .bg-crianza h1{
     line-height: 2.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 2rem;
+    flex-direction: column;
   }
   .bg-crianza>p{
-    margin-bottom: .5rem;
+    margin: 0 auto .5rem;
+  }
+  .bg-crianza span{
+    font-size: 7.5rem;
+    margin-top: 1rem;
   }
   .galery{
     padding: 0;
@@ -1381,11 +1851,42 @@
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-  .galery .container-scale, .galery img{
-    height: 26rem;
-  }
   .box-crianza{
-    top: 17rem;
+    top: 20rem;
+  }
+  .box-crianza h1{
+    font-size: 4.5rem;
+    line-height: 3rem;
+  }
+  /*Vende con Facilidad*/
+  .bg-facilidad h1{
+    flex-direction: column;
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin: auto;
+  }
+  .bg-facilidad span{
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05{
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2){
+    line-height: 2rem;
+  }
+  .img-vende-01, .img-vende-02{
+    height: 26rem;
+    margin-bottom: 2rem;
+  }
+  .row-vende-02{
+    flex-direction: column-reverse;
+  }
+  .button-banner-05{
+    padding: 0.5rem 1.3rem;
+  }
+  .box-button-vende h2{
+    font-size: 4rem;
   }
   /*SOP*/
   .container-sop{
@@ -1395,7 +1896,10 @@
     flex-direction: column-reverse;
   }
   .img-sop{
-    height: 24rem;
+    height: 35rem;
+  }
+  .icon-02{
+    width: 25%;
   }
   .box-sop{
     padding: 4rem 0;
@@ -1405,17 +1909,23 @@
     margin-bottom: 2rem;
   }
   .box-text-sop{
-    margin: 5rem 0 3rem 0;
+    margin: 2rem 0 3rem 0;
+  }
+  .box-text-sop-02{
+    margin: 14rem 0 3rem 0;
   }
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p{
     width: 90%;
+  }
+  .title-banner-sop{
+    flex-direction: column;
   }
   video{
     margin-top: 0;
   }
   .text-sop{
     height: auto;
-    padding: 9rem 0 5rem 0;
+    padding: 8rem 0 5rem 0;
     text-align: center;
   }
   .bg-banner-sop h1{
@@ -1425,7 +1935,11 @@
     width: 90%;
   }
   .bg-banner-sop{
-    margin-top: 7rem;
+    margin-top: 14rem;
+  }
+  .title-banner-sop h2{
+    line-height: 3rem;
+    margin-bottom: 2rem;
   }
   /*EMT*/
   .container-emt{
@@ -1472,6 +1986,7 @@
   .bg-banner-abrazo h1{
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
   .box-abrazo > p{
     width: 90%;
@@ -1491,6 +2006,12 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  .box-osteopatia h3{
+    line-height: 3rem;
+  }
+  .icon-03, .icon-01{
+    width: 30%;
   }
   /*Sobre mi*/
   .container-sobreMi{
@@ -1549,11 +2070,20 @@
   .text-home{
     height: 20rem;
   }
+  .text-home h1{
+    margin-bottom: 1rem;
+  }
   .text-home p{
     margin-bottom: 0;
   }
   .box-container-home{
     margin-bottom: 1rem;
+  }
+  .box-image{
+    margin: 1rem 0 0 0;
+  }
+  .icon-05{
+    width: 35%
   }
   .box-home h1{
     line-height: 4rem;
@@ -1582,8 +2112,8 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .icon-04{
+    width: 25%;
   }
   .slider-testimonial{
     width: 90%;
@@ -1655,6 +2185,9 @@
   .galery{
     width: 100%;
   }
+  .bg-cursos{
+    margin-bottom: 3rem;
+  }
   /*Politicas de privacidad*/
   .privacy-doc h1{
     margin-top: 3rem;
@@ -1682,8 +2215,13 @@
   }
   /*Cursos*/
   /*Barras de Access*/
+  .bg-barras h1{
+    font-size: 6rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1{
-    line-height: 3rem;
+    line-height: 4rem;
   }
   .box-text-barras{
     padding: 4rem 0;
@@ -1696,7 +2234,7 @@
     width: 90%;
   }
   .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04{
-    height: 20rem;
+    height: 30rem;
   }
   .box-text-barras-01{
     height: auto;
@@ -1706,8 +2244,83 @@
     padding-left: 0;
     width: 90%;
   }
+  .box-barras-row{
+    margin: 2rem 0 ;
+  }
   .container-box-text-barras{
     flex-direction: column-reverse;
+  }
+  /*Countdown*/
+  #countdown{
+    flex-direction: column;
+    align-items: center;
+  }
+  .countdown-row{
+    padding: 2rem 0;
+    width: 100vw;
+    margin: auto;
+  }
+  .simply-section{
+    margin: 13px;
+  }
+  .banner-certificacion-barras h1{
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+  .caja-money{
+    padding: 1.5rem 0;
+  }
+  .caja-billete{
+    margin-right: 1rem;
+  }
+  .box-title-button-barras{
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1{
+    width: 90%;
+  }
+  .box-button-fcl{
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras{
+    flex-direction: column;
+  }
+  .box-button-01 p, .box-button-02 p{
+    font-size: 1.5rem;
+    padding: 1.5rem .5rem;
+    margin-top: 2rem;
+  }
+  .box-button-02 p{
+    width: 90%;
+    margin: auto;
+  }
+  .box-title-button-barras h2{
+    width: 90%;
+    margin: auto;
+  }
+  .accordion{
+    width: 50%;
+  }
+  .accordion-button{
+    font-size: 1.8rem;
+    padding: .5rem;
+  }
+  .icon-calendar-check-o{
+    padding: 0 .5rem 0 0;
+    font-size: 2.3rem;
+  }
+  .banner-certificacion p, .banner-certificacion-barras p{
+    margin-left: 1rem;
+  }
+  .box-caja-icon{
+    flex-direction: column;
+  }
+  .caja-icon{
+    margin-right: 0;
+  }
+  .caja-icon p{
+    margin-bottom: 2rem !important;
   }
   /*Facelift*/
   .box-facelift{
@@ -1732,13 +2345,35 @@
   .box-button-facelift{
     width: 90%;
   }
+  .banner-certificacion p{
+    margin-left: 0;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .box-title-button{
+    padding: 5rem 0;
+  }
+  .box-title-button h2, .box-title-button h1, .box-button-fcl-02{
+    width: 90%;
+    margin: auto;
+  }
+  .font-facelift{
+    font-size: 2rem;
+  }
+  .accordion{
+    width: 50%;
+  }
   /*El Fundamento*/
-  .bg-fundamento{
-    margin-bottom: 2rem;
+  .bg-fundamento p{
+    width: 90%;
+    text-align: left;
+    margin-top: 1rem;
   }
   .bg-fundamento h1{
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
   .text-fundamento{
     height: auto;
@@ -1754,6 +2389,7 @@
   }
   .container-fundamento{
     flex-direction: column-reverse;
+    margin: 1rem 0;
   }
   .box-fundamento{
     margin-bottom: 0;
@@ -1761,22 +2397,30 @@
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .img-fundamento-02{
     margin: auto;
     margin-bottom: 1rem;
-    width: 19rem;
-    height: 19rem;
   }
   .box-banner h1{
     line-height: 3rem;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
   }
   .button-banner{
-    width: 90%;
+    width: 90vw;
+  }
+  .img-fundamento-05{
+    height: 37rem;
+  }
+  .caja-money p{
+    margin-left: 0;
+  }
+  small{
+    padding-left: 1rem;
+  }
+  .banner-certificacion-barras{
+    margin-top: 6rem;
   }
   /*Procesos Corporales*/
   .bg-procesos{
@@ -1784,16 +2428,35 @@
   }
   .bg-procesos h1{
     line-height: 2.5rem;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 0;
+  }
+  .bg-procesos h1 span{
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
   .box-text-procesos p{
     width: 90%;
   }
-  .button-banner-02{
+  .button-banner-02, .button-banner-06{
     width: 90%;
+  } 
+  .img-procesos-corporales{
+    width: 95vw;
+    margin-top: 4rem;
   }
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+  }
+  .bg-dinero span{
+    font-size: 5rem;
   }
   .adelante h4, .atras h4{
     font-size: 3.5rem;
@@ -1808,21 +2471,36 @@
   }
   .text-dinero{
     height: auto;
+    margin: 5rem auto;
+    width: 90%;
   }
-  .text-dinero p{
-    margin-top: 3rem;
+  .text-dinero p, .box-question-dinero h2{
+   width: 90%;
+  }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
+  .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3){
+    line-height: 2rem;
   }
   /*Más facilidad en la crianza*/
   .bg-crianza{
     margin-bottom: 4rem;
+    padding: 0;
   }
   .bg-crianza h1{
     line-height: 2.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin: 0 auto 2rem;
+    flex-direction: column;
   }
   .bg-crianza>p{
-    margin-bottom: .5rem;
+    margin: 0 auto .5rem;
+    width: 90%;
+  }
+  .bg-crianza span{
+    font-size: 7.5rem;
+    margin-top: 1rem;
   }
   .galery{
     padding: 0;
@@ -1836,11 +2514,46 @@
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
-  .galery .container-scale, .galery img{
-    height: 26rem;
-  }
   .box-crianza{
-    top: 17rem;
+    top: 25rem;
+  }
+  .box-crianza h1{
+    font-size: 6rem;
+    line-height: 3rem;
+  }
+  /*Vende con Facilidad*/
+  .bg-facilidad h1{
+    flex-direction: column;
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin: auto;
+  }
+  .bg-facilidad span{
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05{
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2){
+    line-height: 2rem;
+  }
+  .box-facilidad-02 h1{
+    width: 90%;
+    margin: auto;
+  }
+  .img-vende-01, .img-vende-02{
+    height: 26rem;
+    margin-bottom: 2rem;
+  }
+  .row-vende-02{
+    flex-direction: column-reverse;
+  }
+  .button-banner-05{
+    padding: 0.5rem 1.3rem;
+  }
+  .box-button-vende h2{
+    font-size: 4rem;
   }
   /*SOP*/
   .container-sop{
@@ -1850,7 +2563,10 @@
     flex-direction: column-reverse;
   }
   .img-sop{
-    height: 24rem;
+    height: 39rem;
+  }
+  .icon-02{
+    width: 25%;
   }
   .box-sop{
     padding: 4rem 0;
@@ -1862,6 +2578,9 @@
   .box-text-sop{
     margin: 5rem 0 3rem 0;
   }
+  .box-text-sop-02{
+    margin: 15rem 0 3rem 0;
+  }
   .box-sop p, .box-text-sop h1, .box-text-sop p, .text-sop p{
     width: 90%;
   }
@@ -1870,7 +2589,7 @@
   }
   .text-sop{
     height: auto;
-    padding: 9rem 0 5rem 0;
+    padding: 14rem 0 5rem 0;
     text-align: center;
   }
   .bg-banner-sop h1{
@@ -1880,7 +2599,10 @@
     width: 90%;
   }
   .bg-banner-sop{
-    margin-top: 7rem;
+    margin-top: 21rem;
+  }
+  .title-banner-sop{
+    flex-direction: column;
   }
   /*EMT*/
   .container-emt{
@@ -1914,7 +2636,7 @@
     flex-direction: column-reverse;; 
   }
   .img-abrazo{
-    height: 24rem;
+    height: 33rem;
   }
   .box-abrazo{
     padding: 4rem 0;
@@ -1927,6 +2649,7 @@
   .bg-banner-abrazo h1{
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
   .box-abrazo > p{
     width: 90%;
@@ -1946,6 +2669,12 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  .box-osteopatia h3{
+    line-height: 3rem;
+  }
+  .icon-03, .icon-01{
+    width: 30%;
   }
   /*Sobre mi*/
   .container-sobreMi{
@@ -2038,6 +2767,11 @@
   .text-home p{
     margin-bottom: 0;
   }
+  .text-home h1{
+    margin-bottom: 1rem;
+    font-size: 4.5rem;
+    text-align: center;
+  }
   .box-container-home{
     margin-bottom: 1rem;
   }
@@ -2050,11 +2784,23 @@
     width: 80%;
     margin-bottom: 3rem;
   }
+  .box-image{
+    margin: 1rem 0 0 0;
+  }
+  .icon-05{
+    width: 30%;
+  }
+  .img-home-02{
+    height: 42rem;
+  }
   .bg-stars{
     height: 27rem;
   }
   .bg-stars a h1{
     width: 90%;
+  }
+  .bg-stars a span{
+    margin-left: 1rem;
   }
   .galeria{
     width: 90%;
@@ -2068,8 +2814,8 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .icon-04{
+    width: 25%;
   }
   .slider-testimonial{
     width: 90%;
@@ -2137,6 +2883,10 @@
   .wrapper-input-contacto .form-control{
     width: 90%;
   }
+  /*Cursos*/
+  .bg-cursos{
+    margin-bottom: 3rem;
+  }
   /*Politicas de privacidad*/
   .privacy-doc h1{
     margin-top: 3rem;
@@ -2164,8 +2914,13 @@
   }
     /*Cursos*/
   /*Barras de Access*/
+  .bg-barras h1{
+    font-size: 6rem;
+    width: 90%;
+    margin: auto;
+  }
   .bg-barras h1, .box-text-barras-01 h1{
-    line-height: 3rem;
+    line-height: 4rem;
   }
   .box-text-barras{
     padding: 4rem 0;
@@ -2188,20 +2943,85 @@
     padding-left: 0;
     width: 90%;
   }
+  .box-barras-row{
+    margin: 2rem 0 ;
+  }
   .container-box-text-barras{
     flex-direction: column-reverse;
+  }
+  .banner-certificacion-barras h1{
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+  .caja-money{
+    padding: 1.5rem 0;
+  }
+  .caja-billete{
+    margin-right: 1rem;
+  }
+  .box-title-button-barras{
+    padding: 7rem 0;
+  }
+  .box-title-button-barras h1{
+    width: 90%;
+  }
+  .box-button-fcl{
+    margin: 1rem auto 0;
+    width: 90%;
+  }
+  .box-button-barras{
+    flex-direction: column;
+  }
+  .box-button-01 p, .box-button-02 p{
+    font-size: 1.5rem;
+    padding: 1.5rem .5rem;
+    margin-top: 2rem;
+  }
+  .box-button-02 p{
+    width: 90%;
+    margin: auto;
+  }
+  .box-title-button-barras h2{
+    width: 90%;
+    margin: auto;
+  }
+  .accordion{
+    width: 40%;
+  }
+  .accordion-button{
+    font-size: 1.8rem;
+    padding: .5rem;
+  }
+  .icon-calendar-check-o{
+    padding: 0 .5rem 0 0;
+    font-size: 2.3rem;
+  }
+  .banner-certificacion p, .banner-certificacion-barras p{
+    margin-left: 1rem;
+  }
+  .box-caja-icon{
+    flex-direction: column;
+  }
+  .caja-icon{
+    margin-right: 0;
+  }
+  .caja-icon p{
+    margin-bottom: 2rem !important;
   }
   /*Facelift*/
   .box-button-facelift{
     width: 60%;
   }
   /*El Fundamento*/
-  .bg-fundamento{
-    margin-bottom: 2rem;
+  .bg-fundamento p{
+    width: 90%;
+    text-align: left;
+    margin-top: 1rem;
   }
   .bg-fundamento h1{
     line-height: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
   }
   .text-fundamento{
     height: auto;
@@ -2217,6 +3037,7 @@
   }
   .container-fundamento{
     flex-direction: column-reverse;
+    margin: 1rem 0;
   }
   .box-fundamento{
     margin-bottom: 0;
@@ -2224,22 +3045,30 @@
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .img-fundamento-02{
     margin: auto;
     margin-bottom: 1rem;
-    width: 25rem;
-    height: 25rem;
   }
   .box-banner h1{
     line-height: 3rem;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
   }
   .button-banner{
-    width: 90%;
+    width: 90vw;
+  }
+  .img-fundamento-05{
+    height: 37rem;
+  }
+  .caja-money p{
+    margin-left: 0;
+  }
+  small{
+    padding-left: 1rem;
+  }
+  .banner-certificacion-barras{
+    margin-top: 3rem;
   }
   /*Procesos Corporales*/
   .bg-procesos{
@@ -2247,19 +3076,38 @@
   }
   .bg-procesos h1{
     line-height: 2.5rem;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 0;
+  }
+  .bg-procesos h1 span{
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
   .box-text-procesos p{
     width: 90%;
   }
-  .button-banner-02{
+  .button-banner-02, .button-banner-06{
     width: 90%;
+  } 
+  .img-procesos-corporales{
+    width: 78vw;
+    margin-top: 4rem;
   }
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
+    flex-direction: column;
+    padding-left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+  }
+  .bg-dinero span{
+    font-size: 5rem;
   }
   .adelante h4, .atras h4{
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 90%;
   }
   .front-card, .back-card{
@@ -2271,9 +3119,17 @@
   }
   .text-dinero{
     height: auto;
+    margin: 5rem auto;
+    width: 90%;
   }
-  .text-dinero p{
-    margin-top: 3rem;
+  .text-dinero p, .box-question-dinero h2{
+   width: 90%;
+  }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
+  .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3){
+    line-height: 2rem;
   }
   /*Más facilidad en la crianza*/
   .bg-crianza{
@@ -2283,9 +3139,16 @@
     line-height: 2.5rem;
     font-size: 3.5rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
   }
   .bg-crianza>p{
     margin-bottom: .5rem;
+  }
+  .bg-crianza span{
+    margin-left: 0;
+    margin-top: 2rem;
   }
   .galery{
     padding: 0;
@@ -2302,6 +3165,43 @@
   .box-crianza{
     top: 21rem;
   }
+  .box-crianza h1{
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+  /*Vende con Facilidad*/
+  .bg-facilidad h1{
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin: auto;
+  }
+  .bg-facilidad span{
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+  .caja-title-facilidad h1, .box-button-vende h1, .box-button-vende h2, .button-banner-05{
+    width: 90%;
+  }
+  .caja-title-facilidad h1:nth-child(2), .box-facilidad-02 h1:nth-child(2){
+    line-height: 2rem;
+  }
+  .box-facilidad-02 h1{
+    width: 90%;
+    margin: auto;
+  }
+  .img-vende-01, .img-vende-02{
+    height: 26rem;
+    margin-bottom: 2rem;
+  }
+  .row-vende-02{
+    flex-direction: column-reverse;
+  }
+  .button-banner-05{
+    padding: 0.5rem 1.3rem;
+  }
+  .box-button-vende h2{
+    font-size: 4rem;
+  }
   /*SOP*/
   .container-sop{
     height: 33rem;
@@ -2310,7 +3210,10 @@
     flex-direction: column-reverse;
   }
   .img-sop{
-    height: 24rem;
+    height: 40rem;
+  }
+  .icon-02{
+    width: 20%;
   }
   .box-sop{
     padding: 4rem 0;
@@ -2330,7 +3233,7 @@
   }
   .text-sop{
     height: auto;
-    padding: 9rem 0 5rem 0;
+    padding: 15rem 0 5rem 0;
     text-align: center;
   }
   .bg-banner-sop h1{
@@ -2340,7 +3243,10 @@
     width: 90%;
   }
   .bg-banner-sop{
-    margin-top: 7rem;
+    margin-top: 12rem;
+  }
+  .title-banner-sop{
+    flex-direction: column;
   }
   /*EMT*/
   .container-emt{
@@ -2374,7 +3280,7 @@
     flex-direction: column-reverse;; 
   }
   .img-abrazo{
-    height: 24rem;
+    height: 37rem;
   }
   .box-abrazo{
     padding: 4rem 0;
@@ -2387,6 +3293,7 @@
   .bg-banner-abrazo h1{
     margin: auto;
     text-align: center;
+    flex-direction: column;
   }
   .box-abrazo > p{
     width: 90%;
@@ -2406,6 +3313,12 @@
   }
   .box-osteopatia{
     margin: 5rem 0;
+  }
+  .box-osteopatia h3{
+    line-height: 3rem;
+  }
+  .icon-03, .icon-01{
+    width: 25%;
   }
   /*Sobre mi*/
   .container-sobreMi{
@@ -2463,7 +3376,7 @@
     line-height: 3rem;
   }
   .height-img{
-    height: 34rem;
+    height: 31rem;
   }
   .text-home{
     height: 34rem;
@@ -2483,11 +3396,22 @@
     width: 80%;
     margin-bottom: 3rem;
   }
+  .text-home h1{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .img-home-02{
+    background-size: cover;
+    height: 60rem;
+  }
   .bg-stars{
     height: 27rem;
   }
   .bg-stars a h1{
     width: 90%;
+  }
+  .bg-stars a span{
+    margin-left: 1rem;
   }
   .galeria{
     width: 90%;
@@ -2501,8 +3425,8 @@
   .box-button{
     width: 90%;
   }
-  .wrapper{
-    padding: 7rem 0 1px 0;
+  .icon-04{
+    width: 25%;
   }
   .slider-testimonial{
     width: 90%;
@@ -2569,6 +3493,13 @@
   .wrapper-input-contacto .form-control{
     width: 90%;
   }
+  /*Barras*/
+  .img-barras-01, .img-barras-02, .img-barras-03, .img-barras-04{
+    margin-top: 4rem;
+  }
+  .accordion{
+    width: 50%;
+  }
   /*Healy*/
   .box-container-healy{
     margin: auto;
@@ -2614,7 +3545,8 @@
   .box-fundamento h1{
     width: 90%;
     margin: 3rem auto;
-    font-size: 3.5rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
   }
   .img-fundamento-02{
     margin: auto;
@@ -2637,26 +3569,20 @@
   }
   .bg-procesos h1{
     line-height: 2.5rem;
+    flex-direction: column;
+    font-size: 3.5rem;
+    padding-left: 0;
+  }
+  .bg-procesos h1 span{
+    font-size: 7rem;
+    margin-bottom: 1rem;
   }
   .box-text-procesos p{
     width: 90%;
   }
-  .button-banner-02{
-    width: 70%;
-  }
-  /*Procesos Corporales*/
-  .bg-procesos{
-    margin-bottom: 4rem;
-  }
-  .bg-procesos h1{
-    line-height: 2.5rem;
-  }
-  .box-text-procesos p{
+  .button-banner-02, .button-banner-06{
     width: 90%;
-  }
-  .button-banner-02{
-    width: 90%;
-  }
+  } 
   /*Creando Dinero*/
   .bg-dinero h1, .adelante h4, .atras h4{
     line-height: 3rem;
@@ -2678,6 +3604,9 @@
   .text-dinero p{
     margin-top: 3rem;
   }
+  .box-question-dinero{
+    padding: 2rem 0;
+  }
   /*Más facilidad en la crianza*/
   .bg-crianza{
     margin-bottom: 4rem;
@@ -2685,6 +3614,7 @@
   .bg-crianza h1{
     line-height: 2.5rem;
     margin-bottom: 2rem;
+    font-size: 3rem;
   }
   .bg-crianza>p{
     margin-bottom: .5rem;
@@ -2692,14 +3622,14 @@
   .galery{
     width: auto;
   }
-  .container-scale, .galery img{
+  .galery img{
     height: 24rem;
   }
   .box-crianza{
     top: 12rem;
   }
   .button-banner-03{
-    width: 50%;
+    width: 70%;
     margin: 3rem auto 4.5rem;
   }
   /*SOP*/
@@ -2725,9 +3655,6 @@
   video{
     margin-top: 3rem;
   }
-  .height-img{
-    height: 23rem;
-  }
   .text-sop{
     height: auto;
     padding: 5rem 0 5rem 0;
@@ -2739,19 +3666,41 @@
   .button-banner-04{
     width: 90%;
   }
+  /*Osteopatia*/
+  .icon-03, .icon-01{
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1300px) {
+  /*Barras*/
+  .accordion{
+    width: 35%;
+  }
+  /*Más facilidad en la crianza*/
+  .galery{
+    width: 90%;
+  }
+  .box-crianza{
+    top: 12rem;
+  }
+}
+@media screen and (min-width: 1301px) and (max-width: 1600px) {
+  .box-crianza{
+    top: 14rem;
+  }
 }
 /*desktop*/
 @media screen and (min-width: 1001px) and (max-width: 1600px) {
+  /*Home*/
+  .text-home h1{
+    text-align: center;
+  }
+  .box-home h1{
+    width: 90%;
+  }
   /*Más facilidad en la crianza*/
   .box-cursos p{
     width: 75%;
-  }
-  /*
-  .container-scale, .galery img{
-    height: 24rem;
-  }*/
-  .box-crianza{
-    top: 14rem;
   }
   .box-crianza h1{
     width: 90%;

@@ -92,7 +92,7 @@ body {
 }
 
 .logo-responsive, .button-logo-responsive {
-  width: 50%;
+  width: 46%;
 }
 
 .nav-link {
@@ -987,6 +987,7 @@ video {
   font-family: "Gatkins-Demo", serif;
   color: #D99B77;
   font-size: 4.5rem;
+  line-height: 3rem;
 }
 
 .box-text-barras-01 p {
@@ -1534,6 +1535,10 @@ video {
   margin-bottom: 0;
 }
 
+.font-facelift {
+  font-size: 2.5rem;
+}
+
 /*Fundamento*/
 .bg-fundamento {
   background-image: url(../img/bg-fundamento.jpg);
@@ -1671,6 +1676,17 @@ video {
 
 .icon-02 {
   width: 10%;
+}
+
+.img-fundamento-04 {
+  background-image: url(../img/img-fundamento-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caja-money small {
+  color: white;
 }
 
 /*Procesos Corporales*/
@@ -2642,6 +2658,7 @@ video {
   font-family: "Gatkins-Demo", serif;
   font-size: 4rem;
   margin-bottom: 0;
+  line-height: 3rem;
   color: #D6B671;
 }
 

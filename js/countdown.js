@@ -1,7 +1,7 @@
 simplyCountdown("#countdown", {
   year: 2022, // required
   month: 7, // required
-  day: 13, // required
+  day: 24, // required
   hours: 15, // Default is 0 [0-23] integer
   minutes: 3, // Default is 0 [0-59] integer
   seconds: 0, // Default is 0 [0-59] integer
