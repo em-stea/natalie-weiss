@@ -17,9 +17,9 @@ $st->execute($sql_params);
 
 
 /*mail destinatario y contenido a recibir*/
-$email_to = "hola@natalie-weiss.de.com";
+$email_to = "hola@natalie-weiss.de";
 $contenido = "$nombre ha enviado un mensaje desde la web de natalie weiss<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $mensaje";
-$asunto = "Consulta desde la Web natalie.weiss";
+$asunto = "Consulta desde la Web natalie-weiss.de";
 
 //Cabeceras del correo para que no llegue a spam
 $header = "MIME-Version: 1.0 \r\n";
