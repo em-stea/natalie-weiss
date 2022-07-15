@@ -1093,42 +1093,6 @@ video{
   font-size: 2rem;
 }
 /*Facelift*/
-/*Countdown Counter*/
-.countdown-row {
-  background: #DEDCCC;
-  padding: 5rem 0;
-  color: $colour-dark;
-}
-#countdown {
-  display: flex;
-  justify-content: center;
-}
-.simply-section {
-  background-color: #fafafa;
-  color: $colour-dark;
-  box-shadow: 5px 6px 8px 5px rgba(0,0,0,0.1);
-  width: 150px;
-  height: 150px;
-  margin: 40px 20px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.simply-section div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.simply-amount {
-  display: block;
-  font-size: 50px;
-  font-weight: 700;
-}
-.simply-word {
-  font-size: 20px;
-}
-
 .container-imgs-facelift{
   margin-bottom: 5rem;
 }

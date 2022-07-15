@@ -241,17 +241,6 @@
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-  /*Countdown*/
-  #countdown {
-    flex-direction: column;
-    align-items: center;
-  }
-  .countdown-row {
-    padding: 2rem 0;
-  }
-  .simply-section {
-    margin: 13px;
-  }
   .caja-money {
     flex-direction: column;
     padding: 4.5rem 0;
@@ -354,11 +343,6 @@
   }
   .font-facelift {
     font-size: 2rem;
-  }
-  /*Countdown counter*/
-  .countdown-row {
-    width: 100vw;
-    margin: auto;
   }
   /*El Fundamento*/
   .bg-fundamento p {
@@ -910,19 +894,6 @@
   }
   .container-box-text-barras {
     flex-direction: column-reverse;
-  }
-  /*Countdown*/
-  #countdown {
-    flex-direction: column;
-    align-items: center;
-  }
-  .countdown-row {
-    padding: 2rem 0;
-    margin: 0;
-    width: 100vw;
-  }
-  .simply-section {
-    margin: 13px;
   }
   .caja-money {
     flex-direction: column;
@@ -1585,19 +1556,6 @@
   .container-box-text-barras {
     flex-direction: column-reverse;
   }
-  /*Countdown*/
-  #countdown {
-    flex-direction: column;
-    align-items: center;
-  }
-  .countdown-row {
-    padding: 2rem 0;
-    width: 100vw;
-    margin: auto;
-  }
-  .simply-section {
-    margin: 13px;
-  }
   .caja-money {
     flex-direction: column;
     padding: 4.5rem 0;
@@ -2237,19 +2195,6 @@
   }
   .container-box-text-barras {
     flex-direction: column-reverse;
-  }
-  /*Countdown*/
-  #countdown {
-    flex-direction: column;
-    align-items: center;
-  }
-  .countdown-row {
-    padding: 2rem 0;
-    width: 100vw;
-    margin: auto;
-  }
-  .simply-section {
-    margin: 13px;
   }
   .banner-certificacion-barras h1 {
     width: 90%;
