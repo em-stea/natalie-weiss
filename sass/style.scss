@@ -1438,6 +1438,7 @@ video{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /*Creando Dinero*/
 .bg-dinero{
   background-image: url(../img/bg-creando-dinero.jpg);
@@ -1456,57 +1457,11 @@ video{
   margin-bottom: 0;
   margin-right: 1rem;
 }
-/*
-.tarjeta-dinero {
-  position: relative;
-  transform-style: preserve-3d;
-  height: 20rem;
-}
-.adelante,
-.atras {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0;
-  -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.adelante h4, .atras h4 {
-  font-family: "Gatkins-Demo", serif;
-  font-size: 4.5rem;
-  color: $colour-dark;
-  text-align: center;
-  margin-bottom: 0;
-  line-height: 4rem;
-}
-.adelante p, .atras p{
-  width: 80%;
-  text-align: center;
-  color: white;
-  margin-bottom: 0;
-}
-.atras {
-  display: none;
-}
-.img-dinero {
-  background: linear-gradient(to bottom, $colour-blue, $colour-light-blue);
-}
-.back-dinero {
-  background: linear-gradient(to top, $colour-blue, $colour-light-blue);
-}
-.wrap{
-  margin-bottom: 8rem;
-}*/
 .img-dinero-01{
   width: 90%;
 }
 .box-question-01{
-  margin: 4rem 0;
+  margin: 4rem 0 6rem;
 }
 .box-question-01 hr{
   width: 80%;
@@ -1554,7 +1509,7 @@ video{
   color: $colour-red;
   font-size: 3.2rem;
 }
-.text-dinero p{
+.text-dinero .txt{
   text-align: center;
   margin-bottom: 0;
   width: 80%;
@@ -1577,6 +1532,38 @@ video{
   text-align: center;
   text-decoration: none;
 }
+.caja-money-dinero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: $colour-dark;
+  border-radius: 12px;
+  box-shadow: 0px 12px 18px -8px rgba(0,0,0,0.8);
+  padding: 1.3rem 0;
+  margin: 2rem 0 0;
+  width: 100%;
+}
+.caja-money-dinero h2{
+  margin-bottom: 0;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: $colour-light-brown;
+  font-weight: 300;
+}
+.caja-money-dinero p{
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: $colour-honey;
+  font-weight: 500;
+  font-family: "Muli-Bold";
+  width: auto !important;
+}
+.box-button-dinero{
+  margin-top: 3rem;
+}
+
 /*Más Facilidad en la crianza*/
 .bg-crianza{
   background-image: url(../img/bg-facilidad-crianza.jpg);
@@ -1643,6 +1630,41 @@ video{
   text-decoration: none;
   color: white;
 }
+.caja-money-crianza{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: $colour-dark;
+  border-radius: 12px;
+  box-shadow: 0px 12px 18px -8px rgba(0,0,0,0.8);
+  padding: 1.3rem 0;
+  margin: 2rem auto 0;
+  width: 40%;
+}
+.caja-money-crianza h2{
+  margin-bottom: 0;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: $colour-light-brown;
+  font-weight: 300;
+}
+.caja-money-crianza p{
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: $colour-honey;
+  font-weight: 500;
+  font-family: "Muli-Bold";
+  width: auto !important;
+}
+.button-crianza{
+  margin-right: 0 !important;
+}
+.box-crianza-01{
+  margin-bottom: 4rem;
+}
+
 /*Vende con Facilidad*/
 .bg-facilidad{
   background-image: url(../img/bg-facilidad.jpg);
