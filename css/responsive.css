@@ -299,6 +299,9 @@
     margin-bottom: 2rem !important;
   }
   /*Facelift*/
+  .bg-facelift {
+    align-items: center;
+  }
   .bg-facelift h1 {
     font-size: 6rem;
     margin: 0 auto 1rem;
@@ -336,6 +339,7 @@
   }
   .box-button-01 p {
     margin-right: 0;
+    margin-left: 0;
   }
   .box-title-button h2 {
     width: 90%;
@@ -401,6 +405,9 @@
     padding-left: 1rem;
   }
   /*Procesos Corporales*/
+  .bg-procesos {
+    align-items: center;
+  }
   .bg-procesos h1 {
     line-height: 2.5rem;
     font-size: 2.5rem;
@@ -458,6 +465,16 @@
   .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3) {
     line-height: 2rem;
   }
+  .box-button-dinero {
+    width: 90%;
+    margin: auto;
+  }
+  .box-button-dinero p {
+    width: 100%;
+  }
+  .caja-money-dinero {
+    flex-direction: column;
+  }
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
@@ -487,10 +504,18 @@
     width: 90%;
     margin: 3rem auto 4.5rem;
   }
+  .caja-money-crianza {
+    flex-direction: column;
+    width: 90%;
+  }
   /*Vende con Facilidad*/
+  .bg-facilidad {
+    align-items: center;
+  }
   .bg-facilidad h1 {
     flex-direction: column;
     font-size: 2.5rem;
+    padding-left: 0;
   }
   .bg-facilidad span {
     font-size: 7rem;
@@ -897,7 +922,7 @@
   }
   .caja-money {
     flex-direction: column;
-    padding: 4.5rem 0;
+    padding: 1.5rem 0;
   }
   .caja-billete {
     margin-right: 0;
@@ -911,10 +936,12 @@
   }
   .box-button-fcl {
     margin: 1rem auto 0;
-    width: 90%;
+    width: 100%;
   }
   .box-button-barras {
     flex-direction: column;
+    width: 90%;
+    margin: auto;
   }
   .box-button-01 p, .box-button-02 p {
     font-size: 1rem;
@@ -980,6 +1007,7 @@
   }
   .box-button-01 p {
     margin-right: 0;
+    margin-left: 0;
   }
   .box-title-button {
     padding: 5rem 0;
@@ -1052,6 +1080,9 @@
     padding-left: 1rem;
   }
   /*Procesos Corporales*/
+  .bg-procesos {
+    align-items: center;
+  }
   .bg-procesos h1 {
     line-height: 2.5rem;
     flex-direction: column;
@@ -1108,6 +1139,13 @@
   .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3) {
     line-height: 2rem;
   }
+  .box-button-dinero {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
+  .box-button-dinero p {
+    width: 100%;
+  }
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
@@ -1145,7 +1183,14 @@
     font-size: 4.5rem;
     line-height: 3rem;
   }
+  .caja-money-crianza {
+    flex-direction: column;
+    width: 90%;
+  }
   /*Vende con Facilidad*/
+  .bg-facilidad {
+    align-items: center;
+  }
   .bg-facilidad h1 {
     flex-direction: column;
     font-size: 2.5rem;
@@ -1711,6 +1756,9 @@
     padding-left: 1rem;
   }
   /*Procesos Corporales*/
+  .bg-procesos {
+    align-items: center;
+  }
   .bg-procesos h1 {
     line-height: 2.5rem;
     flex-direction: column;
@@ -1767,6 +1815,12 @@
   .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3) {
     line-height: 2rem;
   }
+  .box-button-dinero p {
+    width: 100%;
+  }
+  .caja-money-dinero {
+    flex-direction: column;
+  }
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
@@ -1803,6 +1857,14 @@
   .box-crianza h1 {
     font-size: 4.5rem;
     line-height: 3rem;
+  }
+  .caja-money-crianza {
+    flex-direction: column;
+    width: 90%;
+  }
+  .button-crianza {
+    width: 90% !important;
+    margin: 3rem auto 1rem !important;
   }
   /*Vende con Facilidad*/
   .bg-facilidad h1 {
@@ -2356,6 +2418,9 @@
     margin-top: 6rem;
   }
   /*Procesos Corporales*/
+  .bg-procesos {
+    align-items: center;
+  }
   .bg-procesos h1 {
     line-height: 2.5rem;
     flex-direction: column;
@@ -2413,6 +2478,9 @@
   .box-question-dinero span:nth-child(2), .box-question-dinero h2 span:nth-child(3) {
     line-height: 2rem;
   }
+  .box-button-dinero p {
+    width: 100%;
+  }
   /*Más facilidad en la crianza*/
   .bg-crianza {
     margin-bottom: 4rem;
@@ -2450,6 +2518,14 @@
   .box-crianza h1 {
     font-size: 6rem;
     line-height: 3rem;
+  }
+  .caja-money-crianza {
+    flex-direction: column;
+    width: 90%;
+  }
+  .button-crianza {
+    width: 90% !important;
+    margin: 3rem auto 1rem !important;
   }
   /*Vende con Facilidad*/
   .bg-facilidad h1 {
@@ -3094,6 +3170,14 @@
   .box-crianza h1 {
     font-size: 5rem;
     line-height: 3rem;
+  }
+  .caja-money-crianza {
+    flex-direction: column;
+    width: 90%;
+  }
+  .button-crianza {
+    width: 90% !important;
+    margin: 3rem auto 1rem !important;
   }
   /*Vende con Facilidad*/
   .bg-facilidad h1 {
